@@ -38,7 +38,7 @@ p {
 
 .header {
   background-color: var(--red);
-  height: 50vh;
+  height: 54vh;
   width: 100vw;
   display: flex;
   align-items: center;
@@ -60,13 +60,13 @@ nav {
   align-items: center;
   justify-content: space-evenly;
   grid-template-columns: repeat(6, auto);
-  
 }
 a {
-    text-decoration: none;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: white;
-    font-size: 25px;
+  text-decoration: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+  font-size: 25px;
 }
 .exp {
   width: 240px;
@@ -121,141 +121,295 @@ a {
 /* zone section styling */
 
 .zone-sect {
-    height: 70vh;
+  height: 70vh;
   width: 100vw;
   background-color: var(--blue);
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   box-shadow: 0px 0px 15px black;
-  
 }
 
 .png-img {
-    width: 425px;
-    height: 425px;
+  width: 425px;
+  height: 425px;
 }
 
 /* tv section styling */
 
 .tv-sect {
-    height: 70vh;
+  height: 70vh;
   width: 100vw;
   background-color: var(--purple);
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   box-shadow: 0px 0px 15px black;
-  
 }
 
 /* craft section styling */
 
 .crafts-sect {
-    height: 70vh;
-    width: 100vw;
-    background-color: var(--green);
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    box-shadow: 0px 0px 15px black; 
+  height: 70vh;
+  width: 100vw;
+  background-color: var(--green);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  box-shadow: 0px 0px 15px black;
 }
 
 /* stem section styling */
 
 .stem-sect {
-    height: 70vh;
-    width: 100vw;
-    background-color: var(--yellow);
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    box-shadow: 0px 0px 15px black;
-    
+  height: 70vh;
+  width: 100vw;
+  background-color: var(--yellow);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  box-shadow: 0px 0px 15px black;
 }
 .sect-title.stem {
-   width: 468px;
-    color: black;
+  width: 468px;
+  color: black;
 }
 
 .blurb.stem {
- 
-   
-    color: black;
+  color: black;
 }
 .more-button.stem {
-   
-    justify-content: space-evenly;
-    border: 3px solid black;
-   
-    color: black;
+  justify-content: space-evenly;
+  border: 3px solid black;
+
+  color: black;
 }
 
 /* video games section styling */
 
 .videogames-sect {
-    height: 70vh;
-    width: 100vw;
-    background-color: var(--red);
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    box-shadow: 0px 0px 15px black;
-    
+  height: 70vh;
+  width: 100vw;
+  background-color: var(--red);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  box-shadow: 0px 0px 15px black;
 }
 
 /* learnmore section styling */
 
 .learnmore-sect {
-    height: 70vh;
-    width: 100vw;
-    background-color: var(--orange);
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    box-shadow: 0px 0px 15px black;
-    
+  height: 70vh;
+  width: 100vw;
+  background-color: var(--orange);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  box-shadow: 0px 0px 15px black;
 }
 
 /* reused section classes */
 
 .sect-words {
-    width: 50%;
-    height: 60%;
-    display: grid;
-    grid-template-columns: repeat(1,auto);
-    align-items: center;
-    justify-content: space-evenly;
-    
+  width: 50%;
+  height: 60%;
+  display: grid;
+  grid-template-columns: repeat(1, auto);
+  align-items: center;
+  justify-content: space-evenly;
 }
 .sect-img {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 .sect-title {
-    font-size: 64px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: white;
+  font-size: 64px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
 }
 .blurb {
-    font-size: 18px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: white;
-    width: 520px;
+  font-size: 18px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+  width: 520px;
 }
 .more-button {
-    width: 260px;
-    height: 95px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    border: 3px solid white;
-    border-radius: 16px;
-    font-size: 43px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: white;
+  width: 260px;
+  height: 95px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 3px solid white;
+  border-radius: 16px;
+  font-size: 43px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+}
+
+/* footer styling */
+
+footer {
+  height: 50vh;
+  width: 100vw;
+  background-color: var(--red);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  box-shadow: 0px 0px 15px black;
+}
+
+/* logo section for the footer */
+.logo-area {
+  display: grid;
+  grid-template-columns: repeat(1, auto);
+  align-items: center;
+  justify-content: space-evenly;
+  width: 25%;
+}
+.riley-logo {
+  width: 320px;
+  height: 230px;
+}
+.riley {
+  font-size: 32px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.iu {
+  font-size: 24px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+/* hours section for the footer */
+.hours {
+  display: grid;
+  grid-template-columns: repeat(1, auto);
+  align-items: center;
+  justify-content: space-evenly;
+  width: 25%;
+  /* border-top: 2px solid black; */
+}
+.ourhrs {
+  font-size: 32px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.dates {
+  font-size: 24px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.outp {
+  font-size: 22px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.inp {
+  font-size: 22px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+/* the socials section for the footer */
+.socials {
+  display: grid;
+  grid-template-columns: repeat(1, auto);
+  align-items: center;
+  justify-content: space-evenly;
+  width: 25%;
+  margin-top: -43px;
+  /* border-top: 2px solid black; */
+}
+.follow {
+  font-size: 32px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  
+}
+.insta {
+  font-size: 24px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  
+}
+.face {
+  font-size: 24px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+.twit {
+  font-size: 24px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+
+/* phone section for the footer */
+.phone-area {
+  display: grid;
+  grid-template-columns: repeat(1, auto);
+  align-items: center;
+  justify-content: space-evenly;
+  width: 25%;
+  margin-top: 27px;
+  /* border-top: 2px solid black; */
+}
+.call {
+  font-size: 28px;
+  color: white;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+ 
+}
+.numb {
+  font-size: 24px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.address {
+  font-size: 28px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.add-writen {
+  font-size: 22px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 230px;
 }
