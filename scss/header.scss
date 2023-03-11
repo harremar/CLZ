@@ -1,0 +1,15 @@
+/* home page styling */
+
+.header {
+    background-color: var(--red);
+    height: 54vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* box-shadow: inset 0px -3px 20px  black; */
+  }
+  .clz-logo {
+    width: 440px;
+    height: 325px;
+  }

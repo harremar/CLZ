@@ -104,6 +104,20 @@ nav {
     box-shadow: 0px 0px 20px 1px black;
     z-index: 3; }
 
+/* home page styling */
+.header {
+  background-color: var(--red);
+  height: 54vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  /* box-shadow: inset 0px -3px 20px  black; */ }
+
+.clz-logo {
+  width: 440px;
+  height: 325px; }
+
 /* footer styling */
 footer {
   height: 50vh;
@@ -239,20 +253,6 @@ footer {
     justify-content: space-evenly;
     width: 230px; }
 
-/* home page styling */
-.header {
-  background-color: var(--red);
-  height: 54vh;
-  width: 100vw;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  /* box-shadow: inset 0px -3px 20px  black; */ }
-
-.clz-logo {
-  width: 440px;
-  height: 325px; }
-
 /* zone section styling */
 .zone-sect {
   height: 70vh;
@@ -265,10 +265,6 @@ footer {
   position: relative; }
   .zone-sect a {
     width: 260px; }
-
-.png-img {
-  width: 425px;
-  height: 425px; }
 
 /* tv section styling */
 .tv-sect {
@@ -303,18 +299,15 @@ footer {
   box-shadow: 0px 0px 15px black; }
   .stem-sect a {
     width: 260px; }
-
-.sect-title.stem {
-  width: 468px;
-  color: black; }
-
-.blurb.stem {
-  color: black; }
-
-.more-button.stem {
-  justify-content: space-evenly;
-  border: 3px solid black;
-  color: black; }
+  .stem-sect .sect-title.stem {
+    width: 468px;
+    color: black; }
+  .stem-sect .blurb.stem {
+    color: black; }
+  .stem-sect .more-button2.stem {
+    justify-content: space-evenly;
+    border: 3px solid black;
+    color: black; }
 
 /* video games section styling */
 .videogames-sect {
@@ -347,7 +340,17 @@ footer {
   display: grid;
   grid-template-columns: repeat(1, auto);
   align-items: center;
-  justify-content: space-evenly; }
+  justify-content: space-evenly;
+  position: relative; }
+  .sect-words .sect-title {
+    font-size: 64px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    color: white; }
+  .sect-words .blurb {
+    font-size: 18px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    color: white;
+    width: 520px; }
 
 .sect-img {
   width: 50%;
@@ -355,17 +358,9 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-evenly; }
-
-.sect-title {
-  font-size: 64px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  color: white; }
-
-.blurb {
-  font-size: 18px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  color: white;
-  width: 520px; }
+  .sect-img .png-img {
+    width: 425px;
+    height: 425px; }
 
 .more-button {
   width: 260px;
@@ -373,6 +368,21 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  border: 3px solid white;
+  border-radius: 16px;
+  font-size: 43px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white; }
+
+.more-button2 {
+  width: 260px;
+  height: 95px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: absolute;
+  top: 77%;
+  right: 100px;
   border: 3px solid white;
   border-radius: 16px;
   font-size: 43px;
@@ -435,9 +445,46 @@ footer {
 .tour2 {
   height: 35vh;
   width: 100vw;
-  display: grid;
   background-color: var(--blue);
+  box-shadow: 0px 0px 15px black;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly; }
+  .tour2 .nurse {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; }
+    .tour2 .nurse .t2-head {
+      color: white;
+      font-size: 53px; }
+  .tour2 .spec {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; }
+    .tour2 .spec .t2-head2 {
+      color: white;
+      font-size: 53px; }
+
+.video {
+  height: 80vh;
+  width: 100vw;
+  display: grid;
   grid-template-columns: repeat(1, auto);
   align-items: center;
   justify-content: space-evenly;
   box-shadow: 0px 0px 15px black; }
+  .video .video-title {
+    color: var(--blue);
+    font-size: 63px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; }
+  .video .mediaplayer {
+    width: 825px;
+    height: 400px;
+    background-color: var(--blue);
+    margin-top: -10%; }
