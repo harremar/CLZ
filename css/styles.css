@@ -13,17 +13,17 @@
   --yellow: #fff001;
   --yellow2: #e1d615;
   --orange: #ffb300;
-  --orange2: #e7a200;
-}
+  --orange2: #e7a200; }
+
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
+
 html,
 body {
-  height: 100%;
-}
+  height: 100%; }
+
 h1,
 h2,
 h3,
@@ -31,27 +31,9 @@ h4,
 h5,
 h6,
 p {
-  margin-bottom: 16px;
-}
-
-/* home page styling */
-
-.header {
-  background-color: var(--red);
-  height: 54vh;
-  width: 100vw;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  /* box-shadow: inset 0px -3px 20px  black; */
-}
-.clz-logo {
-  width: 440px;
-  height: 325px;
-}
+  margin-bottom: 16px; }
 
 /* nav styling */
-
 nav {
   width: 100vw;
   height: 100px;
@@ -59,202 +41,57 @@ nav {
   display: grid;
   align-items: center;
   justify-content: space-evenly;
-  grid-template-columns: repeat(6, auto);
-}
-a {
-  text-decoration: none;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  color: white;
-  font-size: 25px;
-}
-.exp {
-  width: 240px;
-  height: 100px;
-  background-color: var(--blue);
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-}
-.tv {
-  width: 240px;
-  height: 100px;
-  background-color: var(--purple);
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-}
-.crafts {
-  width: 240px;
-  height: 100px;
-  background-color: var(--green2);
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-}
-.stem {
-  width: 240px;
-  height: 100px;
-  background-color: var(--yellow);
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  color: black;
-}
-.games {
-  width: 240px;
-  height: 100px;
-  background-color: var(--red);
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-}
-.learnmore {
-  width: 240px;
-  height: 100px;
-  background-color: var(--orange);
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-}
-
-/* zone section styling */
-
-.zone-sect {
-  height: 70vh;
-  width: 100vw;
-  background-color: var(--blue);
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  box-shadow: 0px 0px 15px black;
-}
-
-.png-img {
-  width: 425px;
-  height: 425px;
-}
-
-/* tv section styling */
-
-.tv-sect {
-  height: 70vh;
-  width: 100vw;
-  background-color: var(--purple);
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  box-shadow: 0px 0px 15px black;
-}
-
-/* craft section styling */
-
-.crafts-sect {
-  height: 70vh;
-  width: 100vw;
-  background-color: var(--green);
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  box-shadow: 0px 0px 15px black;
-}
-
-/* stem section styling */
-
-.stem-sect {
-  height: 70vh;
-  width: 100vw;
-  background-color: var(--yellow);
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  box-shadow: 0px 0px 15px black;
-}
-.sect-title.stem {
-  width: 468px;
-  color: black;
-}
-
-.blurb.stem {
-  color: black;
-}
-.more-button.stem {
-  justify-content: space-evenly;
-  border: 3px solid black;
-
-  color: black;
-}
-
-/* video games section styling */
-
-.videogames-sect {
-  height: 70vh;
-  width: 100vw;
-  background-color: var(--red);
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  box-shadow: 0px 0px 15px black;
-}
-
-/* learnmore section styling */
-
-.learnmore-sect {
-  height: 70vh;
-  width: 100vw;
-  background-color: var(--orange);
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  box-shadow: 0px 0px 15px black;
-}
-
-/* reused section classes */
-
-.sect-words {
-  width: 50%;
-  height: 60%;
-  display: grid;
-  grid-template-columns: repeat(1, auto);
-  align-items: center;
-  justify-content: space-evenly;
-}
-.sect-img {
-  width: 50%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-}
-.sect-title {
-  font-size: 64px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  color: white;
-}
-.blurb {
-  font-size: 18px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  color: white;
-  width: 520px;
-}
-.more-button {
-  width: 260px;
-  height: 95px;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  border: 3px solid white;
-  border-radius: 16px;
-  font-size: 43px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  color: white;
-}
+  grid-template-columns: repeat(6, auto); }
+  nav a {
+    text-decoration: none;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 25px; }
+  nav .exp {
+    width: 240px;
+    height: 100px;
+    background-color: var(--blue);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; }
+  nav .tv {
+    width: 240px;
+    height: 100px;
+    background-color: var(--purple);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; }
+  nav .crafts {
+    width: 240px;
+    height: 100px;
+    background-color: var(--green2);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; }
+  nav .stem {
+    width: 240px;
+    height: 100px;
+    background-color: var(--yellow);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: black; }
+  nav .games {
+    width: 240px;
+    height: 100px;
+    background-color: var(--red);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; }
+  nav .learnmore {
+    width: 240px;
+    height: 100px;
+    background-color: var(--orange);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; }
 
 /* footer styling */
-
 footer {
   height: 50vh;
   width: 100vw;
@@ -262,8 +99,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  box-shadow: 0px 0px 15px black;
-}
+  box-shadow: 0px 0px 15px black; }
 
 /* logo section for the footer */
 .logo-area {
@@ -271,26 +107,23 @@ footer {
   grid-template-columns: repeat(1, auto);
   align-items: center;
   justify-content: space-evenly;
-  width: 25%;
-}
-.riley-logo {
-  width: 320px;
-  height: 230px;
-}
-.riley {
-  font-size: 32px;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-}
-.iu {
-  font-size: 24px;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-}
+  width: 25%; }
+  .logo-area .riley-logo {
+    width: 320px;
+    height: 230px; }
+  .logo-area .riley {
+    font-size: 32px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; }
+  .logo-area .iu {
+    font-size: 24px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; }
+
 /* hours section for the footer */
 .hours {
   display: grid;
@@ -298,36 +131,31 @@ footer {
   align-items: center;
   justify-content: space-evenly;
   width: 25%;
-  /* border-top: 2px solid black; */
-}
-.ourhrs {
-  font-size: 32px;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-}
-.dates {
-  font-size: 24px;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-}
-.outp {
-  font-size: 22px;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-}
-.inp {
-  font-size: 22px;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-}
+  /* border-top: 2px solid black; */ }
+  .hours .ourhrs {
+    font-size: 32px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; }
+  .hours .dates {
+    font-size: 24px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; }
+  .hours .outp {
+    font-size: 22px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; }
+  .hours .inp {
+    font-size: 22px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; }
 
 /* the socials section for the footer */
 .socials {
@@ -337,40 +165,33 @@ footer {
   justify-content: space-evenly;
   width: 25%;
   margin-top: -43px;
-  /* border-top: 2px solid black; */
-}
-.follow {
-  font-size: 32px;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  
-}
-.insta {
-  font-size: 24px;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  
-}
-.face {
-  font-size: 24px;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  margin-top: 10px;
-}
-.twit {
-  font-size: 24px;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  margin-top: 10px;
-}
+  /* border-top: 2px solid black; */ }
+  .socials .follow {
+    font-size: 32px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; }
+  .socials .insta {
+    font-size: 24px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; }
+  .socials .face {
+    font-size: 24px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10px; }
+  .socials .twit {
+    font-size: 24px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10px; }
 
 /* phone section for the footer */
 .phone-area {
@@ -380,36 +201,159 @@ footer {
   justify-content: space-evenly;
   width: 25%;
   margin-top: 27px;
-  /* border-top: 2px solid black; */
-}
-.call {
-  font-size: 28px;
-  color: white;
-  width: 100%;
+  /* border-top: 2px solid black; */ }
+  .phone-area .call {
+    font-size: 28px;
+    color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; }
+  .phone-area .numb {
+    font-size: 24px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; }
+  .phone-area .address {
+    font-size: 28px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; }
+  .phone-area .add-writen {
+    font-size: 22px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 230px; }
+
+/* home page styling */
+.header {
+  background-color: var(--red);
+  height: 54vh;
+  width: 100vw;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
- 
-}
-.numb {
-  font-size: 24px;
-  color: white;
+  /* box-shadow: inset 0px -3px 20px  black; */ }
+
+.clz-logo {
+  width: 440px;
+  height: 325px; }
+
+/* zone section styling */
+.zone-sect {
+  height: 70vh;
+  width: 100vw;
+  background-color: var(--blue);
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-}
-.address {
-  font-size: 28px;
-  color: white;
+  box-shadow: 0px 0px 15px black; }
+
+.png-img {
+  width: 425px;
+  height: 425px; }
+
+/* tv section styling */
+.tv-sect {
+  height: 70vh;
+  width: 100vw;
+  background-color: var(--purple);
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-}
-.add-writen {
-  font-size: 22px;
-  color: white;
+  box-shadow: 0px 0px 15px black; }
+
+/* craft section styling */
+.crafts-sect {
+  height: 70vh;
+  width: 100vw;
+  background-color: var(--green);
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  width: 230px;
-}
+  box-shadow: 0px 0px 15px black; }
+
+/* stem section styling */
+.stem-sect {
+  height: 70vh;
+  width: 100vw;
+  background-color: var(--yellow);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  box-shadow: 0px 0px 15px black; }
+
+.sect-title.stem {
+  width: 468px;
+  color: black; }
+
+.blurb.stem {
+  color: black; }
+
+.more-button.stem {
+  justify-content: space-evenly;
+  border: 3px solid black;
+  color: black; }
+
+/* video games section styling */
+.videogames-sect {
+  height: 70vh;
+  width: 100vw;
+  background-color: var(--red);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  box-shadow: 0px 0px 15px black; }
+
+/* learnmore section styling */
+.learnmore-sect {
+  height: 70vh;
+  width: 100vw;
+  background-color: var(--orange);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  box-shadow: 0px 0px 15px black; }
+
+/* reused section classes */
+.sect-words {
+  width: 50%;
+  height: 60%;
+  display: grid;
+  grid-template-columns: repeat(1, auto);
+  align-items: center;
+  justify-content: space-evenly; }
+
+.sect-img {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly; }
+
+.sect-title {
+  font-size: 64px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white; }
+
+.blurb {
+  font-size: 18px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+  width: 520px; }
+
+.more-button {
+  width: 260px;
+  height: 95px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 3px solid white;
+  border-radius: 16px;
+  font-size: 43px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white; }
