@@ -1,0 +1,151 @@
+/* home page styling */
+
+.header {
+    background-color: var(--red);
+    height: 54vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* box-shadow: inset 0px -3px 20px  black; */
+  }
+  .clz-logo {
+    width: 440px;
+    height: 325px;
+  }
+
+/* zone section styling */
+
+.zone-sect {
+    height: 70vh;
+    width: 100vw;
+    background-color: var(--blue);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 0px 0px 15px black;
+  }
+  
+  .png-img {
+    width: 425px;
+    height: 425px;
+  }
+  
+  /* tv section styling */
+  
+  .tv-sect {
+    height: 70vh;
+    width: 100vw;
+    background-color: var(--purple);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 0px 0px 15px black;
+  }
+  
+  /* craft section styling */
+  
+  .crafts-sect {
+    height: 70vh;
+    width: 100vw;
+    background-color: var(--green);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 0px 0px 15px black;
+  }
+  
+  /* stem section styling */
+  
+  .stem-sect {
+    height: 70vh;
+    width: 100vw;
+    background-color: var(--yellow);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 0px 0px 15px black;
+  }
+  .sect-title.stem {
+    width: 468px;
+    color: black;
+  }
+  
+  .blurb.stem {
+    color: black;
+  }
+  .more-button.stem {
+    justify-content: space-evenly;
+    border: 3px solid black;
+  
+    color: black;
+  }
+  
+  /* video games section styling */
+  
+  .videogames-sect {
+    height: 70vh;
+    width: 100vw;
+    background-color: var(--red);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 0px 0px 15px black;
+  }
+  
+  /* learnmore section styling */
+  
+  .learnmore-sect {
+    height: 70vh;
+    width: 100vw;
+    background-color: var(--orange);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 0px 0px 15px black;
+  }
+  
+  /* reused section classes */
+  
+  .sect-words {
+    width: 50%;
+    height: 60%;
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .sect-img {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .sect-title {
+    font-size: 64px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    color: white;
+  }
+  .blurb {
+    font-size: 18px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    color: white;
+    width: 520px;
+  }
+  .more-button {
+    width: 260px;
+    height: 95px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 3px solid white;
+    border-radius: 16px;
+    font-size: 43px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    color: white;
+  }
+  

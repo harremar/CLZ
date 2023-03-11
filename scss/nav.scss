@@ -1,0 +1,67 @@
+/* nav styling */
+
+nav {
+    width: 100vw;
+    height: 100px;
+    box-shadow: 0px 0px 15px black;
+    display: grid;
+    align-items: center;
+    justify-content: space-evenly;
+    grid-template-columns: repeat(6, auto);
+  }
+  a {
+    text-decoration: none;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 25px;
+  }
+  .exp {
+    width: 240px;
+    height: 100px;
+    background-color: var(--blue);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .tv {
+    width: 240px;
+    height: 100px;
+    background-color: var(--purple);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .crafts {
+    width: 240px;
+    height: 100px;
+    background-color: var(--green2);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .stem {
+    width: 240px;
+    height: 100px;
+    background-color: var(--yellow);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: black;
+  }
+  .games {
+    width: 240px;
+    height: 100px;
+    background-color: var(--red);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .learnmore {
+    width: 240px;
+    height: 100px;
+    background-color: var(--orange);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
