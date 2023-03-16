@@ -1,19 +1,19 @@
 :root {
-  --blue: #2479ec;
-  --blue2: #2167c6;
+  --blue: #2479EC;
+  --blue2: #2167C6;
   --white: #ffffff;
   --black: #222222;
-  --red: #c3062f;
-  --red2: #fa0036;
+  --red: #E5173E;
+  --red2: #BD1F45;
   --purple: #6f008b;
-  --purple2: #8e04b0;
+  --purple2: #4D2566;
   --green: #66ac44;
   --green2: #579639;
   --green3: #4baf00;
   --yellow: #fff001;
-  --yellow2: #e1d615;
-  --orange: #ffb300;
-  --orange2: #e7a200; }
+  --yellow2: #F9CE16;
+  --orange: #FFB000;
+  --orange2: #E09D26; }
 
 * {
   margin: 0;
@@ -33,10 +33,14 @@ h6,
 p {
   margin-bottom: 16px; }
 
+@font-face {
+  font-family: Mundo-Reg;
+  src: url(/css/fonts/MundoSerif-Regular.otf); }
+
 /* nav styling */
 a {
   text-decoration: none;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: Mundo-Reg;
   color: white;
   font-size: 25px; }
 
@@ -106,7 +110,7 @@ nav {
 
 /* home page styling */
 .header {
-  background-color: var(--red);
+  background-color: var(--red2);
   height: 54vh;
   width: 100vw;
   display: flex;
@@ -126,7 +130,8 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  box-shadow: 0px 0px 15px black; }
+  box-shadow: 0px 0px 15px black;
+  font-family: Mundo-Reg; }
 
 /* logo section for the footer */
 .logo-area {
@@ -264,7 +269,8 @@ footer {
   box-shadow: 0px 0px 15px black;
   position: relative; }
   .zone-sect a {
-    width: 260px; }
+    width: 260px;
+    font-family: Mundo-Reg; }
 
 /* tv section styling */
 .tv-sect {
@@ -274,7 +280,9 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  box-shadow: 0px 0px 15px black; }
+  box-shadow: 0px 0px 15px black;
+  position: relative;
+  font-family: Mundo-Reg; }
 
 /* craft section styling */
 .crafts-sect {
@@ -284,9 +292,11 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  box-shadow: 0px 0px 15px black; }
+  box-shadow: 0px 0px 15px black;
+  position: relative; }
   .crafts-sect a {
-    width: 260px; }
+    width: 260px;
+    font-family: Mundo-Reg; }
 
 /* stem section styling */
 .stem-sect {
@@ -296,9 +306,11 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  box-shadow: 0px 0px 15px black; }
+  box-shadow: 0px 0px 15px black;
+  position: relative; }
   .stem-sect a {
-    width: 260px; }
+    width: 260px;
+    font-family: Mundo-Reg; }
   .stem-sect .sect-title.stem {
     width: 468px;
     color: black; }
@@ -308,6 +320,9 @@ footer {
     justify-content: space-evenly;
     border: 3px solid black;
     color: black; }
+  .stem-sect .back-btn {
+    color: black;
+    border: 3px solid black; }
 
 /* video games section styling */
 .videogames-sect {
@@ -317,9 +332,11 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  box-shadow: 0px 0px 15px black; }
+  box-shadow: 0px 0px 15px black;
+  position: relative; }
   .videogames-sect a {
-    width: 260px; }
+    width: 260px;
+    font-family: Mundo-Reg; }
 
 /* learnmore section styling */
 .learnmore-sect {
@@ -329,9 +346,11 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  box-shadow: 0px 0px 15px black; }
+  box-shadow: 0px 0px 15px black;
+  position: relative; }
   .learnmore-sect a {
-    width: 260px; }
+    width: 260px;
+    font-family: Mundo-Reg; }
 
 /* reused section classes */
 .sect-words {
@@ -344,11 +363,11 @@ footer {
   position: relative; }
   .sect-words .sect-title {
     font-size: 64px;
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-family: Mundo-Reg;
     color: white; }
   .sect-words .blurb {
     font-size: 18px;
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-family: Mundo-Reg;
     color: white;
     width: 520px; }
 
@@ -361,6 +380,9 @@ footer {
   .sect-img .png-img {
     width: 425px;
     height: 425px; }
+  .sect-img .png-img2 {
+    width: 185px;
+    height: 245px; }
 
 .more-button {
   width: 260px;
@@ -371,7 +393,7 @@ footer {
   border: 3px solid white;
   border-radius: 16px;
   font-size: 43px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: Mundo-Reg;
   color: white; }
 
 .more-button2 {
@@ -386,7 +408,7 @@ footer {
   border: 3px solid white;
   border-radius: 16px;
   font-size: 43px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: Mundo-Reg;
   color: white; }
 
 .back-btn {
@@ -398,10 +420,10 @@ footer {
   border: 3px solid white;
   border-radius: 16px;
   font-size: 63px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: Mundo-Reg;
   color: white;
   position: absolute;
-  top: 30px;
+  top: -50px;
   left: 30px; }
 
 .tour1 {
@@ -418,29 +440,34 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    margin-top: 25px; }
+    margin-top: 25px;
+    font-family: Mundo-Reg;
+    margin-top: -10px; }
   .tour1 .t1-subhead {
     color: var(--blue);
     font-size: 28px;
-    margin-top: -10px;
+    margin-top: -25px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    font-weight: 600; }
+    font-weight: 600;
+    font-family: Mundo-Reg; }
   .tour1 .t1-outp {
     color: var(--blue);
     font-size: 24px;
     margin-top: -30px;
     display: flex;
     align-items: center;
-    justify-content: space-evenly; }
+    justify-content: space-evenly;
+    font-family: Mundo-Reg; }
   .tour1 .t1-inp {
     color: var(--blue);
     font-size: 24px;
-    margin-top: -35px;
+    margin-top: -45px;
     display: flex;
     align-items: center;
-    justify-content: space-evenly; }
+    justify-content: space-evenly;
+    font-family: Mundo-Reg; }
 
 .tour2 {
   height: 35vh;
@@ -458,7 +485,8 @@ footer {
     justify-content: space-evenly; }
     .tour2 .nurse .t2-head {
       color: white;
-      font-size: 53px; }
+      font-size: 53px;
+      font-family: Mundo-Reg; }
   .tour2 .spec {
     width: 50%;
     height: 100%;
@@ -467,7 +495,8 @@ footer {
     justify-content: space-evenly; }
     .tour2 .spec .t2-head2 {
       color: white;
-      font-size: 53px; }
+      font-size: 53px;
+      font-family: Mundo-Reg; }
 
 .video {
   height: 80vh;
@@ -476,15 +505,339 @@ footer {
   grid-template-columns: repeat(1, auto);
   align-items: center;
   justify-content: space-evenly;
-  box-shadow: 0px 0px 15px black; }
+  box-shadow: 0px 0px 15px black;
+  background-color: white; }
   .video .video-title {
     color: var(--blue);
     font-size: 63px;
     display: flex;
     align-items: center;
-    justify-content: space-evenly; }
+    justify-content: space-evenly;
+    font-family: Mundo-Reg; }
   .video .mediaplayer {
     width: 825px;
     height: 400px;
     background-color: var(--blue);
     margin-top: -10%; }
+
+.more-ep {
+  height: 45vh;
+  width: 100vw;
+  background-color: var(--purple);
+  box-shadow: 0px 0px 15px black;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly; }
+  .more-ep .sect-words2 {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    margin-left: 150px;
+    font-family: Mundo-Reg; }
+  .more-ep .v-more {
+    width: 550px;
+    height: 100px;
+    border: 2px solid white;
+    border-radius: 20px;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: Mundo-Reg; }
+
+.video-title.show {
+  color: var(--purple);
+  font-size: 63px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: Mundo-Reg; }
+
+.mediaplayer.show {
+  width: 825px;
+  height: 400px;
+  background-color: var(--purple); }
+
+.crafts2 {
+  height: 40vh;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(1, auto);
+  align-items: center;
+  box-shadow: 0px 0px 15px black; }
+  .crafts2 .crafts-title {
+    color: var(--green);
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: Mundo-Reg;
+    position: relative;
+    margin-top: -10px; }
+  .crafts2 .crafts-subtitle {
+    color: var(--green);
+    font-size: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: Mundo-Reg;
+    position: relative;
+    margin-top: -100px; }
+
+.crafts3 {
+  height: 40vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  box-shadow: 0px 0px 15px black; }
+  .crafts3 .craft {
+    width: 33.3%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: var(--green);
+    box-shadow: 0px 2px 8px black; }
+    .crafts3 .craft .craft-cont {
+      height: 120px;
+      width: 300px;
+      display: grid;
+      grid-template-columns: repeat(1, auto);
+      align-items: center;
+      justify-content: space-evenly; }
+      .crafts3 .craft .craft-cont .craft-title {
+        font-family: Mundo-Reg;
+        font-size: 50px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly; }
+      .crafts3 .craft .craft-cont .craft-info {
+        font-family: Mundo-Reg;
+        font-size: 20px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly; }
+
+.crafts-subsect {
+  height: 32vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: var(--green);
+  box-shadow: 0px 0px 15px black; }
+  .crafts-subsect .crafts-title {
+    font-size: 60px;
+    color: white;
+    font-family: Mundo-Reg; }
+
+.crafts4 {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(1, auto);
+  align-items: center;
+  justify-content: space-evenly;
+  box-shadow: 0px 0px 15px black; }
+  .crafts4 .crafts-title {
+    color: var(--green);
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; }
+  .crafts4 .img-gallery {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 400px; }
+    .crafts4 .img-gallery .img-top {
+      display: grid;
+      grid-template-columns: repeat(3, auto);
+      align-items: center;
+      justify-content: space-evenly;
+      width: 800px;
+      height: 200px; }
+      .crafts4 .img-gallery .img-top .img-p {
+        width: 240px;
+        height: 180px;
+        background-color: var(--green); }
+    .crafts4 .img-gallery .img-bottom {
+      display: grid;
+      grid-template-columns: repeat(3, auto);
+      align-items: center;
+      justify-content: space-evenly;
+      width: 100%;
+      height: 200px; }
+      .crafts4 .img-gallery .img-bottom .img-p {
+        width: 240px;
+        height: 180px;
+        background-color: var(--green); }
+
+.stem2 {
+  height: 35vh;
+  width: 100vw;
+  box-shadow: 0px 0px 15px black;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly; }
+  .stem2 .contact-box {
+    width: 50%;
+    height: 100%;
+    background-color: var(--yellow2);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 0px 2px 8px black; }
+    .stem2 .contact-box .word-cont {
+      display: grid;
+      grid-template-columns: repeat(auto, 1);
+      align-items: center;
+      justify-content: space-evenly; }
+      .stem2 .contact-box .word-cont .title {
+        color: white;
+        font-size: 53px;
+        font-family: Mundo-Reg;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly; }
+      .stem2 .contact-box .word-cont .info {
+        color: white;
+        font-size: 30px;
+        font-family: Mundo-Reg;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly; }
+
+.video-title.stem {
+  color: var(--yellow2);
+  font-size: 63px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: Mundo-Reg; }
+
+.mediaplayer.stem {
+  width: 825px;
+  height: 400px;
+  background-color: var(--yellow2); }
+
+.games2 {
+  height: 35vh;
+  width: 100vw;
+  box-shadow: 0px 0px 15px black;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly; }
+  .games2 .game-box {
+    width: 50%;
+    height: 100%;
+    background-color: var(--red2);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 0px 2px 8px black; }
+    .games2 .game-box .word-cont {
+      display: grid;
+      grid-template-columns: repeat(auto, 1);
+      align-items: center;
+      justify-content: space-evenly; }
+      .games2 .game-box .word-cont .title {
+        color: white;
+        font-size: 53px;
+        font-family: Mundo-Reg;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly; }
+      .games2 .game-box .word-cont .info {
+        color: white;
+        font-size: 30px;
+        font-family: Mundo-Reg;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly; }
+
+.games3 {
+  height: 70vh;
+  width: 100vw;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  box-shadow: 0px 0px 15px black; }
+  .games3 .sect-words {
+    width: 50%;
+    height: 60%;
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative; }
+    .games3 .sect-words .sect-title {
+      font-size: 64px;
+      font-family: Mundo-Reg;
+      color: var(--red2); }
+    .games3 .sect-words .blurb {
+      font-size: 18px;
+      font-family: Mundo-Reg;
+      width: 520px;
+      color: var(--red2); }
+  .games3 .sect-img {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; }
+    .games3 .sect-img .png-img {
+      width: 425px;
+      height: 425px; }
+    .games3 .sect-img .png-img2 {
+      width: 185px;
+      height: 245px; }
+
+.about2 {
+  height: 35vh;
+  width: 100vw;
+  box-shadow: 0px 0px 15px black;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: var(--orange2); }
+  .about2 .word-cont {
+    width: 500px;
+    height: 50%;
+    display: grid;
+    grid-template-columns: repeat(auto, 1);
+    align-items: center;
+    justify-content: space-evenly; }
+    .about2 .word-cont .title {
+      font-size: 60px;
+      font-family: Mundo-Reg;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      color: white; }
+    .about2 .word-cont .sub-title {
+      font-size: 25px;
+      font-family: Mundo-Reg;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      color: white; }
+
+.about3 {
+  height: 70vh;
+  width: 100vw; }
+  .about3 .sect-title {
+    color: var(--orange2);
+    margin-top: 40px; }
+  .about3 .blurb {
+    color: var(--orange2); }

@@ -1,0 +1,50 @@
+// about more section
+.about2 {
+    height: 35vh;
+    width: 100vw;
+    box-shadow: 0px 0px 15px black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: var(--orange2);
+    .word-cont{
+        width: 500px;
+        height: 50%; 
+        display: grid; 
+      grid-template-columns: repeat(auto, 1);
+      align-items: center;
+      justify-content: space-evenly;
+
+      .title{
+        font-size: 60px;
+        font-family: Mundo-Reg;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        color: white;
+        
+    }
+    .sub-title{
+        font-size: 25px;
+        font-family: Mundo-Reg;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+         color: white;
+    }
+    }
+    
+}
+// extra about section
+.about3{
+    height: 70vh;
+    width: 100vw;
+
+    .sect-title {
+        color: var(--orange2);
+        margin-top: 40px;
+    }
+    .blurb {
+        color: var(--orange2);
+    }
+}

@@ -1,0 +1,50 @@
+// more episodes section
+.more-ep {
+    height: 45vh;
+    width: 100vw;
+    background-color: var(--purple);
+    box-shadow: 0px 0px 15px black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .sect-words2 {
+        width: 40%;
+        height: 100%;
+        display: flex;
+        align-items: center; 
+        justify-content: space-evenly;
+        position: relative;
+        margin-left: 150px;
+        font-family: Mundo-Reg;
+    }
+    .v-more {
+        width: 550px;
+        height: 100px;
+        border: 2px solid white;
+        border-radius: 20px;
+        font-size: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        font-family: Mundo-Reg;
+    }
+
+}
+// changing the title of the video section to work for the show page
+.video-title.show {
+    color: var(--purple);
+    font-size: 63px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: Mundo-Reg;
+    
+}
+// changing the media player to work with the show page
+.mediaplayer.show {
+    width: 825px;
+    height: 400px;
+    background-color: var(--purple);
+
+}

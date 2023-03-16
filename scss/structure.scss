@@ -1,20 +1,21 @@
 :root {
-    --blue: #2479ec;
-    --blue2: #2167c6;
+    --blue: #2479EC;
+    --blue2: #2167C6;
     --white: #ffffff;
     --black: #222222;
-    --red: #c3062f;
-    --red2: #fa0036;
+    --red: #E5173E;
+    --red2: #BD1F45;
     --purple: #6f008b;
-    --purple2: #8e04b0;
+    --purple2: #4D2566;
     --green: #66ac44;
     --green2: #579639;
     --green3: #4baf00;
     --yellow: #fff001;
-    --yellow2: #e1d615;
-    --orange: #ffb300;
-    --orange2: #e7a200;
+    --yellow2: #F9CE16;
+    --orange: #FFB000;
+    --orange2: #E09D26;
   }
+  
   * {
     margin: 0;
     padding: 0;
@@ -33,3 +34,7 @@
   p {
     margin-bottom: 16px;
   }
+@font-face {
+  font-family: Mundo-Reg;
+  src: url(/css/fonts/MundoSerif-Regular.otf);
+}

@@ -1,0 +1,91 @@
+// minecraft realm and game rental
+.games2 {
+    height: 35vh;
+    width: 100vw;
+    box-shadow: 0px 0px 15px black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    .game-box{
+        width: 50%;
+        height: 100%;
+        background-color: var(--red2);  
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        box-shadow: 0px 2px 8px black; 
+         
+        .word-cont{ 
+            display: grid;
+            grid-template-columns: repeat(auto,1);
+            align-items: center;
+            justify-content: space-evenly;
+            
+            .title{
+                color: white;
+            font-size: 53px;
+            font-family: Mundo-Reg;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            
+            }
+            .info{
+                color: white;
+                font-size: 30px;
+                font-family: Mundo-Reg;
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+                
+            }
+        }
+    }
+}
+// sponsor section
+.games3 {
+    height: 70vh;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 0px 0px 15px black;
+    .sect-words {
+        width: 50%;
+        height: 60%;
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+        align-items: center; 
+        justify-content: space-evenly;
+        position: relative;
+    
+    
+        .sect-title {
+        font-size: 64px;
+        font-family: Mundo-Reg;
+            color: var(--red2);
+      }
+      .blurb {
+        font-size: 18px;
+        font-family: Mundo-Reg;
+        width: 520px;
+        color: var(--red2);
+      }
+      }
+      .sect-img {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        .png-img {
+        width: 425px;
+        height: 425px;
+      }
+      .png-img2 {
+        width: 185px;
+        height: 245px;
+      }
+      }
+}

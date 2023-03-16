@@ -1,0 +1,61 @@
+// stem section with robots and projects
+.stem2 {
+    height: 35vh;
+    width: 100vw;
+    box-shadow: 0px 0px 15px black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    .contact-box{
+        width: 50%;
+        height: 100%;
+        background-color: var(--yellow2);  
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        box-shadow: 0px 2px 8px black; 
+        
+        .word-cont{ 
+            display: grid;
+            grid-template-columns: repeat(auto,1);
+            align-items: center;
+            justify-content: space-evenly;
+            
+            .title{
+                color: white;
+            font-size: 53px;
+            font-family: Mundo-Reg;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            
+            }
+            .info{
+                color: white;
+                font-size: 30px;
+                font-family: Mundo-Reg;
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+                
+            }
+        }
+    }
+}
+// changing the title of the video section to work for the stem page
+.video-title.stem {
+    color: var(--yellow2);
+    font-size: 63px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: Mundo-Reg;
+    
+}
+// changing the media player to work with the stem page
+.mediaplayer.stem {
+    width: 825px;
+    height: 400px;
+    background-color: var(--yellow2);
+
+}

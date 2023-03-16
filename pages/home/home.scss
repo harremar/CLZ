@@ -12,6 +12,7 @@
     position: relative;
     a {
         width: 260px;
+        font-family: Mundo-Reg;
     }
     
   }
@@ -27,6 +28,8 @@
     align-items: center;
     justify-content: space-evenly;
     box-shadow: 0px 0px 15px black;
+    position: relative;
+    font-family: Mundo-Reg;
   }
   
   /* craft section styling */
@@ -39,8 +42,10 @@
     align-items: center;
     justify-content: space-evenly;
     box-shadow: 0px 0px 15px black;
+    position: relative;
     a {
         width: 260px;
+        font-family: Mundo-Reg;
     }
   }
   
@@ -54,9 +59,11 @@
     align-items: center;
     justify-content: space-evenly;
     box-shadow: 0px 0px 15px black;
+    position: relative;
 
     a {
         width: 260px;
+        font-family: Mundo-Reg;
     }
     .sect-title.stem {
     width: 468px;
@@ -72,6 +79,11 @@
   
     color: black;
   }
+
+  .back-btn {
+    color: black; 
+    border: 3px solid black;
+  }
   }
   
   
@@ -85,8 +97,10 @@
     align-items: center;
     justify-content: space-evenly;
     box-shadow: 0px 0px 15px black;
+    position: relative;
     a {
         width: 260px;
+        font-family: Mundo-Reg;
     }
   }
   
@@ -100,8 +114,11 @@
     align-items: center;
     justify-content: space-evenly;
     box-shadow: 0px 0px 15px black;
+    position: relative;
+
     a {
         width: 260px;
+        font-family: Mundo-Reg;
     }
   }
   
@@ -116,16 +133,15 @@
     justify-content: space-evenly;
     position: relative;
 
+
     .sect-title {
     font-size: 64px;
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-family: Mundo-Reg;
     color: white;
   }
   .blurb {
     font-size: 18px;
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-family: Mundo-Reg;
     color: white;
     width: 520px;
   }
@@ -140,6 +156,10 @@
     width: 425px;
     height: 425px;
   }
+  .png-img2 {
+    width: 185px;
+    height: 245px;
+  }
   }
   
   
@@ -152,8 +172,7 @@
     border: 3px solid white;
     border-radius: 16px;
     font-size: 43px;
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-family: Mundo-Reg;
     color: white;
   }
   .more-button2 {
@@ -168,8 +187,7 @@
     border: 3px solid white;
     border-radius: 16px;
     font-size: 43px;
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-family: Mundo-Reg;
     color: white;
   }
   .back-btn {
@@ -181,11 +199,10 @@
     border: 3px solid white;
     border-radius: 16px;
     font-size: 63px;
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-family: Mundo-Reg; 
     color: white;
     position: absolute;
-    top: 30px;
+    top: -50px;
     left: 30px;
   }
   
