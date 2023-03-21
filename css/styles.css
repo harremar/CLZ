@@ -5,6 +5,7 @@
   --black: #222222;
   --red: #E5173E;
   --red2: #BD1F45;
+  --redfooter: #C00027;
   --purple: #6f008b;
   --purple2: #4D2566;
   --green: #66ac44;
@@ -12,6 +13,8 @@
   --green3: #4baf00;
   --yellow: #fff001;
   --yellow2: #F9CE16;
+  --yellow3: #E2D500;
+  --yellow4: #c5bc11;
   --orange: #FFB000;
   --orange2: #E09D26; }
 
@@ -60,7 +63,10 @@ nav {
     align-items: center;
     justify-content: space-evenly;
     box-shadow: 0px 0px 20px 1px black;
-    z-index: 3; }
+    z-index: 3;
+    transition: 0.3s ease; }
+  nav .exp:hover {
+    background-color: var(--blue2); }
   nav .tv {
     width: 240px;
     height: 100px;
@@ -69,7 +75,10 @@ nav {
     align-items: center;
     justify-content: space-evenly;
     box-shadow: 0px 0px 20px 1px black;
-    z-index: 3; }
+    z-index: 3;
+    transition: 0.3s ease; }
+  nav .tv:hover {
+    background-color: var(--purple2); }
   nav .crafts {
     width: 240px;
     height: 100px;
@@ -78,7 +87,10 @@ nav {
     align-items: center;
     justify-content: space-evenly;
     box-shadow: 0px 0px 20px 1px black;
-    z-index: 3; }
+    z-index: 3;
+    transition: 0.3s ease; }
+  nav .crafts:hover {
+    background-color: var(--green2); }
   nav .stem {
     width: 240px;
     height: 100px;
@@ -88,7 +100,10 @@ nav {
     justify-content: space-evenly;
     color: black;
     box-shadow: 0px 0px 20px 1px black;
-    z-index: 3; }
+    z-index: 3;
+    transition: 0.3s ease; }
+  nav .stem:hover {
+    background-color: var(--yellow4); }
   nav .games {
     width: 240px;
     height: 100px;
@@ -97,7 +112,9 @@ nav {
     align-items: center;
     justify-content: space-evenly;
     box-shadow: 0px 0px 20px 1px black;
-    z-index: 3; }
+    transition: 0.3s ease; }
+  nav .games:hover {
+    background-color: var(--red2); }
   nav .learnmore {
     width: 240px;
     height: 100px;
@@ -106,7 +123,10 @@ nav {
     align-items: center;
     justify-content: space-evenly;
     box-shadow: 0px 0px 20px 1px black;
-    z-index: 3; }
+    z-index: 3;
+    transition: 0.3s ease; }
+  nav .learnmore:hover {
+    background-color: var(--orange2); }
 
 /* home page styling */
 .header {
@@ -117,16 +137,27 @@ nav {
   align-items: center;
   justify-content: space-evenly;
   /* box-shadow: inset 0px -3px 20px  black; */ }
+  .header .clz-logo {
+    width: 440px;
+    height: 325px; }
 
-.clz-logo {
-  width: 440px;
-  height: 325px; }
+.header2 {
+  background-color: var(--red2);
+  height: 300px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  /* box-shadow: inset 0px -3px 20px  black; */ }
+  .header2 .clz-logo {
+    width: 350px;
+    height: 230px; }
 
 /* footer styling */
 footer {
-  height: 50vh;
+  height: 450px;
   width: 100vw;
-  background-color: var(--red);
+  background-color: var(--redfooter);
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -148,119 +179,114 @@ footer {
     color: white;
     display: flex;
     align-items: center;
-    justify-content: space-evenly; }
+    justify-content: space-evenly;
+    font-family: Arial, Helvetica, sans-serif; }
   .logo-area .iu {
     font-size: 24px;
     color: white;
     display: flex;
     align-items: center;
-    justify-content: space-evenly; }
+    justify-content: space-evenly;
+    font-family: Arial, Helvetica, sans-serif; }
 
 /* hours section for the footer */
 .hours {
   display: grid;
   grid-template-columns: repeat(1, auto);
   align-items: center;
-  justify-content: space-evenly;
-  width: 25%; }
+  justify-content: center;
+  width: 25%;
+  text-align: left; }
   .hours .ourhrs {
     font-size: 32px;
     color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly; }
+    font-family: Arial, Helvetica, sans-serif; }
   .hours .dates {
-    font-size: 24px;
+    font-size: 36px;
     color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly; }
+    justify-content: space-evenly;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
   .hours .outp {
     font-size: 22px;
     color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly; }
+    justify-content: space-evenly;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
   .hours .inp {
     font-size: 22px;
     color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly; }
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
 
 /* the socials section for the footer */
 .socials {
   display: grid;
   grid-template-columns: repeat(1, auto);
-  align-items: center;
+  align-items: left;
   justify-content: space-evenly;
   width: 25%;
-  margin-top: -23px; }
+  margin-top: -37px; }
   .socials .follow {
     font-size: 32px;
     color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly; }
+    font-family: Arial, Helvetica, sans-serif; }
   .socials .insta {
     font-size: 24px;
     color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly; }
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    transition: 0.3s ease; }
+  .socials .insta:hover {
+    color: #d68181; }
   .socials .face {
     font-size: 24px;
     color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    margin-top: 10px; }
+    /* This is a flexbox property that is aligning the items in the center and evenly spacing them out. */
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    transition: 0.3s ease; }
+  .socials .face:hover {
+    color: #d68181; }
   .socials .twit {
     font-size: 24px;
     color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    margin-top: 10px; }
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    transition: 0.3s ease; }
+  .socials .twit:hover {
+    color: #d68181; }
 
 /* phone section for the footer */
 .phone-area {
   display: grid;
   grid-template-columns: repeat(1, auto);
-  align-items: center;
+  align-items: left;
   justify-content: space-evenly;
   width: 25%;
-  margin-top: 27px; }
+  margin-top: 38px; }
   .phone-area .call {
     font-size: 28px;
     color: white;
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly; }
+    font-family: Arial, Helvetica, sans-serif; }
   .phone-area .numb {
     font-size: 24px;
     color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly; }
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
   .phone-area .address {
+    margin-top: 24px;
     font-size: 28px;
     color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly; }
+    font-family: Arial, Helvetica, sans-serif; }
   .phone-area .add-writen {
     font-size: 22px;
     color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: 230px; }
 
 /* zone section styling */
 .zone-sect {
-  height: 70vh;
+  height: 90vh;
   width: 100vw;
   background-color: var(--blue);
   display: flex;
@@ -268,13 +294,74 @@ footer {
   justify-content: space-evenly;
   box-shadow: 0px 0px 15px black;
   position: relative; }
-  .zone-sect a {
-    width: 260px;
-    font-family: Mundo-Reg; }
+  .zone-sect .sect-words {
+    max-width: 600px;
+    height: 45%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative; }
+    .zone-sect .sect-words .sect-title {
+      font-size: 64px;
+      font-family: Mundo-Reg;
+      color: white;
+      padding-bottom: 20px; }
+    .zone-sect .sect-words .blurb {
+      font-size: 18px;
+      font-family: Mundo-Reg;
+      color: white;
+      width: 520px;
+      padding-bottom: 40px; }
+    .zone-sect .sect-words a {
+      width: 260px;
+      font-family: Mundo-Reg;
+      text-decoration: none; }
+      .zone-sect .sect-words a .more-button {
+        width: 260px;
+        height: 95px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        border: 3px solid white;
+        border-radius: 16px;
+        font-size: 43px;
+        font-family: Mundo-Reg;
+        color: white;
+        transition: 0.3s ease; }
+      .zone-sect .sect-words a .more-button:hover {
+        background-color: white;
+        color: var(--blue); }
+    .zone-sect .sect-words .back-btn {
+      width: 200px;
+      height: 70px;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      border: 3px solid white;
+      border-radius: 16px;
+      font-size: 40px;
+      font-family: Mundo-Reg;
+      color: white;
+      margin-top: -50px;
+      margin-bottom: 50px;
+      transition: 0.3s ease; }
+    .zone-sect .sect-words .back-btn:hover {
+      background-color: white;
+      color: var(--blue); }
+  .zone-sect .sect-img {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; }
+    .zone-sect .sect-img .png-img {
+      width: 425px;
+      height: 425px;
+      animation: move 1.5s infinite ease-in-out alternate; }
 
 /* tv section styling */
 .tv-sect {
-  height: 70vh;
+  height: 90vh;
   width: 100vw;
   background-color: var(--purple);
   display: flex;
@@ -282,11 +369,78 @@ footer {
   justify-content: space-evenly;
   box-shadow: 0px 0px 15px black;
   position: relative;
-  font-family: Mundo-Reg; }
+  font-family: Mundo-Reg;
+  text-align: right; }
+  .tv-sect .sect-words {
+    max-width: 600px;
+    height: 45%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative; }
+    .tv-sect .sect-words .sect-title {
+      font-size: 64px;
+      font-family: Mundo-Reg;
+      color: white;
+      padding-bottom: 20px; }
+    .tv-sect .sect-words .blurb {
+      font-size: 18px;
+      font-family: Mundo-Reg;
+      color: white;
+      width: 520px;
+      padding-bottom: 40px; }
+    .tv-sect .sect-words a {
+      width: 260px;
+      font-family: Mundo-Reg;
+      text-decoration: none; }
+      .tv-sect .sect-words a .more-button2 {
+        width: 260px;
+        height: 95px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        position: absolute;
+        right: 0;
+        border: 3px solid white;
+        border-radius: 16px;
+        font-size: 43px;
+        font-family: Mundo-Reg;
+        color: white;
+        transition: 0.3s ease; }
+      .tv-sect .sect-words a .more-button2:hover {
+        background-color: white;
+        color: var(--purple); }
+    .tv-sect .sect-words .back-btn {
+      width: 200px;
+      height: 70px;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      border: 3px solid white;
+      border-radius: 16px;
+      font-size: 40px;
+      font-family: Mundo-Reg;
+      color: white;
+      margin-top: -50px;
+      margin-bottom: 50px;
+      transition: 0.3s ease; }
+    .tv-sect .sect-words .back-btn:hover {
+      background-color: white;
+      color: var(--purple); }
+  .tv-sect .sect-img {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; }
+    .tv-sect .sect-img .png-img {
+      width: 425px;
+      height: 425px;
+      animation: move 1.5s infinite ease-in-out alternate; }
 
 /* craft section styling */
 .crafts-sect {
-  height: 70vh;
+  height: 90vh;
   width: 100vw;
   background-color: var(--green);
   display: flex;
@@ -294,39 +448,153 @@ footer {
   justify-content: space-evenly;
   box-shadow: 0px 0px 15px black;
   position: relative; }
-  .crafts-sect a {
-    width: 260px;
-    font-family: Mundo-Reg; }
+  .crafts-sect .sect-words {
+    max-width: 600px;
+    height: 45%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative; }
+    .crafts-sect .sect-words .sect-title {
+      font-size: 64px;
+      font-family: Mundo-Reg;
+      color: white;
+      padding-bottom: 20px; }
+    .crafts-sect .sect-words .blurb {
+      font-size: 18px;
+      font-family: Mundo-Reg;
+      color: white;
+      width: 520px;
+      padding-bottom: 40px; }
+    .crafts-sect .sect-words a {
+      width: 260px;
+      font-family: Mundo-Reg;
+      text-decoration: none; }
+      .crafts-sect .sect-words a .more-button {
+        width: 260px;
+        height: 95px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        border: 3px solid white;
+        border-radius: 16px;
+        font-size: 43px;
+        font-family: Mundo-Reg;
+        color: white;
+        transition: 0.3s ease; }
+      .crafts-sect .sect-words a .more-button:hover {
+        background-color: white;
+        color: var(--green); }
+    .crafts-sect .sect-words .back-btn {
+      width: 200px;
+      height: 70px;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      border: 3px solid white;
+      border-radius: 16px;
+      font-size: 40px;
+      font-family: Mundo-Reg;
+      color: white;
+      margin-top: -50px;
+      margin-bottom: 50px;
+      transition: 0.3s ease; }
+    .crafts-sect .sect-words .back-btn:hover {
+      background-color: white;
+      color: var(--green); }
+  .crafts-sect .sect-img {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; }
+    .crafts-sect .sect-img .png-img {
+      width: 425px;
+      height: 425px;
+      animation: move 1.5s infinite ease-in-out alternate; }
 
 /* stem section styling */
 .stem-sect {
-  height: 70vh;
+  height: 90vh;
   width: 100vw;
   background-color: var(--yellow);
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   box-shadow: 0px 0px 15px black;
-  position: relative; }
-  .stem-sect a {
-    width: 260px;
-    font-family: Mundo-Reg; }
-  .stem-sect .sect-title.stem {
-    width: 468px;
-    color: black; }
-  .stem-sect .blurb.stem {
-    color: black; }
-  .stem-sect .more-button2.stem {
+  position: relative;
+  text-align: right; }
+  .stem-sect .sect-words {
+    max-width: 600px;
+    height: 45%;
+    margin: 0 auto;
+    align-items: center;
     justify-content: space-evenly;
-    border: 3px solid black;
-    color: black; }
-  .stem-sect .back-btn {
-    color: black;
-    border: 3px solid black; }
+    position: relative; }
+    .stem-sect .sect-words .sect-title {
+      font-size: 64px;
+      font-family: Mundo-Reg;
+      color: black;
+      padding-bottom: 20px; }
+    .stem-sect .sect-words .blurb {
+      font-size: 18px;
+      font-family: Mundo-Reg;
+      color: black;
+      width: 520px;
+      padding-bottom: 40px; }
+    .stem-sect .sect-words a {
+      width: 260px;
+      font-family: Mundo-Reg;
+      text-decoration: none; }
+      .stem-sect .sect-words a .more-button2 {
+        width: 260px;
+        height: 95px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        position: absolute;
+        right: 0;
+        border: 3px solid black;
+        border-radius: 16px;
+        font-size: 43px;
+        font-family: Mundo-Reg;
+        color: black;
+        transition: 0.3s ease; }
+      .stem-sect .sect-words a .more-button2:hover {
+        background-color: black;
+        border: none;
+        color: var(--yellow); }
+    .stem-sect .sect-words .back-btn {
+      width: 200px;
+      height: 70px;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      border: 3px solid black;
+      border-radius: 16px;
+      font-size: 40px;
+      font-family: Mundo-Reg;
+      color: black;
+      margin-top: -50px;
+      margin-bottom: 50px;
+      transition: 0.3s ease; }
+    .stem-sect .sect-words .back-btn:hover {
+      background-color: black;
+      color: var(--yellow); }
+  .stem-sect .sect-img {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; }
+    .stem-sect .sect-img .png-img {
+      width: 425px;
+      height: 425px;
+      animation: move 1.5s infinite ease-in-out alternate; }
 
 /* video games section styling */
 .videogames-sect {
-  height: 70vh;
+  height: 90vh;
   width: 100vw;
   background-color: var(--red);
   display: flex;
@@ -334,97 +602,155 @@ footer {
   justify-content: space-evenly;
   box-shadow: 0px 0px 15px black;
   position: relative; }
-  .videogames-sect a {
-    width: 260px;
-    font-family: Mundo-Reg; }
+  .videogames-sect .sect-words {
+    max-width: 600px;
+    height: 45%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative; }
+    .videogames-sect .sect-words .sect-title {
+      font-size: 64px;
+      font-family: Mundo-Reg;
+      color: white;
+      padding-bottom: 20px; }
+    .videogames-sect .sect-words .blurb {
+      font-size: 18px;
+      font-family: Mundo-Reg;
+      color: white;
+      width: 520px;
+      padding-bottom: 40px; }
+    .videogames-sect .sect-words a {
+      width: 260px;
+      font-family: Mundo-Reg;
+      text-decoration: none; }
+      .videogames-sect .sect-words a .more-button {
+        width: 260px;
+        height: 95px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        border: 3px solid white;
+        border-radius: 16px;
+        font-size: 43px;
+        font-family: Mundo-Reg;
+        color: white;
+        transition: 0.3s ease; }
+      .videogames-sect .sect-words a .more-button:hover {
+        background-color: white;
+        color: var(--red); }
+    .videogames-sect .sect-words .back-btn {
+      width: 200px;
+      height: 70px;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      border: 3px solid white;
+      border-radius: 16px;
+      font-size: 40px;
+      font-family: Mundo-Reg;
+      color: white;
+      margin-top: -50px;
+      margin-bottom: 50px;
+      transition: 0.3s ease; }
+    .videogames-sect .sect-words .back-btn:hover {
+      background-color: white;
+      color: var(--red); }
+  .videogames-sect .sect-img {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; }
+    .videogames-sect .sect-img .png-img {
+      width: 425px;
+      height: 425px;
+      animation: move 1.5s infinite ease-in-out alternate; }
 
 /* learnmore section styling */
 .learnmore-sect {
-  height: 70vh;
+  height: 90vh;
   width: 100vw;
   background-color: var(--orange);
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   box-shadow: 0px 0px 15px black;
-  position: relative; }
-  .learnmore-sect a {
-    width: 260px;
-    font-family: Mundo-Reg; }
+  position: relative;
+  text-align: right; }
+  .learnmore-sect .sect-words {
+    max-width: 600px;
+    height: 45%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative; }
+    .learnmore-sect .sect-words .sect-title {
+      font-size: 64px;
+      font-family: Mundo-Reg;
+      color: white;
+      padding-bottom: 20px; }
+    .learnmore-sect .sect-words .blurb {
+      font-size: 18px;
+      font-family: Mundo-Reg;
+      color: white;
+      width: 520px;
+      padding-bottom: 40px; }
+    .learnmore-sect .sect-words a {
+      width: 260px;
+      font-family: Mundo-Reg;
+      text-decoration: none; }
+      .learnmore-sect .sect-words a .more-button2 {
+        width: 260px;
+        height: 95px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        position: absolute;
+        right: 0;
+        border: 3px solid white;
+        border-radius: 16px;
+        font-size: 43px;
+        font-family: Mundo-Reg;
+        color: white;
+        transition: 0.3s ease; }
+      .learnmore-sect .sect-words a .more-button2:hover {
+        background-color: white;
+        color: var(--orange); }
+    .learnmore-sect .sect-words .back-btn {
+      width: 200px;
+      height: 70px;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      border: 3px solid white;
+      border-radius: 16px;
+      font-size: 40px;
+      font-family: Mundo-Reg;
+      color: white;
+      margin-top: -50px;
+      margin-bottom: 50px;
+      transition: 0.3s ease; }
+    .learnmore-sect .sect-words .back-btn:hover {
+      background-color: white;
+      color: var(--orange); }
+  .learnmore-sect .sect-img {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; }
+    .learnmore-sect .sect-img .png-img {
+      width: 425px;
+      height: 425px;
+      animation: move 1.5s infinite ease-in-out alternate; }
 
 /* reused section classes */
-.sect-words {
-  width: 50%;
-  height: 60%;
-  display: grid;
-  grid-template-columns: repeat(1, auto);
-  align-items: center;
-  justify-content: space-evenly;
-  position: relative; }
-  .sect-words .sect-title {
-    font-size: 64px;
-    font-family: Mundo-Reg;
-    color: white; }
-  .sect-words .blurb {
-    font-size: 18px;
-    font-family: Mundo-Reg;
-    color: white;
-    width: 520px; }
-
-.sect-img {
-  width: 50%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly; }
-  .sect-img .png-img {
-    width: 425px;
-    height: 425px; }
-  .sect-img .png-img2 {
-    width: 185px;
-    height: 245px; }
-
-.more-button {
-  width: 260px;
-  height: 95px;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  border: 3px solid white;
-  border-radius: 16px;
-  font-size: 43px;
-  font-family: Mundo-Reg;
-  color: white; }
-
-.more-button2 {
-  width: 260px;
-  height: 95px;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  position: absolute;
-  top: 77%;
-  right: 100px;
-  border: 3px solid white;
-  border-radius: 16px;
-  font-size: 43px;
-  font-family: Mundo-Reg;
-  color: white; }
-
-.back-btn {
-  width: 180px;
-  height: 55px;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  border: 3px solid white;
-  border-radius: 16px;
-  font-size: 63px;
-  font-family: Mundo-Reg;
-  color: white;
-  position: absolute;
-  top: -50px;
-  left: 30px; }
+@keyframes move {
+  from {
+    transform: translateY(0px); }
+  to {
+    transform: translateY(-25px); } }
 
 .tour1 {
   height: 40vh;
@@ -547,6 +873,15 @@ footer {
     align-items: center;
     justify-content: space-evenly;
     font-family: Mundo-Reg; }
+  .more-ep .sect-img {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; }
+    .more-ep .sect-img .png-img2 {
+      width: 185px;
+      height: 245px; }
 
 .video-title.show {
   color: var(--purple);

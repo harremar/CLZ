@@ -29,6 +29,18 @@
         justify-content: space-evenly;
         font-family: Mundo-Reg;
     }
+    .sect-img {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        
+      .png-img2 {
+        width: 185px;
+        height: 245px;
+      }
+      }
 
 }
 // changing the title of the video section to work for the show page
