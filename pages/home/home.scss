@@ -95,7 +95,7 @@
   }
   
 }
-
+ 
 
 /* tv section styling */
 
@@ -595,72 +595,9 @@
     animation: move 1.5s infinite ease-in-out alternate;
   }
   }
+
+
 }
-
-
-
-/* reused section classes */
-// .sect-words {
-//   width: 50%;
-//   height: 100%;
-//   display: grid;
-//   grid-template-columns: repeat(1, auto);
-//   align-items: center; 
-//   justify-content: space-evenly;
-//   position: relative;
-//   background-color: red;
-
-//   .sect-title {
-//     font-size: 64px;
-//     font-family: Mundo-Reg;
-//     color: white;
-//     background-color: blueviolet;
-//   }
-//   .blurb {
-//     font-size: 18px;
-//     font-family: Mundo-Reg;
-//     color: white;
-//     width: 520px;
-//     background-color: green;
-//   }
-// }
-// .sect-img {
-//   width: 50%;
-//   height: 100%;
-//   display: flex;
-//   align-items: center;
-//   justify-content: space-evenly;
-//   .png-img {
-//   width: 425px;
-//   height: 425px;
-//   animation: move 1.5s infinite ease-in-out alternate;
-// }
-// .png-img2 {
-//   width: 185px;
-//   height: 245px;
-// }
-// }
-// .back-btn {
-//   width: 200px;
-//   height: 70px;
-//   display: flex;
-//   align-items: center;
-//   justify-content: space-evenly;
-//   border: 3px solid white;
-//   border-radius: 16px;
-//   font-size: 40px;
-//   font-family: Mundo-Reg; 
-//   color: white;
-//   margin-top: -50px;
-//   margin-bottom: 50px;
-//   transition: 0.3s ease;
-// }
-// .back-btn:hover{
-//   background-color: white;
-//   color: var(--blue);
-// }
-
-
 // this is the animation
 @keyframes move {
   from{
@@ -669,4 +606,156 @@
   to{
     transform: translateY(-25px);
   }
+}
+
+@media screen and (max-width: 1200px) {
+
+  .zone-sect {
+    .sect-words{
+
+    }
+    .sect-title{
+
+    }
+    .blurb{
+
+    }
+    a{
+      .more-button{
+
+      }
+    }
+    .back-btn{
+
+    }
+    .sect-img {
+      .png-img{
+
+      }
+    }
+  }
+  .tv-sect {
+    .sect-words{
+
+    }
+    .sect-title{
+
+    }
+    .blurb{
+
+    }
+    a{
+      .more-button2{
+
+      }
+    }
+    .back-btn{
+
+    }
+    .sect-img {
+      .png-img{
+
+      }
+    }
+  }
+  .crafts-sect {
+    .sect-words{
+
+    }
+    .sect-title{
+
+    }
+    .blurb{
+
+    }
+    a{
+      .more-button{
+
+      }
+    }
+    .back-btn{
+
+    }
+    .sect-img {
+      .png-img{
+
+      }
+    }
+  }
+  .stem-sect {
+    .sect-words{
+
+    }
+    .sect-title{
+
+    }
+    .blurb{
+
+    }
+    a{
+      .more-button2{
+
+      }
+    }
+    .back-btn{
+
+    }
+    .sect-img {
+      .png-img{
+
+      }
+    }
+  }
+  .videogames-sect {
+    .sect-words{
+
+    }
+    .sect-title{
+
+    }
+    .blurb{
+
+    }
+    a{
+      .more-button{
+
+      }
+    }
+    .back-btn{
+
+    }
+    .sect-img {
+      .png-img{
+
+      }
+    }
+  }
+  .learnmore-sect {
+    .sect-words{
+
+    }
+    .sect-title{
+
+    }
+    .blurb{
+
+    }
+    a{
+      .more-button2{
+
+      }
+    }
+    .back-btn{
+
+    }
+    .sect-img {
+      .png-img{
+
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 780px) {
+  
 }

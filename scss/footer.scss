@@ -9,9 +9,8 @@ footer {
   justify-content: space-evenly;
   box-shadow: 0px 0px 15px black;
   font-family: Mundo-Reg;
-}
 
-/* logo section for the footer */
+  /* logo section for the footer */
 .logo-area {
   display: grid;
   grid-template-columns: repeat(1, auto);
@@ -30,6 +29,7 @@ footer {
   align-items: center;
   justify-content: space-evenly;
   font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
 }
 .iu {
   font-size: 24px;
@@ -41,7 +41,7 @@ footer {
 }
 }
 
-/* hours section for the footer */
+/* hours section for the footer */ 
 .hours {
   display: grid;
   grid-template-columns: repeat(1, auto);
@@ -86,8 +86,6 @@ footer {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 }
-
-
 /* the socials section for the footer */
 .socials {
   display: grid;
@@ -148,8 +146,6 @@ footer {
   color: #d68181;
 }
 }
-
-
 /* phone section for the footer */
 .phone-area {
   display: grid;
@@ -159,42 +155,284 @@ footer {
   width: 25%;
   margin-top: 38px;
   //  border-top: 2px solid black; 
-  .call {
-  font-size: 28px;
-  color: white;
-  width: 100%;
-  font-family: Arial, Helvetica, sans-serif;
+  .phone-area-number{
+    .call {
+      font-size: 28px;
+      color: white;
+      width: 100%;
+      font-family: Arial, Helvetica, sans-serif;
+    
+      // display: flex;
+      // align-items: center;
+      // justify-content: space-evenly;
+     
+    }
+    .numb {
+      font-size: 24px;
+      color: white;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      // display: flex;
+      // align-items: center;
+      // justify-content: space-evenly;
+    }
+  }
+  .phone-area-address{
+    .address {
+      margin-top: 24px;
+      font-size: 28px;
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+      // display: flex;
+      // align-items: center;
+      // justify-content: space-evenly;
+    }
+    .add-writen {
+      font-size: 22px;
+      color: white;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+      // display: flex;
+      // align-items: center;
+      // justify-content: space-evenly;
+      width: 230px;
+    }
+  }
+}
+}
 
-  // display: flex;
-  // align-items: center;
-  // justify-content: space-evenly;
+// @media screen and (max-width:1000px){
+//   footer{
+//     .logo-area{
+//       .riley-logo{
+//         width: 250px;
+//         height: 170px;
+//       }
+//       .riley{
+//         font-size: 26px;
+//       }
+//       .iu{
+//         font-size: 18px;
+//       }
+//     }
+//     .hours{
+//       .ourhrs{
+//         font-size: 32px;
+//       }
+//       .dates{
+//         font-size: 30px;
+//       }
+//       .outp, .inp{
+//         font-size: 22px;
+//       }
+//     }
+//     .socials{
+//       .follow{
+//         font-size: 30px;
+//       }
+//       .insta, .face, .twit{
+//         font-size: 24px;
+//       }
+//     }
+//     .phone-area{
+//       .phone-area-number{
+//         .call{
+//           font-size: 32px;
+//         }
+//         .numb{
+//           font-size: 24px;
+//         }
+//       }
+//       .phone-area-address{
+//         .address{
+//           font-size: 32px;
+//         }
+//         .add-writen{
+//           font-size: 24px;
+//         }
+//       }
+//     }
+//   }
+// }
+
+@media screen and (max-width: 1200px){
+  footer{
+   flex-direction: column;
+    width: 100%;
+    height: 630px;
+    position: relative;
+    .logo-area{
+      position: absolute;
+      bottom: 50px;
+      .riley-logo {
+        width: 240px;
+        height: 160px;
+      }
+      .riley{
+        font-size: 22px;
+      }
+      .iu{
+        font-size: 16px;
+      }
+    }
+
+  .hours{
+    text-align: center;
+    position: absolute;
+    top: 30px;
+    left:50px;
+    min-width: 300px;
+    
+    .ourhrs{
+      font-size: 28px;
+    }
+    .dates{
+      font-size: 28px;
+    }
+    .outp, .inp{
+      font-size: 20px;
+    }
+  }
+    .socials{
+      text-align: center;
+    position: absolute;
+    margin-top: 0;
+      top: 30px;
+      right:50px;
+      min-width: 300px;
+      .follow{
+        font-size: 28px;
+      }
+      .insta, .face, .twit{
+        font-size: 20px;
+      }
+    }
+    .phone-area{
+      text-align: center;
+      .phone-area-number{
+        position: absolute;
+        top: 270px;
+        left:50px;
+        min-width: 300px;
+        .call{
+          font-size: 28px;
+        }
+        .numb{
+          font-size: 20px;
+        }
+      }
+      .phone-area-address{
+        position: absolute;
+        top: 225px;
+        right:50px;
+        margin-top: 0;
+        min-width: 300px;
+        text-align: center;
+        align-items: center;
+        .address{
+          font-size: 28px;
+        }
+        .add-writen{
+          font-size: 20px;
+          margin: 0 auto;
+        } 
+      }
+    }
+}
+}
+
+@media screen and (max-width: 780px){
+  footer{
+   flex-direction: column;
+    width: 100%;
+    height: 930px;
+    position: relative;  
+    // display: grid;
+    // grid-template-columns: repeat(1,auto);  
+    .logo-area{
+      position: absolute;
+      bottom: 50px;
+      .riley-logo {
+        width: 240px;
+        height: 160px;
+      }
+      .riley{
+        font-size: 22px;
+      }
+      .iu{
+        font-size: 16px;
+      }
+    }
  
-}
-.numb {
-  font-size: 24px;
-  color: white;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  // display: flex;
-  // align-items: center;
-  // justify-content: space-evenly;
-}
-.address {
-  margin-top: 24px;
-  font-size: 28px;
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  // display: flex;
-  // align-items: center;
-  // justify-content: space-evenly;
-}
-.add-writen {
-  font-size: 22px;
-  color: white;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
-  // display: flex;
-  // align-items: center;
-  // justify-content: space-evenly;
-  width: 230px;
+  .hours{
+    text-align: center;
+    position: relative;
+    // top: 30px;
+    // left: -50px;
+    margin-left: -100px; 
+    margin-top: -300px;
+    
+    
+    min-width: 300px;
+    
+    .ourhrs{
+      font-size: 28px;
+    }
+    .dates{
+      font-size: 28px;
+    }
+    .outp, .inp{
+      font-size: 20px;
+    }
+  }
+    .socials{
+      text-align: center;
+    position: relative;
+    margin-top: -250px;
+    margin-right: -100px;
+      // top: 150px;
+      // right:20%;
+      min-width: 300px;
+      .follow{
+        font-size: 28px;
+      }
+      .insta, .face, .twit{
+        font-size: 20px;
+      }
+    }
+    .phone-area{
+      text-align: center;
+      .phone-area-number{
+        position: relative;
+        margin-left: -100px;
+        margin-top: -500px; 
+        // top: 270px;
+        // left:50px;
+        min-width: 300px;
+        .call{
+          font-size: 28px;
+        }
+        .numb{
+          font-size: 20px;
+        }
+      }
+      .phone-area-address{
+        position: relative;
+        margin-right: -100px;
+        margin-top: -370px;
+        // top: 225px;
+        // right:50px;
+        
+        min-width: 300px;
+        text-align: center;
+        align-items: center;
+        .address{
+          font-size: 28px;
+        }
+        .add-writen{
+          font-size: 20px;
+          margin: 0 auto;
+        }  
+      }
+    }
 }
 }
