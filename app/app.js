@@ -34,6 +34,7 @@ const link = document.querySelector(".links a");
 
 //when hamburger is clicked activate mobileMenu function
 hamburger.addEventListener("click", mobileMenu);
+navMenu.addEventListener("click", mobileMenu);
 
 //this function makes menu active
 function mobileMenu() {
