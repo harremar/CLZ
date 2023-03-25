@@ -40,6 +40,9 @@ p {
   font-family: Mundo-Reg;
   src: url(/css/fonts/MundoSerif-Regular.otf); }
 
+#app {
+  width: 100vw; }
+
 nav {
   width: 100vw;
   height: 100px;
@@ -152,6 +155,32 @@ nav {
   .header2 .clz-logo {
     width: 350px;
     height: 230px; }
+
+@media screen and (max-width: 1200px) {
+  .header {
+    height: 250px;
+    width: 100vw; }
+    .header .clz-logo {
+      width: 230px;
+      height: 180px; }
+  .header2 {
+    height: 250px;
+    width: 100vw; }
+    .header2 .clz-logo {
+      width: 230px;
+      height: 180px; } }
+
+@media screen and (max-width: 450px) {
+  .header {
+    height: 150px; }
+    .header .clz-logo {
+      width: 120px;
+      height: 100px; }
+  .header2 {
+    height: 150px; }
+    .header2 .clz-logo {
+      width: 120px;
+      height: 100px; } }
 
 /* footer styling */
 footer {
@@ -874,6 +903,158 @@ footer {
   to {
     transform: translateY(-25px); } }
 
+@media screen and (max-width: 1200px) {
+  .zone-sect, .crafts-sect, .videogames-sect {
+    flex-direction: column;
+    height: 770px;
+    justify-content: center; }
+    .zone-sect .sect-words, .crafts-sect .sect-words, .videogames-sect .sect-words {
+      min-width: 100%;
+      padding: 10px;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      height: 360px; }
+      .zone-sect .sect-words .sect-title, .crafts-sect .sect-words .sect-title, .videogames-sect .sect-words .sect-title {
+        font-size: 64px;
+        margin: 0 auto; }
+      .zone-sect .sect-words .blurb, .crafts-sect .sect-words .blurb, .videogames-sect .sect-words .blurb {
+        font-size: 24px;
+        margin: 0 auto;
+        width: 90%; }
+      .zone-sect .sect-words a .more-button, .crafts-sect .sect-words a .more-button, .videogames-sect .sect-words a .more-button {
+        margin: 0 auto; }
+      .zone-sect .sect-words .back-btn, .crafts-sect .sect-words .back-btn, .videogames-sect .sect-words .back-btn {
+        height: 60px;
+        border-radius: 10px;
+        width: 100px;
+        margin-left: 15px; }
+    .zone-sect .sect-img, .crafts-sect .sect-img, .videogames-sect .sect-img {
+      height: 300px;
+      width: 310px; }
+      .zone-sect .sect-img .png-img, .crafts-sect .sect-img .png-img, .videogames-sect .sect-img .png-img {
+        height: 300px;
+        width: 310px; }
+  .tv-sect, .stem-sect, .learnmore-sect {
+    flex-direction: column;
+    height: 770px;
+    justify-content: center;
+    position: relative; }
+    .tv-sect .sect-img, .stem-sect .sect-img, .learnmore-sect .sect-img {
+      height: 300px;
+      width: 310px;
+      position: absolute;
+      bottom: 50px; }
+      .tv-sect .sect-img .png-img, .stem-sect .sect-img .png-img, .learnmore-sect .sect-img .png-img {
+        height: 300px;
+        width: 310px; }
+    .tv-sect .sect-words, .stem-sect .sect-words, .learnmore-sect .sect-words {
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      height: 360px;
+      position: absolute;
+      top: 50px;
+      min-width: 100%; }
+      .tv-sect .sect-words .sect-title, .stem-sect .sect-words .sect-title, .learnmore-sect .sect-words .sect-title {
+        font-size: 64px;
+        margin: 0 auto; }
+      .tv-sect .sect-words .blurb, .stem-sect .sect-words .blurb, .learnmore-sect .sect-words .blurb {
+        font-size: 24px;
+        width: 90%;
+        margin: 0 auto; }
+      .tv-sect .sect-words a .more-button2, .stem-sect .sect-words a .more-button2, .learnmore-sect .sect-words a .more-button2 {
+        margin: 0 auto;
+        position: relative; }
+      .tv-sect .sect-words .back-btn, .stem-sect .sect-words .back-btn, .learnmore-sect .sect-words .back-btn {
+        margin-top: 0;
+        margin-bottom: 10px;
+        height: 60px;
+        border-radius: 10px;
+        width: 100px;
+        margin-left: 15px; } }
+
+@media screen and (max-width: 450px) {
+  .zone-sect, .crafts-sect, .videogames-sect {
+    flex-direction: column;
+    height: 520px;
+    justify-content: space-between; }
+    .zone-sect .sect-words, .crafts-sect .sect-words, .videogames-sect .sect-words {
+      margin-top: 20px;
+      min-width: 100%;
+      padding: 10px;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      height: 260px; }
+      .zone-sect .sect-words .sect-title, .crafts-sect .sect-words .sect-title, .videogames-sect .sect-words .sect-title {
+        font-size: 36px;
+        margin: 0 auto; }
+      .zone-sect .sect-words .blurb, .crafts-sect .sect-words .blurb, .videogames-sect .sect-words .blurb {
+        font-size: 12px;
+        margin: 0 auto;
+        padding-bottom: 20px;
+        width: 90%; }
+      .zone-sect .sect-words a .more-button, .crafts-sect .sect-words a .more-button, .videogames-sect .sect-words a .more-button {
+        margin: 0 auto;
+        height: 60px;
+        font-size: 24px;
+        border-radius: 10px; }
+      .zone-sect .sect-words .back-btn, .crafts-sect .sect-words .back-btn, .videogames-sect .sect-words .back-btn {
+        margin-top: 0;
+        margin-bottom: 10px;
+        height: 60px;
+        border-radius: 10px;
+        width: 100px; }
+    .zone-sect .sect-img, .crafts-sect .sect-img, .videogames-sect .sect-img {
+      height: 200px;
+      width: 210px;
+      margin-bottom: 40px; }
+      .zone-sect .sect-img .png-img, .crafts-sect .sect-img .png-img, .videogames-sect .sect-img .png-img {
+        height: 240px;
+        width: 250px; }
+  .tv-sect, .stem-sect, .learnmore-sect {
+    flex-direction: column;
+    height: 520px;
+    justify-content: space-between;
+    position: relative; }
+    .tv-sect .sect-img, .stem-sect .sect-img, .learnmore-sect .sect-img {
+      height: 240px;
+      width: 250px;
+      position: absolute;
+      bottom: 20px; }
+      .tv-sect .sect-img .png-img, .stem-sect .sect-img .png-img, .learnmore-sect .sect-img .png-img {
+        height: 240px;
+        width: 250px; }
+    .tv-sect .sect-words, .stem-sect .sect-words, .learnmore-sect .sect-words {
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      height: 360px;
+      position: absolute;
+      top: 25px;
+      min-width: 100%; }
+      .tv-sect .sect-words .sect-title, .stem-sect .sect-words .sect-title, .learnmore-sect .sect-words .sect-title {
+        font-size: 36px;
+        margin: 0 auto; }
+      .tv-sect .sect-words .blurb, .stem-sect .sect-words .blurb, .learnmore-sect .sect-words .blurb {
+        font-size: 12px;
+        width: 90%;
+        margin: 0 auto;
+        padding-bottom: 20px; }
+      .tv-sect .sect-words a .more-button2, .stem-sect .sect-words a .more-button2, .learnmore-sect .sect-words a .more-button2 {
+        margin: 0 auto;
+        height: 60px;
+        font-size: 24px;
+        border-radius: 10px; }
+      .tv-sect .sect-words .back-btn, .stem-sect .sect-words .back-btn, .learnmore-sect .sect-words .back-btn {
+        margin-top: 0;
+        margin-bottom: 10px;
+        height: 60px;
+        border-radius: 10px;
+        width: 100px;
+        margin-left: 15px; } }
+
 .tour1 {
   height: 40vh;
   width: 100vw;
@@ -976,6 +1157,8 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-evenly; }
+  .more-ep a {
+    text-decoration: none; }
   .more-ep .sect-words2 {
     width: 40%;
     height: 100%;
@@ -989,6 +1172,7 @@ footer {
     width: 550px;
     height: 100px;
     border: 2px solid white;
+    color: white;
     border-radius: 20px;
     font-size: 50px;
     display: flex;
@@ -1005,18 +1189,154 @@ footer {
       width: 185px;
       height: 245px; }
 
-.video-title.show {
-  color: var(--purple);
-  font-size: 63px;
-  display: flex;
+.video {
+  height: 80vh;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(1, auto);
   align-items: center;
   justify-content: space-evenly;
-  font-family: Mundo-Reg; }
+  box-shadow: 0px 0px 15px black;
+  background-color: white; }
+  .video .video-title.show {
+    color: var(--purple);
+    font-size: 63px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: Mundo-Reg; }
+  .video .mediaplayer.show {
+    width: 825px;
+    height: 400px;
+    background-color: var(--purple); }
 
-.mediaplayer.show {
-  width: 825px;
-  height: 400px;
-  background-color: var(--purple); }
+@media screen and (max-width: 1200px) {
+  .tv-sect {
+    flex-direction: column;
+    height: 770px;
+    width: 100vw;
+    justify-content: center;
+    position: relative; }
+    .tv-sect .sect-img {
+      height: 300px;
+      width: 310px;
+      position: absolute;
+      bottom: 50px; }
+      .tv-sect .sect-img .png-img {
+        height: 300px;
+        width: 310px; }
+    .tv-sect .sect-words {
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      height: 360px;
+      position: absolute;
+      top: 50px;
+      min-width: 100%; }
+      .tv-sect .sect-words .sect-title {
+        font-size: 64px;
+        margin: 0 auto; }
+      .tv-sect .sect-words .blurb {
+        font-size: 24px;
+        width: 90%;
+        margin: 0 auto; }
+      .tv-sect .sect-words a .more-button2 {
+        margin: 0 auto;
+        position: relative; }
+      .tv-sect .sect-words .back-btn {
+        margin-top: 0;
+        margin-bottom: 10px;
+        height: 60px;
+        border-radius: 10px;
+        width: 100px;
+        margin-left: 15px; } }
+
+@media screen and (max-width: 1000px) {
+  .more-ep {
+    height: 45vh;
+    width: 100vw;
+    flex-direction: column-reverse; }
+    .more-ep .sect-words2 {
+      margin-left: 0px; }
+    .more-ep .sect-img {
+      padding-top: 55px; }
+  .video {
+    display: flex;
+    flex-direction: column;
+    height: 60vh; }
+    .video .video-title.show {
+      color: var(--purple);
+      font-size: 55px;
+      font-family: Mundo-Reg;
+      text-align: center;
+      padding-bottom: 45px; }
+    .video .mediaplayer.show {
+      width: 625px;
+      height: 320px;
+      background-color: var(--purple); } }
+
+@media screen and (max-width: 780px) {
+  .more-ep {
+    height: 55vh;
+    width: 100vw;
+    flex-direction: column-reverse; }
+    .more-ep .sect-words2 {
+      margin-left: 0px; }
+    .more-ep .v-more {
+      width: 450px;
+      font-size: 45px; }
+    .more-ep .sect-img {
+      padding-top: 55px; }
+      .more-ep .sect-img .png-img2 {
+        width: 145px;
+        height: 205px; }
+  .video {
+    display: flex;
+    flex-direction: column;
+    height: 60vh; }
+    .video .video-title.show {
+      color: var(--purple);
+      font-size: 55px;
+      width: 425px;
+      font-family: Mundo-Reg;
+      text-align: center;
+      padding-bottom: 45px; }
+    .video .mediaplayer.show {
+      width: 525px;
+      height: 300px;
+      background-color: var(--purple); } }
+
+@media screen and (max-width: 450px) {
+  .more-ep {
+    height: 55vh;
+    width: 100vw;
+    flex-direction: column-reverse; }
+    .more-ep .sect-words2 {
+      margin-left: 0px; }
+    .more-ep .v-more {
+      width: 300px;
+      font-size: 40px;
+      text-align: center; }
+    .more-ep .sect-img {
+      padding-top: 55px; }
+      .more-ep .sect-img .png-img2 {
+        width: 125px;
+        height: 165px; }
+  .video {
+    display: flex;
+    flex-direction: column;
+    height: 60vh; }
+    .video .video-title.show {
+      color: var(--purple);
+      font-size: 40px;
+      width: 325px;
+      font-family: Mundo-Reg;
+      text-align: center;
+      padding-bottom: 5px; }
+    .video .mediaplayer.show {
+      width: 325px;
+      height: 200px;
+      background-color: var(--purple); } }
 
 .crafts2 {
   height: 40vh;

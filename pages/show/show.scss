@@ -7,6 +7,9 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    a {
+        text-decoration: none;
+    }
 
     .sect-words2 {
         width: 40%;
@@ -22,6 +25,7 @@
         width: 550px;
         height: 100px;
         border: 2px solid white;
+        color: white;
         border-radius: 20px;
         font-size: 50px;
         display: flex;
@@ -43,6 +47,15 @@
       }
 
 }
+.video {
+    height: 80vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(1,auto); 
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 0px 0px 15px black; 
+    background-color: white;
 // changing the title of the video section to work for the show page
 .video-title.show {
     color: var(--purple);
@@ -60,3 +73,204 @@
     background-color: var(--purple);
 
 }
+}
+
+@media screen and (max-width: 1200px) {
+    .tv-sect {
+        flex-direction: column;
+        height: 770px;
+        width: 100vw;
+        justify-content: center;
+        position: relative;
+        .sect-img {
+          height: 300px;
+          width: 310px;
+          position: absolute;
+          bottom: 50px;
+          .png-img{
+            height: 300px;
+          width: 310px;
+          }
+        }
+        .sect-words{
+          // background-color: pink;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          height: 360px;
+          position: absolute;
+          top: 50px;
+          min-width: 100%;
+    
+          .sect-title{
+            font-size: 64px;
+            margin: 0 auto;
+      
+          }
+          .blurb{
+            font-size: 24px;
+            width: 90%;
+            margin: 0 auto;
+      
+          }
+          a{
+            .more-button2{
+              margin: 0 auto;
+              position: relative;
+            }
+          }
+          .back-btn{
+            margin-top: 0;
+            margin-bottom: 10px;
+            height: 60px;
+            border-radius: 10px;
+            width: 100px;
+            margin-left: 15px;
+          }
+        }
+      }
+      
+  }
+  @media screen and (max-width: 1000px){
+    .more-ep {
+        height: 45vh;
+        width: 100vw;
+        flex-direction: column-reverse;
+        .sect-words2 {
+            margin-left: 0px;
+        }
+        .v-more {
+           
+        }
+        .sect-img {
+            padding-top: 55px;
+            
+          .png-img2 {
+            
+          }
+          }
+    
+    }
+    .video {
+        display: flex;
+        flex-direction: column;
+        height: 60vh;
+   
+.video-title.show {
+    color: var(--purple);
+    font-size: 55px; 
+    // width: 425px;
+    font-family: Mundo-Reg;
+    text-align: center;
+    padding-bottom: 45px;
+    
+}
+
+.mediaplayer.show {
+    width: 625px;
+    height: 320px;
+    background-color: var(--purple);
+    
+    
+
+}
+    }
+   }
+  
+  @media screen and (max-width: 780px) {
+    .more-ep {
+        height: 55vh;
+        width: 100vw;
+        flex-direction: column-reverse;
+        .sect-words2 {
+            margin-left: 0px;
+        }
+        .v-more {
+            width: 450px;
+            font-size: 45px;
+        }
+        .sect-img {
+            padding-top: 55px;
+            
+          .png-img2 {
+            width: 145px;
+        height: 205px;
+          }
+          }
+    
+    }
+    .video {
+        display: flex;
+        flex-direction: column;
+        height: 60vh;
+   
+.video-title.show {
+    color: var(--purple);
+    font-size: 55px; 
+    width: 425px;
+    font-family: Mundo-Reg;
+    text-align: center;
+    padding-bottom: 45px;
+    
+}
+
+.mediaplayer.show {
+    width: 525px;
+    height: 300px;
+    background-color: var(--purple);
+    
+    
+
+}
+    }
+  }
+  
+  @media screen and (max-width: 450px) {
+    .more-ep {
+        height: 55vh;
+        width: 100vw;
+        flex-direction: column-reverse;
+        .sect-words2 {
+            margin-left: 0px;
+        }
+        .v-more {
+            width: 300px;
+            font-size: 40px;
+            text-align: center;
+            
+        }
+        .sect-img {
+            padding-top: 55px;
+            
+          .png-img2 {
+            width: 125px;
+        height: 165px;
+          }
+          }
+    
+    }
+    .video {
+        display: flex;
+        flex-direction: column;
+        height: 60vh;
+   
+.video-title.show {
+    color: var(--purple);
+    font-size: 40px;
+    width: 325px;
+    font-family: Mundo-Reg;
+    text-align: center;
+    padding-bottom: 5px;
+    
+}
+
+.mediaplayer.show {
+    width: 325px;
+    height: 200px;
+    background-color: var(--purple);
+    
+    
+
+}
+    }
+  }

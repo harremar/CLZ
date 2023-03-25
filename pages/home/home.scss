@@ -610,152 +610,225 @@
 
 @media screen and (max-width: 1200px) {
 
-  .zone-sect {
+  .zone-sect, .crafts-sect, .videogames-sect {
+    // background-color: green;
+    flex-direction: column;
+    height: 770px;
+    justify-content: center;
     .sect-words{
+      // background-color: red;
+      min-width: 100%;
+      padding: 10px;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      height: 360px;
 
-    }
-    .sect-title{
-
-    }
-    .blurb{
-
-    }
-    a{
-      .more-button{
-
+      .sect-title{
+        font-size: 64px;
+        margin: 0 auto;
+  
+      }
+      .blurb{
+        font-size: 24px;
+        margin: 0 auto;
+        // background-color: gray;
+        width: 90%;
+  
+      }
+      a{
+        .more-button{
+          margin: 0 auto;
+        }
+      }
+      .back-btn{
+        height: 60px;
+        border-radius: 10px;
+        width: 100px;
+        margin-left: 15px;
       }
     }
-    .back-btn{
-
-    }
     .sect-img {
+      height: 300px;
+      width: 310px;
       .png-img{
-
+        height: 300px;
+        width: 310px;
       }
     }
   }
-  .tv-sect {
-    .sect-words{
-
-    }
-    .sect-title{
-
-    }
-    .blurb{
-
-    }
-    a{
-      .more-button2{
-
-      }
-    }
-    .back-btn{
-
-    }
+  .tv-sect, .stem-sect, .learnmore-sect {
+    // background-color: green;
+    flex-direction: column;
+    height: 770px;
+    justify-content: center;
+    position: relative;
     .sect-img {
+      height: 300px;
+      width: 310px;
+      position: absolute;
+      bottom: 50px;
       .png-img{
-
+        height: 300px;
+      width: 310px;
       }
     }
-  }
-  .crafts-sect {
     .sect-words{
+      // background-color: pink;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      height: 360px;
+      position: absolute;
+      top: 50px;
+      min-width: 100%;
 
-    }
-    .sect-title{
-
-    }
-    .blurb{
-
-    }
-    a{
-      .more-button{
-
+      .sect-title{
+        font-size: 64px;
+        margin: 0 auto;
+  
+      }
+      .blurb{
+        font-size: 24px;
+        width: 90%;
+        margin: 0 auto;
+  
+      }
+      a{
+        .more-button2{
+          margin: 0 auto;
+          position: relative;
+        }
+      }
+      .back-btn{
+        margin-top: 0;
+        margin-bottom: 10px;
+        height: 60px;
+        border-radius: 10px;
+        width: 100px;
+        margin-left: 15px;
       }
     }
-    .back-btn{
-
-    }
-    .sect-img {
-      .png-img{
-
-      }
-    }
-  }
-  .stem-sect {
-    .sect-words{
-
-    }
-    .sect-title{
-
-    }
-    .blurb{
-
-    }
-    a{
-      .more-button2{
-
-      }
-    }
-    .back-btn{
-
-    }
-    .sect-img {
-      .png-img{
-
-      }
-    }
-  }
-  .videogames-sect {
-    .sect-words{
-
-    }
-    .sect-title{
-
-    }
-    .blurb{
-
-    }
-    a{
-      .more-button{
-
-      }
-    }
-    .back-btn{
-
-    }
-    .sect-img {
-      .png-img{
-
-      }
-    }
-  }
-  .learnmore-sect {
-    .sect-words{
-
-    }
-    .sect-title{
-
-    }
-    .blurb{
-
-    }
-    a{
-      .more-button2{
-
-      }
-    }
-    .back-btn{
-
-    }
-    .sect-img {
-      .png-img{
-
-      }
-    }
+    
   }
 }
 
+
 @media screen and (max-width: 780px) {
+  
+}
+
+@media screen and (max-width: 450px) {
+  .zone-sect, .crafts-sect, .videogames-sect {
+    // background-color: green;
+    flex-direction: column;
+    height: 520px;
+    justify-content: space-between;
+    .sect-words{
+      // background-color: red;
+      margin-top: 20px;
+      min-width: 100%;
+      padding: 10px;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      height: 260px;
+
+      .sect-title{
+        font-size: 36px;
+        margin: 0 auto;
+  
+      }
+      .blurb{
+        font-size: 12px;
+        margin: 0 auto;
+        // background-color: gray;
+        padding-bottom: 20px;
+        width: 90%;
+  
+      }
+      a{
+        .more-button{
+          margin: 0 auto;
+          height: 60px;
+          font-size: 24px;
+          border-radius: 10px;
+        }
+      }
+      .back-btn{
+        margin-top: 0;
+        margin-bottom: 10px;
+        height: 60px;
+        border-radius: 10px;
+        width: 100px;
+      }
+    }
+    .sect-img {
+      height: 200px;
+      width: 210px;
+      margin-bottom: 40px;
+      .png-img{
+        height: 240px;
+        width: 250px;
+      }
+    }
+  }
+  .tv-sect, .stem-sect, .learnmore-sect {
+    // background-color: green;
+    flex-direction: column;
+    height: 520px;
+    justify-content: space-between;
+    position: relative;
+    .sect-img {
+      height: 240px;
+        width: 250px;
+      position: absolute;
+      bottom: 20px;
+      .png-img{
+        height: 240px;
+        width: 250px;
+      }
+    }
+    .sect-words{
+      // background-color: pink;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      height: 360px;
+      position: absolute;
+      top: 25px;
+      min-width: 100%;
+
+      .sect-title{
+        font-size: 36px;
+        margin: 0 auto;
+  
+      }
+      .blurb{
+        font-size: 12px;
+        width: 90%;
+        margin: 0 auto;
+        padding-bottom: 20px;
+  
+      }
+      a{
+        .more-button2{
+          margin: 0 auto;
+          height: 60px;
+          font-size: 24px;
+          border-radius: 10px;
+        }
+      }
+      .back-btn{
+        margin-top: 0;
+        margin-bottom: 10px;
+        height: 60px;
+        border-radius: 10px;
+        width: 100px;
+        margin-left: 15px;
+      }
+    }
+    
+  }
   
 }
