@@ -613,7 +613,7 @@
   .zone-sect, .crafts-sect, .videogames-sect {
     // background-color: green;
     flex-direction: column;
-    height: 770px;
+    min-height: 770px;
     justify-content: center;
     .sect-words{
       // background-color: red;
@@ -622,10 +622,10 @@
       justify-content: center;
       align-items: center;
       text-align: center;
-      height: 360px;
+      min-height: 380px;
 
       .sect-title{
-        font-size: 64px;
+        font-size: 60px;
         margin: 0 auto;
   
       }
@@ -678,13 +678,13 @@
       justify-content: center;
       align-items: center;
       text-align: center;
-      height: 360px;
+      height: 380px;
       position: absolute;
       top: 50px;
       min-width: 100%;
 
       .sect-title{
-        font-size: 64px;
+        font-size: 60px;
         margin: 0 auto;
   
       }
