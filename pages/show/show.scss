@@ -47,8 +47,8 @@
       }
 
 }
-.video {
-    height: 80vh;
+.video.show {
+    height: 85vh;
     width: 100vw;
     display: grid;
     grid-template-columns: repeat(1,auto); 
@@ -64,6 +64,7 @@
     align-items: center;
     justify-content: space-evenly;
     font-family: Mundo-Reg;
+    padding-bottom: 20px;
     
 }
 // changing the media player to work with the show page
@@ -133,7 +134,7 @@
   }
   @media screen and (max-width: 1000px){
     .more-ep {
-        height: 45vh;
+        height: 75vh;
         width: 100vw;
         flex-direction: column-reverse;
         .sect-words2 {
@@ -143,7 +144,7 @@
            
         }
         .sect-img {
-            padding-top: 55px;
+            padding-top: 35px;
             
           .png-img2 {
             
@@ -151,10 +152,10 @@
           }
     
     }
-    .video {
+    .video.show {
         display: flex;
         flex-direction: column;
-        height: 60vh;
+        height: 75vh;
    
 .video-title.show {
     color: var(--purple);
@@ -179,7 +180,7 @@
   
   @media screen and (max-width: 780px) {
     .more-ep {
-        height: 55vh;
+        height: 75vh;
         width: 100vw;
         flex-direction: column-reverse;
         .sect-words2 {
@@ -199,10 +200,10 @@
           }
     
     }
-    .video {
+    .video.show {
         display: flex;
         flex-direction: column;
-        height: 60vh;
+        height: 85vh;
    
 .video-title.show {
     color: var(--purple);
@@ -227,7 +228,7 @@
   
   @media screen and (max-width: 450px) {
     .more-ep {
-        height: 55vh;
+        height: 75vh;
         width: 100vw;
         flex-direction: column-reverse;
         .sect-words2 {
@@ -249,10 +250,10 @@
           }
     
     }
-    .video {
+    .video.show {
         display: flex;
         flex-direction: column;
-        height: 60vh;
+        height: 75vh;
    
 .video-title.show {
     color: var(--purple);
@@ -260,7 +261,7 @@
     width: 325px;
     font-family: Mundo-Reg;
     text-align: center;
-    padding-bottom: 5px;
+    padding-bottom: 35px;
     
 }
 

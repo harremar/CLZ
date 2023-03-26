@@ -87,7 +87,7 @@
 }
 // video section for showing off video
 .video {
-    height: 80vh;
+    height: 85vh;
     width: 100vw;
     display: grid;
     grid-template-columns: repeat(1,auto); 
@@ -102,6 +102,7 @@
         align-items: center;
         justify-content: space-evenly;
         font-family: Mundo-Reg;
+        padding-bottom: 20px;
         
     }
     .mediaplayer {
@@ -218,7 +219,7 @@
     .video {
         display: flex;
         flex-direction: column;
-        height: 60vh;
+        height: 75vh;
    
 .video-title{
    
@@ -295,7 +296,7 @@
     .video {
         display: flex;
         flex-direction: column;
-        height: 60vh;
+        height: 75vh;
    
 .video-title {
     
@@ -375,7 +376,7 @@
     .video {
         display: flex;
         flex-direction: column;
-        height: 60vh;
+        height: 75vh;
    
 .video-title {
     

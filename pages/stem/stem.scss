@@ -42,6 +42,16 @@
         }
     }
 }
+
+.video.stem {
+    height: 85vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(1,auto); 
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 0px 0px 15px black; 
+    background-color: white;
 // changing the title of the video section to work for the stem page
 .video-title.stem {
     color: var(--yellow2);
@@ -51,7 +61,7 @@
     justify-content: space-evenly;
     font-family: Mundo-Reg;
     
-}
+} 
 // changing the media player to work with the stem page
 .mediaplayer.stem {
     width: 825px;
@@ -59,19 +69,143 @@
     background-color: var(--yellow2);
 
 }
+}
 
 @media screen and (max-width: 1200px) {
     
       
 }
 @media screen and (max-width: 1000px){
+    .stem2 {
+        height: 35vh;
+        width: 100vw;
+        box-shadow: 0px 0px 15px black;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        .contact-box{
+            width: 50%;
+            height: 100%;
+            background-color: var(--yellow2);  
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            box-shadow: 0px 2px 8px black; 
+            
+            .word-cont{ 
+                
+                
+                .title{
+                font-size: 48px; 
+                }
+                .info{
+                    font-size: 25px;
+                }
+            }
+        }
+    }
+    .video.stem {
+        display: flex;
+        flex-direction: column;
+        height: 75vh;
+   
+.video-title.stem{
+   
+    font-size: 55px; 
+    // width: 425px;
+    font-family: Mundo-Reg;
+    text-align: center;
+    padding-bottom: 45px;
+    
+}
+
+.mediaplayer.stem {
+    width: 625px;
+    height: 320px;
   
+    
+    
+
+}
+    }
  }
 
 @media screen and (max-width: 780px) {
-  
+    .stem2 {
+        height: 70vh;
+        width: 100vw;
+        box-shadow: 0px 0px 15px black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        .contact-box{
+            width: 100%;
+            height: 50%;
+            background-color: var(--yellow2);  
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            box-shadow: 0px 2px 8px black; 
+            
+            .word-cont{ 
+                
+                
+                .title{
+                font-size: 48px; 
+                }
+                .info{
+                    font-size: 25px;
+                }
+            }
+        }
+    }
+    .video.stem {
+        display: flex;
+        flex-direction: column;
+        height: 75vh;
+   
+.video-title.stem {
+    
+    font-size: 55px; 
+    width: 425px;
+    font-family: Mundo-Reg;
+    text-align: center;
+    padding-bottom: 45px;
+    
+}
+
+.mediaplayer.stem {
+    width: 525px;
+    height: 300px;  
+
+}
+    }
 }
 
 @media screen and (max-width: 450px) {
-  
+    .video.stem {
+        display: flex;
+        flex-direction: column;
+        height: 75vh;
+   
+.video-title.stem {
+    
+    font-size: 40px;
+    width: 325px;
+    font-family: Mundo-Reg;
+    text-align: center;
+    padding-bottom: 5px;
+    
+}
+
+.mediaplayer.stem{
+    width: 325px;
+    height: 200px;
+   
+    
+    
+
+}
+    }
 }
