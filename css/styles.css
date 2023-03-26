@@ -49,7 +49,8 @@ nav {
   box-shadow: 0px 40px 15px black;
   display: flex;
   align-items: center;
-  justify-content: space-evenly; }
+  justify-content: space-evenly;
+  text-align: center; }
   nav a {
     text-decoration: none;
     font-family: Mundo-Reg;
@@ -130,6 +131,213 @@ nav {
       transition: 0.3s ease; }
     nav a .learnmore:hover {
       background-color: var(--orange2); }
+
+.navMenu {
+  display: none; }
+
+.navMenu.active {
+  display: none;
+  margin: 0 auto;
+  position: fixed; }
+
+.hamburger {
+  display: none;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 100px;
+  height: 70px; }
+
+.hamburger:hover {
+  cursor: pointer; }
+
+.hamburger .bar {
+  display: none;
+  width: 30px;
+  height: 3.5px;
+  border-radius: 10px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: white; }
+
+/* // CHANGING OF HAMBUGER ICON TO X */
+.hamburger {
+  display: block;
+  cursor: pointer; }
+
+.hamburger.active .bar:nth-child(2) {
+  opacity: 0; }
+
+.hamburger.active .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg); }
+
+.hamburger.active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg); }
+
+@media screen and (max-width: 950px) {
+  nav {
+    display: none; }
+  .hamburger {
+    display: block;
+    z-index: 5; }
+    .hamburger .bar {
+      display: block; }
+  .hamburger.active {
+    position: fixed; }
+  .navMenu {
+    position: absolute;
+    right: 0;
+    height: 100vh;
+    width: 400px;
+    background-color: var(--red2);
+    padding-top: 60px;
+    z-index: 2;
+    display: none;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    transform: translateX(150%);
+    animation: coolanimation 1s ease-in-out forwards;
+    box-shadow: 5px 0px 10px 0px #aaa; }
+    .navMenu a {
+      text-decoration: none;
+      color: white;
+      font-family: Mundo-Reg;
+      font-size: 25px; }
+    .navMenu .navMenuTour {
+      background-color: var(--blue);
+      height: 17%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly; }
+    .navMenu .navMenuTV {
+      background-color: var(--purple);
+      height: 17%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly; }
+    .navMenu .navMenuCrafts {
+      background-color: var(--green);
+      height: 16%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly; }
+    .navMenu .navMenuSTEM {
+      background-color: var(--yellow3);
+      height: 17%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly; }
+    .navMenu .navMenuVideogames {
+      background-color: var(--red);
+      height: 16%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly; }
+    .navMenu .navMenuLearn {
+      background-color: var(--orange);
+      height: 17%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly; }
+  .navMenu.active {
+    display: flex;
+    margin: 0 auto;
+    position: fixed;
+    transform: translateX(150%);
+    animation: coolanimation 1s ease-in-out forwards; }
+  @keyframes coolanimation {
+    100% {
+      transform: translate(0); } } }
+
+@media screen and (max-width: 850px) {
+  nav {
+    display: none; }
+  .hamburger {
+    display: block;
+    z-index: 5; }
+    .hamburger .bar {
+      display: block; }
+  .hamburger.active {
+    position: fixed; }
+  .navMenu {
+    position: absolute;
+    right: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: var(--red2);
+    padding-top: 60px;
+    z-index: 2;
+    display: none;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    transform: translateX(150%);
+    animation: coolanimation 1s ease-in-out forwards;
+    box-shadow: 5px 0px 10px 0px #aaa; }
+    .navMenu a {
+      text-decoration: none;
+      color: white;
+      font-family: Mundo-Reg;
+      font-size: 25px; }
+    .navMenu .navMenuTour {
+      background-color: var(--blue);
+      height: 17%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly; }
+    .navMenu .navMenuTV {
+      background-color: var(--purple);
+      height: 17%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly; }
+    .navMenu .navMenuCrafts {
+      background-color: var(--green);
+      height: 16%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly; }
+    .navMenu .navMenuSTEM {
+      background-color: var(--yellow3);
+      height: 17%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly; }
+    .navMenu .navMenuVideogames {
+      background-color: var(--red);
+      height: 16%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly; }
+    .navMenu .navMenuLearn {
+      background-color: var(--orange);
+      height: 17%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly; }
+  .navMenu.active {
+    display: flex;
+    margin: 0 auto;
+    position: fixed;
+    transform: translateX(150%);
+    animation: coolanimation 1s ease-in-out forwards; }
+  @keyframes coolanimation {
+    100% {
+      transform: translate(0); } } }
 
 /* home page styling */
 .header {
@@ -916,7 +1124,7 @@ footer {
       text-align: center;
       height: 360px; }
       .zone-sect .sect-words .sect-title, .crafts-sect .sect-words .sect-title, .videogames-sect .sect-words .sect-title {
-        font-size: 64px;
+        font-size: 60px;
         margin: 0 auto; }
       .zone-sect .sect-words .blurb, .crafts-sect .sect-words .blurb, .videogames-sect .sect-words .blurb {
         font-size: 24px;
@@ -957,7 +1165,7 @@ footer {
       top: 50px;
       min-width: 100%; }
       .tv-sect .sect-words .sect-title, .stem-sect .sect-words .sect-title, .learnmore-sect .sect-words .sect-title {
-        font-size: 64px;
+        font-size: 60px;
         margin: 0 auto; }
       .tv-sect .sect-words .blurb, .stem-sect .sect-words .blurb, .learnmore-sect .sect-words .blurb {
         font-size: 24px;
