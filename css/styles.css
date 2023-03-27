@@ -658,7 +658,9 @@ footer {
     max-width: 600px;
     height: 45%;
     margin: 0 auto;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
     justify-content: space-evenly;
     position: relative; }
     .zone-sect .sect-words .sect-title {
@@ -735,7 +737,9 @@ footer {
     max-width: 600px;
     height: 45%;
     margin: 0 auto;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: right;
     justify-content: space-evenly;
     position: relative; }
     .tv-sect .sect-words .sect-title {
@@ -812,7 +816,9 @@ footer {
     max-width: 600px;
     height: 45%;
     margin: 0 auto;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
     justify-content: space-evenly;
     position: relative; }
     .crafts-sect .sect-words .sect-title {
@@ -888,7 +894,9 @@ footer {
     max-width: 600px;
     height: 45%;
     margin: 0 auto;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: right;
     justify-content: space-evenly;
     position: relative; }
     .stem-sect .sect-words .sect-title {
@@ -966,7 +974,9 @@ footer {
     max-width: 600px;
     height: 45%;
     margin: 0 auto;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
     justify-content: space-evenly;
     position: relative; }
     .videogames-sect .sect-words .sect-title {
@@ -1042,7 +1052,9 @@ footer {
     max-width: 600px;
     height: 45%;
     margin: 0 auto;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: right;
     justify-content: space-evenly;
     position: relative; }
     .learnmore-sect .sect-words .sect-title {

@@ -13,10 +13,10 @@
   .sect-words {
     max-width: 600px;
     height: 45%;
-    margin: 0 auto;
-    // display: flex;
-    // grid-template-columns: repeat(1, auto);
-    align-items: center; 
+    margin: 0 auto; 
+    display: flex;
+    flex-direction: column;
+    align-items: left; 
     justify-content: space-evenly;
     position: relative;
     // background-color: red;
@@ -114,13 +114,12 @@
   .sect-words {
     max-width: 600px;
     height: 45%;
-    margin: 0 auto;
-    // display: flex;
-    // grid-template-columns: repeat(1, auto);
-    align-items: center; 
+    margin: 0 auto; 
+    display: flex;
+    flex-direction: column;
+    align-items: right; 
     justify-content: space-evenly;
     position: relative;
-    // background-color: red;
 
     .sect-title {
       font-size: 64px;
@@ -214,13 +213,12 @@
   .sect-words {
     max-width: 600px;
     height: 45%;
-    margin: 0 auto;
-    // display: flex;
-    // grid-template-columns: repeat(1, auto);
-    align-items: center; 
+    margin: 0 auto; 
+    display: flex;
+    flex-direction: column;
+    align-items: left; 
     justify-content: space-evenly;
     position: relative;
-    // background-color: red;
 
     .sect-title {
       font-size: 64px;
@@ -312,13 +310,12 @@
   .sect-words {
     max-width: 600px;
     height: 45%;
-    margin: 0 auto;
-    // display: flex;
-    // grid-template-columns: repeat(1, auto);
-    align-items: center; 
+    margin: 0 auto; 
+    display: flex;
+    flex-direction: column;
+    align-items: right; 
     justify-content: space-evenly;
     position: relative;
-    // background-color: red;
 
     .sect-title {
       font-size: 64px;
@@ -416,13 +413,12 @@
   .sect-words {
     max-width: 600px;
     height: 45%;
-    margin: 0 auto;
-    // display: flex;
-    // grid-template-columns: repeat(1, auto);
-    align-items: center; 
+    margin: 0 auto; 
+    display: flex;
+    flex-direction: column;
+    align-items: left; 
     justify-content: space-evenly;
     position: relative;
-    // background-color: red;
 
     .sect-title {
       font-size: 64px;
@@ -513,13 +509,12 @@
   .sect-words {
     max-width: 600px;
     height: 45%;
-    margin: 0 auto;
-    // display: flex;
-    // grid-template-columns: repeat(1, auto);
-    align-items: center; 
+    margin: 0 auto; 
+    display: flex;
+    flex-direction: column;
+    align-items: right; 
     justify-content: space-evenly;
     position: relative;
-    // background-color: red;
 
     .sect-title {
       font-size: 64px;
