@@ -658,9 +658,7 @@ footer {
     max-width: 600px;
     height: 45%;
     margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: left;
+    align-items: center;
     justify-content: space-evenly;
     position: relative; }
     .zone-sect .sect-words .sect-title {
@@ -737,9 +735,7 @@ footer {
     max-width: 600px;
     height: 45%;
     margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: right;
+    align-items: center;
     justify-content: space-evenly;
     position: relative; }
     .tv-sect .sect-words .sect-title {
@@ -816,9 +812,7 @@ footer {
     max-width: 600px;
     height: 45%;
     margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: left;
+    align-items: center;
     justify-content: space-evenly;
     position: relative; }
     .crafts-sect .sect-words .sect-title {
@@ -894,9 +888,7 @@ footer {
     max-width: 600px;
     height: 45%;
     margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: right;
+    align-items: center;
     justify-content: space-evenly;
     position: relative; }
     .stem-sect .sect-words .sect-title {
@@ -974,9 +966,7 @@ footer {
     max-width: 600px;
     height: 45%;
     margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: left;
+    align-items: center;
     justify-content: space-evenly;
     position: relative; }
     .videogames-sect .sect-words .sect-title {
@@ -1052,9 +1042,7 @@ footer {
     max-width: 600px;
     height: 45%;
     margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: right;
+    align-items: center;
     justify-content: space-evenly;
     position: relative; }
     .learnmore-sect .sect-words .sect-title {
@@ -1136,7 +1124,7 @@ footer {
       text-align: center;
       height: 360px; }
       .zone-sect .sect-words .sect-title, .crafts-sect .sect-words .sect-title, .videogames-sect .sect-words .sect-title {
-        font-size: 60px;
+        font-size: 64px;
         margin: 0 auto; }
       .zone-sect .sect-words .blurb, .crafts-sect .sect-words .blurb, .videogames-sect .sect-words .blurb {
         font-size: 24px;
@@ -1177,7 +1165,7 @@ footer {
       top: 50px;
       min-width: 100%; }
       .tv-sect .sect-words .sect-title, .stem-sect .sect-words .sect-title, .learnmore-sect .sect-words .sect-title {
-        font-size: 60px;
+        font-size: 64px;
         margin: 0 auto; }
       .tv-sect .sect-words .blurb, .stem-sect .sect-words .blurb, .learnmore-sect .sect-words .blurb {
         font-size: 24px;
@@ -1605,47 +1593,6 @@ footer {
     width: 825px;
     height: 400px;
     background-color: var(--purple); }
-
-@media screen and (max-width: 1200px) {
-  .tv-sect {
-    flex-direction: column;
-    height: 770px;
-    width: 100vw;
-    justify-content: center;
-    position: relative; }
-    .tv-sect .sect-img {
-      height: 300px;
-      width: 310px;
-      position: absolute;
-      bottom: 50px; }
-      .tv-sect .sect-img .png-img {
-        height: 300px;
-        width: 310px; }
-    .tv-sect .sect-words {
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      height: 360px;
-      position: absolute;
-      top: 50px;
-      min-width: 100%; }
-      .tv-sect .sect-words .sect-title {
-        font-size: 64px;
-        margin: 0 auto; }
-      .tv-sect .sect-words .blurb {
-        font-size: 24px;
-        width: 90%;
-        margin: 0 auto; }
-      .tv-sect .sect-words a .more-button2 {
-        margin: 0 auto;
-        position: relative; }
-      .tv-sect .sect-words .back-btn {
-        margin-top: 0;
-        margin-bottom: 10px;
-        height: 60px;
-        border-radius: 10px;
-        width: 100px;
-        margin-left: 15px; } }
 
 @media screen and (max-width: 1000px) {
   .more-ep {

@@ -77,61 +77,11 @@
 }
 
 @media screen and (max-width: 1200px) {
-    .tv-sect {
-        flex-direction: column;
-        height: 770px;
-        width: 100vw;
-        justify-content: center;
-        position: relative;
-        .sect-img {
-          height: 300px;
-          width: 310px;
-          position: absolute;
-          bottom: 50px;
-          .png-img{
-            height: 300px;
-          width: 310px;
-          }
-        }
-        .sect-words{
-          // background-color: pink;
-          justify-content: center;
-          align-items: center;
-          text-align: center;
-          height: 360px;
-          position: absolute;
-          top: 50px;
-          min-width: 100%;
     
-          .sect-title{
-            font-size: 64px;
-            margin: 0 auto;
       
-          }
-          .blurb{
-            font-size: 24px;
-            width: 90%;
-            margin: 0 auto;
-      
-          }
-          a{
-            .more-button2{
-              margin: 0 auto;
-              position: relative;
-            }
-          }
-          .back-btn{
-            margin-top: 0;
-            margin-bottom: 10px;
-            height: 60px;
-            border-radius: 10px;
-            width: 100px;
-            margin-left: 15px;
-          }
-        }
-      }
-      
-  }
+  } 
+
+
   @media screen and (max-width: 1000px){
     .more-ep {
         height: 75vh;
