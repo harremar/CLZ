@@ -9,6 +9,8 @@ function route() {
     model.placeholder(pageID);
     console.log("Grabbing:" + pageID);
   }
+
+  $(window).scrollTop(0);
 }
 
 function initListeners() {

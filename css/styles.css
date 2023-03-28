@@ -1309,7 +1309,6 @@ footer {
 .tour2 {
   height: 35vh;
   width: 100vw;
-  background-color: var(--blue);
   box-shadow: 0px 0px 15px black;
   display: flex;
   align-items: center;
@@ -1320,22 +1319,32 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    box-shadow: 0px 0px 15px black; }
+    box-shadow: 0px 0px 15px black;
+    background-color: var(--blue);
+    transition: 0.3s ease; }
     .tour2 .nurse .t2-head {
       color: white;
       font-size: 53px;
       font-family: Mundo-Reg; }
+  .tour2 .nurse:hover {
+    background-color: var(--blue2);
+    cursor: pointer; }
   .tour2 .spec {
     width: 50%;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    box-shadow: 0px 0px 15px black; }
+    box-shadow: 0px 0px 15px black;
+    background-color: var(--blue);
+    transition: 0.3s ease; }
     .tour2 .spec .t2-head2 {
       color: white;
       font-size: 53px;
       font-family: Mundo-Reg; }
+  .tour2 .spec:hover {
+    background-color: var(--blue2);
+    cursor: pointer; }
 
 .video {
   height: 85vh;
@@ -1362,7 +1371,7 @@ footer {
 
 @media screen and (max-width: 1200px) {
   .tour1 {
-    height: 35vh;
+    height: 40vh;
     width: 100vw; }
     .tour1 .t1-header {
       color: var(--blue);
@@ -1388,7 +1397,7 @@ footer {
 
 @media screen and (max-width: 1000px) {
   .tour1 {
-    height: 32vh;
+    height: 40vh;
     width: 100vw;
     display: grid;
     grid-template-columns: repeat(1, auto);
@@ -1406,16 +1415,12 @@ footer {
       margin-top: -10px; }
     .tour1 .t1-subhead {
       color: var(--blue);
-      font-size: 37px;
       margin-top: -25px; }
     .tour1 .t1-outp {
       color: var(--blue);
-      font-size: 33px;
       margin-top: -30px; }
     .tour1 .t1-inp {
-      color: var(--blue);
-      font-size: 33px;
-      margin-top: -45px; }
+      color: var(--blue); }
   .tour2 {
     height: 55vh;
     width: 100vw;
@@ -1448,12 +1453,10 @@ footer {
       height: 320px; } }
 
 @media screen and (max-width: 780px) {
-  .tour1 {
-    height: 32vh; }
-    .tour1 .t1-outp {
-      margin-top: -40px; }
-    .tour1 .t1-inp {
-      margin-top: -55px; }
+  .tour1 .t1-outp {
+    font-size: 30px; }
+  .tour1 .t1-inp {
+    font-size: 30px; }
   .tour2 {
     height: 55vh;
     width: 100vw;
@@ -1487,19 +1490,25 @@ footer {
       height: 300px; } }
 
 @media screen and (max-width: 450px) {
-  .tour1 .t1-header {
-    font-size: 55px; }
-  .tour1 .t1-subhead {
-    font-size: 30px;
-    margin-top: -25px; }
-  .tour1 .t1-outp {
-    color: var(--blue);
-    font-size: 26px;
-    margin-top: -30px; }
-  .tour1 .t1-inp {
-    color: var(--blue);
-    font-size: 26px;
-    margin-top: -42px; }
+  .tour1 {
+    height: 37vh; }
+    .tour1 .t1-header {
+      font-size: 55px; }
+    .tour1 .t1-subhead {
+      font-size: 30px;
+      margin-top: -25px; }
+    .tour1 .t1-outp {
+      color: var(--blue);
+      font-size: 26px;
+      margin-top: -30px;
+      text-align: center;
+      font-size: 24px; }
+    .tour1 .t1-inp {
+      color: var(--blue);
+      font-size: 26px;
+      margin-top: -42px;
+      text-align: center;
+      font-size: 24px; }
   .tour2 {
     height: 55vh;
     width: 100vw;
