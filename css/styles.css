@@ -1501,13 +1501,11 @@ footer {
       color: var(--blue);
       font-size: 26px;
       margin-top: -30px;
-      text-align: center;
       font-size: 24px; }
     .tour1 .t1-inp {
       color: var(--blue);
       font-size: 26px;
       margin-top: -42px;
-      text-align: center;
       font-size: 24px; }
   .tour2 {
     height: 55vh;
@@ -1519,14 +1517,16 @@ footer {
       .tour2 .nurse .t2-head {
         color: white;
         font-size: 44px;
-        font-family: Mundo-Reg; }
+        font-family: Mundo-Reg;
+        text-align: center; }
     .tour2 .spec {
       width: 100%;
       height: 50%; }
       .tour2 .spec .t2-head2 {
         color: white;
         font-size: 44px;
-        font-family: Mundo-Reg; }
+        font-family: Mundo-Reg;
+        text-align: center; }
   .video {
     display: flex;
     flex-direction: column;
@@ -1949,7 +1949,8 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    box-shadow: 0px 2px 8px black; }
+    box-shadow: 0px 2px 8px black;
+    transition: 0.3s ease; }
     .stem2 .contact-box .word-cont {
       display: grid;
       grid-template-columns: repeat(auto, 1);
@@ -1961,7 +1962,8 @@ footer {
         font-family: Mundo-Reg;
         display: flex;
         align-items: center;
-        justify-content: space-evenly; }
+        justify-content: space-evenly;
+        text-align: center; }
       .stem2 .contact-box .word-cont .info {
         color: white;
         font-size: 30px;
@@ -1969,6 +1971,9 @@ footer {
         display: flex;
         align-items: center;
         justify-content: space-evenly; }
+  .stem2 .contact-box:hover {
+    background-color: var(--yellow);
+    cursor: pointer; }
 
 .video.stem {
   height: 85vh;
