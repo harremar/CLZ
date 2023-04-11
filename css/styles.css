@@ -5,6 +5,7 @@
   --black: #222222;
   --red: #E5173E;
   --red2: #BD1F45;
+  --red3: #a21b3a;
   --redfooter: #C00027;
   --purple: #6f008b;
   --purple2: #4D2566;
@@ -1307,15 +1308,16 @@ footer {
     font-family: Mundo-Reg; }
 
 .tour2 {
-  height: 35vh;
+  height: 50vh;
   width: 100vw;
   box-shadow: 0px 0px 15px black;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: space-evenly; }
   .tour2 .nurse {
-    width: 50%;
-    height: 100%;
+    width: 100%;
+    height: 50%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -1330,8 +1332,8 @@ footer {
     background-color: var(--blue2);
     cursor: pointer; }
   .tour2 .spec {
-    width: 50%;
-    height: 100%;
+    width: 100%;
+    height: 50%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -1425,20 +1427,14 @@ footer {
     height: 55vh;
     width: 100vw;
     flex-direction: column; }
-    .tour2 .nurse {
-      width: 100%;
-      height: 50%; }
-      .tour2 .nurse .t2-head {
-        color: white;
-        font-size: 53px;
-        font-family: Mundo-Reg; }
-    .tour2 .spec {
-      width: 100%;
-      height: 50%; }
-      .tour2 .spec .t2-head2 {
-        color: white;
-        font-size: 53px;
-        font-family: Mundo-Reg; }
+    .tour2 .nurse .t2-head {
+      color: white;
+      font-size: 53px;
+      font-family: Mundo-Reg; }
+    .tour2 .spec .t2-head2 {
+      color: white;
+      font-size: 53px;
+      font-family: Mundo-Reg; }
   .video {
     display: flex;
     flex-direction: column;
@@ -1936,7 +1932,7 @@ footer {
       text-align: center; } }
 
 .stem2 {
-  height: 35vh;
+  height: 30vh;
   width: 100vw;
   box-shadow: 0px 0px 15px black;
   display: flex;
@@ -2064,11 +2060,31 @@ footer {
       width: 525px;
       height: 300px; } }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 560px) {
+  .stem2 {
+    height: 54vh;
+    width: 100vw;
+    box-shadow: 0px 0px 15px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly; }
+    .stem2 .contact-box {
+      width: 100%;
+      height: 50%;
+      background-color: var(--yellow2);
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      box-shadow: 0px 2px 8px black; }
+      .stem2 .contact-box .word-cont .title {
+        font-size: 48px; }
+      .stem2 .contact-box .word-cont .info {
+        font-size: 25px; }
   .video.stem {
     display: flex;
     flex-direction: column;
-    height: 75vh; }
+    height: 55vh; }
     .video.stem .video-title.stem {
       font-size: 40px;
       width: 325px;
@@ -2093,12 +2109,14 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    box-shadow: 0px 2px 8px black; }
+    box-shadow: 0px 2px 8px black;
+    transition: 0.3s ease; }
     .games2 .game-box .word-cont {
       display: grid;
       grid-template-columns: repeat(auto, 1);
       align-items: center;
-      justify-content: space-evenly; }
+      justify-content: space-evenly;
+      text-align: center; }
       .games2 .game-box .word-cont .title {
         color: white;
         font-size: 53px;
@@ -2113,9 +2131,12 @@ footer {
         display: flex;
         align-items: center;
         justify-content: space-evenly; }
+  .games2 .game-box:hover {
+    background-color: var(--red3);
+    cursor: pointer; }
 
 .games3 {
-  height: 70vh;
+  min-height: 70vh;
   width: 100vw;
   background-color: white;
   display: flex;
@@ -2137,7 +2158,8 @@ footer {
     .games3 .sect-words .blurb {
       font-size: 18px;
       font-family: Mundo-Reg;
-      width: 520px;
+      max-width: 520px;
+      padding: 15px;
       color: var(--red2); }
   .games3 .sect-img {
     width: 50%;
@@ -2151,6 +2173,103 @@ footer {
     .games3 .sect-img .png-img2 {
       width: 185px;
       height: 245px; }
+
+@media screen and (max-width: 1000px) {
+  .games2 {
+    height: 30vh;
+    width: 100vw;
+    box-shadow: 0px 0px 15px black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; }
+    .games2 .game-box {
+      width: 50%;
+      height: 100%;
+      background-color: var(--red2);
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      box-shadow: 0px 2px 8px black; }
+      .games2 .game-box .word-cont .title {
+        font-size: 48px; }
+      .games2 .game-box .word-cont .info {
+        font-size: 25px; }
+  .games3 {
+    flex-direction: column;
+    position: relative;
+    min-height: 80vh; }
+    .games3 .sect-img {
+      position: absolute;
+      bottom: 20px;
+      height: 400px; }
+    .games3 .sect-words {
+      width: 600px;
+      text-align: center;
+      position: absolute;
+      top: 20px;
+      height: 240px; }
+      .games3 .sect-words .blurb {
+        margin: 0 auto; } }
+
+@media screen and (max-width: 780px) {
+  .games2 {
+    height: 70vh;
+    width: 100vw;
+    box-shadow: 0px 0px 15px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly; }
+    .games2 .game-box {
+      width: 100%;
+      height: 50%;
+      background-color: var(--red2);
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      box-shadow: 0px 2px 8px black; }
+      .games2 .game-box .word-cont .title {
+        font-size: 48px; }
+      .games2 .game-box .word-cont .info {
+        font-size: 25px; }
+  .games3 .sect-words {
+    width: 500px; } }
+
+@media screen and (max-width: 560px) {
+  .games2 {
+    height: 54vh;
+    width: 100vw;
+    box-shadow: 0px 0px 15px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly; }
+    .games2 .game-box {
+      width: 100%;
+      height: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      box-shadow: 0px 2px 8px black; }
+      .games2 .game-box .word-cont .title {
+        font-size: 48px; }
+      .games2 .game-box .word-cont .info {
+        font-size: 25px; }
+  .games3 {
+    min-height: 70vh; }
+    .games3 .sect-img {
+      width: 250px;
+      margin-top: 20px;
+      height: 250px; }
+      .games3 .sect-img .png-img {
+        width: 100%;
+        height: 250px; }
+    .games3 .sect-words {
+      width: 90%;
+      text-align: center;
+      margin: 30px; }
+      .games3 .sect-words .sect-title {
+        font-size: 50px; } }
 
 .about2 {
   height: 35vh;
@@ -2166,7 +2285,8 @@ footer {
     display: grid;
     grid-template-columns: repeat(auto, 1);
     align-items: center;
-    justify-content: space-evenly; }
+    justify-content: space-evenly;
+    text-align: center; }
     .about2 .word-cont .title {
       font-size: 60px;
       font-family: Mundo-Reg;
@@ -2190,3 +2310,38 @@ footer {
     margin-top: 40px; }
   .about3 .blurb {
     color: var(--orange2); }
+
+@media screen and (max-width: 1000px) {
+  .about2 {
+    height: 30vh; } }
+
+@media screen and (max-width: 560px) {
+  .about2 {
+    height: 35vh;
+    width: 100vw;
+    box-shadow: 0px 0px 15px black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: var(--orange2); }
+    .about2 .word-cont {
+      width: 500px;
+      height: 62%;
+      display: grid;
+      grid-template-columns: repeat(auto, 1);
+      align-items: center;
+      justify-content: space-evenly; }
+      .about2 .word-cont .title {
+        font-size: 60px;
+        font-family: Mundo-Reg;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        color: white; }
+      .about2 .word-cont .sub-title {
+        font-size: 25px;
+        font-family: Mundo-Reg;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        color: white; } }
