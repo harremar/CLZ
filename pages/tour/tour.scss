@@ -1,101 +1,168 @@
 // tour section that shows the hours
 .tour1{
-    height: 40vh;
+    height: 80vh;
     width: 100vw;
-    display: grid;
-    grid-template-columns: repeat(1,auto);
+    display: flex;
     align-items: center;
     justify-content: space-evenly;
     box-shadow: 0px 0px 15px black; 
-    .t1-header{
-        color: var(--blue);
-        font-size: 53px;
+    
+    .left-t-1 {
+        width: 50%;
+        height: 100%;
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: space-evenly;
-        margin-top: 25px;
-        font-family: Mundo-Reg;
-        margin-top: -10px;
+        
+        .side-title {
+            font-family: Mundo-reg;
+            font-size: 50px;
+            color: var(--blue);
+            width: 350px;
+            height: 60px;
+        }
+        .info-boxes {
+            display: flex;
+            flex-direction: column;
+            align-items: start; 
+            justify-content: space-evenly;
+            width: 350px;
+            height: 120px;
+
+            .info-title {
+                font-size: 28px;
+                font-family: Mundo-reg;
+                color: var(--blue);
+                width: 300px;
+                height: 30px;
+                padding-bottom: 45px;
+                font-weight: bold;
+            }
+            .hrs-txt {
+                font-size: 24px;
+                font-family: Mundo-reg;
+                color: var(--blue);
+                width: 300px;
+                height: 30px;
+                font-weight: 300;
+            }
+            .who-txt {
+                font-size: 22px;
+                font-family: Mundo-reg;
+                color: var(--blue);
+                width: 375px;
+                height: 30px; 
+            }
+            .extra-txt {
+                width: 415px;
+                font-size: 20px;
+                font-family: Mundo-reg;
+                color: var(--blue);
+                font-style: italic;
+            }
+        }
     }
-    .t1-subhead{
-        color: var(--blue);
-        font-size: 28px;
-        margin-top: -25px;
+    .right-t-1 {
+        width: 50%;
+        height: 100%;
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: space-evenly;
-        font-weight: bold;
-        font-family: Mundo-Reg;
-    }
-    .t1-outp{
-        color: var(--blue);
-        font-size: 24px;
-        margin-top: -30px;
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        font-family: Mundo-Reg;
-    }
-    .t1-inp{
-        color: var(--blue);
-        font-size: 24px;
-        margin-top: -45px;
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        font-family: Mundo-Reg;
+
+        .pict {
+            width: 450px;
+            height: 230px;
+            background-color: var(--blue);
+        }
+        .contact-nurse {
+            width: 450px;
+            height: 140px;
+            background-color: var(--blue);
+        }
     }
 }
 // tour section for contacting people
 .tour2 { 
-    height: 50vh;
+    height: 70vh;
     width: 100vw;
-    box-shadow: 0px 0px 15px black;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    
-    .nurse {
-        width: 100%;
-        height: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        box-shadow: 0px 0px 15px black;
-        background-color: var(--blue);
-        transition: 0.3s ease;
-        
-        .t2-head{
-            color: white;
-            font-size: 53px;
-            font-family: Mundo-Reg;
-        }
-    } 
-    .nurse:hover{
-        background-color: var(--blue2);
-        cursor: pointer;
-    }
-    .spec {
-        width: 100%;
-        height: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        box-shadow: 0px 0px 15px black;
-        background-color: var(--blue);
-        transition: 0.3s ease;
-        
-        .t2-head2{ 
-            color: white;
-            font-size: 53px;
-            font-family: Mundo-Reg;
-        }
-    }
-    .spec:hover{
-        background-color: var(--blue2);
-        cursor: pointer;
+    box-shadow: 0px 0px 15px black; 
+    background-color: var(--blue);
 
+    .left-t-2 {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        
+        .side-title {
+            font-family: Mundo-reg;
+            font-size: 50px;
+            color: var(--white);
+            width: 350px;
+            height: 60px;
+        }
+        .info-boxes {
+            display: flex;
+            flex-direction: column;
+            align-items: start; 
+            justify-content: space-evenly;
+            width: 350px;
+            height: 120px;
+
+            .info-title {
+                font-size: 28px;
+                font-family: Mundo-reg;
+                color: var(--white);
+                width: 300px;
+                height: 30px;
+                padding-bottom: 45px;
+                font-weight: bold;
+            }
+            .hrs-txt {
+                font-size: 24px;
+                font-family: Mundo-reg;
+                color: var(--white);
+                width: 300px;
+                height: 30px;
+                font-weight: 300;
+            }
+            .who-txt {
+                font-size: 22px;
+                font-family: Mundo-reg;
+                color: var(--white);
+                width: 375px;
+                height: 30px; 
+            }
+            .extra-txt {
+                width: 415px;
+                font-size: 20px;
+                font-family: Mundo-reg;
+                color: var(--white);
+                font-style: italic;
+            }
+        }
+    }
+    .right-t-2 {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+
+        .pict {
+            width: 450px;
+            height: 230px;
+            background-color: var(--white);
+        }
+        
     }
 }
 // video section for showing off video
@@ -127,106 +194,168 @@
 } 
 
 @media screen and (max-width: 1200px) {
-    .tour1{
-        height: 40vh;
-        width: 100vw;
-        
-        .t1-header{
-            color: var(--blue);
-            font-size: 58px;
-            display: flex;
-            align-items: center;
-            justify-content: space-evenly;
-            margin-top: 25px;
-            font-family: Mundo-Reg;
-            margin-top: -10px;
-        }
-        .t1-subhead{
-            color: var(--blue);
-            font-size: 33px;
-            margin-top: -25px;
-            
-        }
-        .t1-outp{
-            color: var(--blue);
-            font-size: 29px;
-            margin-top: -30px;
-            
-        }
-        .t1-inp{
-            color: var(--blue);
-            font-size: 29px;
-            margin-top: -45px; 
-            
-        }
-    }
+    
       
   }
   @media screen and (max-width: 1000px){
     .tour1{
-        height: 40vh;
+        height: 80vh;
         width: 100vw;
-        display: grid;
-        grid-template-columns: repeat(1,auto);
-        align-items: center;
-        justify-content: space-evenly;
-        box-shadow: 0px 0px 15px black; 
-        .t1-header{
-            color: var(--blue);
-            font-size: 62px;
+        display: flex;
+        
+        
+        .left-t-1 {
+            width: 50%;
+            height: 100%;
             display: flex;
+            flex-direction: column;
             align-items: center;
             justify-content: space-evenly;
-            margin-top: 25px;
-            font-family: Mundo-Reg;
-            margin-top: -10px;
-        }
-        .t1-subhead{
-            color: var(--blue);
-            // font-size: 37px;
-            margin-top: -25px;
             
+            .side-title {
+                font-family: Mundo-reg;
+                font-size: 50px;
+                color: var(--blue);
+                width: 300px;
+                height: 60px;
+            }
+            .info-boxes {
+                display: flex;
+                flex-direction: column;
+                align-items: start; 
+                justify-content: space-evenly;
+                width: 300px;
+                height: 120px;
+    
+                .info-title {
+                    font-size: 28px;
+                    font-family: Mundo-reg;
+                    color: var(--blue);
+                    width: 250px;
+                    height: 30px;
+                    padding-bottom: 45px;
+                    font-weight: bold;
+                }
+                .hrs-txt {
+                    font-size: 24px;
+                    font-family: Mundo-reg;
+                    color: var(--blue);
+                    width: 250px;
+                    height: 30px;
+                    font-weight: 300;
+                }
+                .who-txt {
+                    font-size: 22px;
+                    font-family: Mundo-reg;
+                    color: var(--blue);
+                    width: 325px;
+                    height: 30px; 
+                }
+                .extra-txt {
+                    width: 365px;
+                    font-size: 20px;
+                    font-family: Mundo-reg;
+                    color: var(--blue);
+                    font-style: italic;
+                }
+            }
         }
-        .t1-outp{
-            color: var(--blue);
-            // font-size: 33px;
-            margin-top: -30px;
-            
-        }
-        .t1-inp{
-            color: var(--blue);
-            // font-size: 33px;
-            // margin-top: -45px; 
-            
+        .right-t-1 {
+            width: 50%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+    
+            .pict {
+                width: 375px;
+                height: 230px;
+                background-color: var(--blue);
+            }
+            .contact-nurse {
+                width: 375px;
+                height: 140px;
+                background-color: var(--blue);
+            }
         }
     }
-    .tour2 {
-        height: 55vh;
+    .tour2 { 
+        height: 70vh;
         width: 100vw;
-        flex-direction: column;
+        display: flex;
         
-        .nurse {
-            // width: 100%;
-            // height: 50%;
+    
+        .left-t-2 {
+            width: 50%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
             
-            // box-shadow: 0px 0px 15px black;
-            
-            .t2-head{
-                color: white;
-                font-size: 53px;
-                font-family: Mundo-Reg;
+            .side-title {
+                font-family: Mundo-reg;
+                font-size: 50px;
+                color: var(--white);
+                width: 300px;
+                height: 60px;
             }
-        } 
-        .spec {
-            // width: 100%;
-            // height: 50%;
-            
-            
-            .t2-head2{ 
-                color: white;
-                font-size: 53px;
-                font-family: Mundo-Reg;
+            .info-boxes {
+                display: flex;
+                flex-direction: column;
+                align-items: start; 
+                justify-content: space-evenly;
+                width: 300px;
+                height: 120px;
+    
+                .info-title {
+                    font-size: 28px;
+                    font-family: Mundo-reg;
+                    color: var(--white);
+                    width: 250px;
+                    height: 30px;
+                    padding-bottom: 45px;
+                    font-weight: bold;
+                }
+                .hrs-txt {
+                    font-size: 24px;
+                    font-family: Mundo-reg;
+                    color: var(--white);
+                    width: 250px;
+                    height: 30px;
+                    font-weight: 300;
+                }
+                .who-txt {
+                    font-size: 22px;
+                    font-family: Mundo-reg;
+                    color: var(--white);
+                    width: 325px;
+                    height: 30px; 
+                }
+                .extra-txt {
+                    width: 365px;
+                    font-size: 20px;
+                    font-family: Mundo-reg;
+                    color: var(--white);
+                    font-style: italic;
+                }
             }
+        }
+        .right-t-2 {
+            width: 50%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+    
+            .pict {
+                width: 375px;
+                height: 230px;
+                background-color: var(--white);
+            }
+            
         }
     }
     .video {
@@ -257,53 +386,157 @@
   
   @media screen and (max-width: 780px) {
     .tour1{
-        // height: 36vh;
-       
-        .t1-header{
-           
+        height: 80vh;
+        width: 100vw;
+        display: flex;
+        
+        
+        .left-t-1 {
+            width: 50%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+            
+            .side-title {
+                font-family: Mundo-reg;
+                font-size: 47px;
+                color: var(--blue);
+                width: 250px;
+                height: 60px;
+            }
+            .info-boxes {
+                display: flex;
+                flex-direction: column;
+                align-items: start; 
+                justify-content: space-evenly;
+                width: 250px;
+                height: 120px;
+    
+                .info-title {
+                    font-size: 25px;
+                    font-family: Mundo-reg;
+                    color: var(--blue);
+                    width: 200px;
+                    height: 30px;
+                    padding-bottom: 45px;
+                    font-weight: bold;
+                }
+                .hrs-txt {
+                    font-size: 21px;
+                    font-family: Mundo-reg;
+                    color: var(--blue);
+                    width: 200px;
+                    height: 30px;
+                    font-weight: 300;
+                }
+                .who-txt {
+                    font-size: 19px;
+                    font-family: Mundo-reg;
+                    color: var(--blue);
+                    width: 275px;
+                    height: 30px; 
+                }
+                .extra-txt {
+                    width: 315px;
+                    font-size: 17px;
+                    font-family: Mundo-reg;
+                    color: var(--blue);
+                    font-style: italic;
+                }
+            }
         }
-        .t1-subhead{
-            
-            
-        }
-        .t1-outp{
-           font-size: 30px;
-            // margin-top: -35px;
-            
-        }
-        .t1-inp{
-            font-size: 30px;
-            // margin-top: -55px; 
-            
+        .right-t-1 {
+            width: 50%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+    
+            .pict {
+                width: 325px;
+                height: 230px;
+                background-color: var(--blue);
+            }
+            .contact-nurse {
+                width: 325px; 
+                height: 140px;
+                background-color: var(--blue);
+            }
         }
     }
-    .tour2 {
-        height: 55vh;
+    .tour2 { 
+        height: 70vh;
         width: 100vw;
-        flex-direction: column;
+        display: flex;
         
-        .nurse {
-            width: 100%;
-            height: 50%;
+    
+        .left-t-2 {
+            width: 50%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
             
-            // box-shadow: 0px 0px 15px black;
-            
-            .t2-head{
-                color: white;
-                font-size: 49px;
-                font-family: Mundo-Reg;
+            .side-title {
+                font-family: Mundo-reg;
+                font-size: 47px;
+                color: var(--white);
+                width: 250px;
+                height: 60px;
             }
-        } 
-        .spec {
-            width: 100%;
-            height: 50%;
-            
-            
-            .t2-head2{ 
-                color: white;
-                font-size: 49px;
-                font-family: Mundo-Reg;
+            .info-boxes {
+                display: flex;
+                flex-direction: column;
+                align-items: start; 
+                justify-content: space-evenly;
+                width: 250px;
+                height: 120px;
+    
+                .info-title {
+                    font-size: 25px;
+                    font-family: Mundo-reg;
+                    color: var(--white);
+                    width: 200px;
+                    height: 30px;
+                    padding-bottom: 45px;
+                    font-weight: bold;
+                }
+                .hrs-txt {
+                    font-size: 21px;
+                    font-family: Mundo-reg;
+                    color: var(--white);
+                    width: 200px;
+                    height: 30px;
+                    font-weight: 300;
+                }
+                .who-txt {
+                    font-size: 19px;
+                    font-family: Mundo-reg;
+                    color: var(--white);
+                    width: 275px;
+                    height: 30px; 
+                }
+                
             }
+        }
+        .right-t-2 {
+            width: 50%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+    
+            .pict {
+                width: 325px;
+                height: 230px;
+                background-color: var(--white);
+            }
+            
         }
     }
     .video {
@@ -366,7 +599,7 @@
         
         .nurse {
             width: 100%;
-            height: 50%;
+            height: 100%;
             
             // box-shadow: 0px 0px 15px black;
             
