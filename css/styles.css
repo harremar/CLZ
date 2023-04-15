@@ -1720,14 +1720,14 @@ footer {
         font-family: Mundo-reg;
         font-size: 47px;
         color: var(--blue);
-        width: 250px;
+        width: 300px;
         height: 60px; }
       .tour1 .left-t-1 .info-boxes {
         display: flex;
         flex-direction: column;
         align-items: start;
         justify-content: space-evenly;
-        width: 250px;
+        width: 300px;
         height: 120px; }
         .tour1 .left-t-1 .info-boxes .info-title {
           font-size: 25px;
@@ -1787,14 +1787,14 @@ footer {
         font-family: Mundo-reg;
         font-size: 47px;
         color: var(--white);
-        width: 250px;
+        width: 300px;
         height: 60px; }
       .tour2 .left-t-2 .info-boxes {
         display: flex;
         flex-direction: column;
         align-items: start;
         justify-content: space-evenly;
-        width: 250px;
+        width: 300px;
         height: 120px; }
         .tour2 .left-t-2 .info-boxes .info-title {
           font-size: 25px;
