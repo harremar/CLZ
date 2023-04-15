@@ -1705,42 +1705,135 @@ footer {
 
 @media screen and (max-width: 450px) {
   .tour1 {
-    height: 37vh; }
-    .tour1 .t1-header {
-      font-size: 55px; }
-    .tour1 .t1-subhead {
-      font-size: 30px;
-      margin-top: -25px; }
-    .tour1 .t1-outp {
-      color: var(--blue);
-      font-size: 26px;
-      margin-top: -30px;
-      font-size: 24px; }
-    .tour1 .t1-inp {
-      color: var(--blue);
-      font-size: 26px;
-      margin-top: -42px;
-      font-size: 24px; }
-  .tour2 {
-    height: 55vh;
+    height: 100vh;
     width: 100vw;
+    display: flex;
     flex-direction: column; }
-    .tour2 .nurse {
+    .tour1 .left-t-1 {
       width: 100%;
-      height: 100%; }
-      .tour2 .nurse .t2-head {
-        color: white;
-        font-size: 44px;
-        font-family: Mundo-Reg;
-        text-align: center; }
-    .tour2 .spec {
+      height: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly; }
+      .tour1 .left-t-1 .side-title {
+        font-family: Mundo-reg;
+        font-size: 47px;
+        color: var(--blue);
+        width: 250px;
+        height: 60px; }
+      .tour1 .left-t-1 .info-boxes {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: space-evenly;
+        width: 250px;
+        height: 120px; }
+        .tour1 .left-t-1 .info-boxes .info-title {
+          font-size: 25px;
+          font-family: Mundo-reg;
+          color: var(--blue);
+          width: 200px;
+          height: 30px;
+          font-weight: bold; }
+        .tour1 .left-t-1 .info-boxes .hrs-txt {
+          font-size: 21px;
+          font-family: Mundo-reg;
+          color: var(--blue);
+          width: 200px;
+          height: 30px;
+          font-weight: 300; }
+        .tour1 .left-t-1 .info-boxes .who-txt {
+          font-size: 19px;
+          font-family: Mundo-reg;
+          color: var(--blue);
+          width: 275px;
+          height: 30px;
+          padding-bottom: 60px; }
+        .tour1 .left-t-1 .info-boxes .extra-txt {
+          width: 315px;
+          font-size: 17px;
+          font-family: Mundo-reg;
+          color: var(--blue);
+          font-style: italic; }
+    .tour1 .right-t-1 {
       width: 100%;
-      height: 50%; }
-      .tour2 .spec .t2-head2 {
-        color: white;
-        font-size: 44px;
-        font-family: Mundo-Reg;
-        text-align: center; }
+      height: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly; }
+      .tour1 .right-t-1 .pict {
+        width: 325px;
+        height: 180px;
+        background-color: var(--blue); }
+      .tour1 .right-t-1 .contact-nurse {
+        width: 325px;
+        height: 90px;
+        background-color: var(--blue); }
+  .tour2 {
+    height: 85vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column; }
+    .tour2 .left-t-2 {
+      width: 100%;
+      height: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly; }
+      .tour2 .left-t-2 .side-title {
+        font-family: Mundo-reg;
+        font-size: 47px;
+        color: var(--white);
+        width: 250px;
+        height: 60px; }
+      .tour2 .left-t-2 .info-boxes {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: space-evenly;
+        width: 250px;
+        height: 120px; }
+        .tour2 .left-t-2 .info-boxes .info-title {
+          font-size: 25px;
+          font-family: Mundo-reg;
+          color: var(--white);
+          width: 200px;
+          height: 30px;
+          font-weight: bold; }
+        .tour2 .left-t-2 .info-boxes .hrs-txt {
+          font-size: 21px;
+          font-family: Mundo-reg;
+          color: var(--white);
+          width: 200px;
+          height: 30px;
+          font-weight: 300; }
+        .tour2 .left-t-2 .info-boxes .who-txt {
+          font-size: 19px;
+          font-family: Mundo-reg;
+          color: var(--white);
+          width: 275px;
+          height: 30px;
+          padding-bottom: 60px; }
+        .tour2 .left-t-2 .info-boxes .extra-txt {
+          width: 315px;
+          font-size: 17px;
+          font-family: Mundo-reg;
+          color: var(--white);
+          font-style: italic; }
+    .tour2 .right-t-2 {
+      width: 100%;
+      height: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly; }
+      .tour2 .right-t-2 .pict {
+        width: 325px;
+        height: 180px;
+        background-color: var(--white); }
   .video {
     display: flex;
     flex-direction: column;
