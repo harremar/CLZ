@@ -2286,45 +2286,74 @@ footer {
       font-size: 50px;
       text-align: center; } }
 
-.stem2 {
-  height: 30vh;
-  width: 100vw;
-  box-shadow: 0px 0px 15px black;
+.robot-sect {
+  width: 100%;
+  height: 660px;
+  background-color: white;
+  box-shadow: 0px 2px 15px black;
   display: flex;
   align-items: center;
   justify-content: space-evenly; }
-  .stem2 .contact-box {
-    width: 50%;
-    height: 100%;
-    background-color: var(--yellow2);
+  .robot-sect .robotcontent {
+    width: 80%;
+    height: 400px;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    box-shadow: 0px 2px 8px black;
-    transition: 0.3s ease; }
-    .stem2 .contact-box .word-cont {
-      display: grid;
-      grid-template-columns: repeat(auto, 1);
-      align-items: center;
-      justify-content: space-evenly; }
-      .stem2 .contact-box .word-cont .title {
-        color: white;
-        font-size: 53px;
-        font-family: Mundo-Reg;
+    justify-content: space-between; }
+    .robot-sect .robotcontent .robotleft {
+      padding: 15px;
+      width: 600px;
+      height: 100%; }
+      .robot-sect .robotcontent .robotleft h1 {
+        color: var(--yellow2);
+        font-size: 50px;
+        font-family: Mundo-Reg; }
+      .robot-sect .robotcontent .robotleft p {
+        font-family: Arial, Helvetica, sans-serif; }
+    .robot-sect .robotcontent .robotright {
+      width: 420px;
+      height: 100%; }
+      .robot-sect .robotcontent .robotright .robotimg {
+        width: 420px;
+        height: 300px;
+        background-color: black;
+        margin: 0 auto; }
+      .robot-sect .robotcontent .robotright .robotbutton {
+        width: 300px;
+        height: 80px;
+        background-color: var(--yellow2);
+        margin: 10px auto;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
-        text-align: center; }
-      .stem2 .contact-box .word-cont .info {
         color: white;
-        font-size: 30px;
+        font-size: 24px;
         font-family: Mundo-Reg;
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly; }
-  .stem2 .contact-box:hover {
-    background-color: var(--yellow);
-    cursor: pointer; }
+        padding: 20px;
+        border-radius: 10px; }
+
+.sproject-sect {
+  width: 100%;
+  height: 700px;
+  background-color: var(--yellow2);
+  box-shadow: 0px 2px 15px black;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly; }
+  .sproject-sect .sprojectcontent {
+    width: 80%;
+    height: 450px; }
+    .sproject-sect .sprojectcontent h1 {
+      color: white;
+      font-size: 50px;
+      font-family: Mundo-Reg; }
+    .sproject-sect .sprojectcontent p {
+      color: white;
+      font-family: Arial, Helvetica, sans-serif; }
+    .sproject-sect .sprojectcontent h2 {
+      color: white;
+      font-size: 24px;
+      font-family: Mundo-Reg; }
 
 .video.stem {
   height: 85vh;
@@ -2348,25 +2377,20 @@ footer {
     background-color: var(--yellow2); }
 
 @media screen and (max-width: 1000px) {
-  .stem2 {
-    height: 35vh;
-    width: 100vw;
-    box-shadow: 0px 0px 15px black;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly; }
-    .stem2 .contact-box {
-      width: 50%;
-      height: 100%;
-      background-color: var(--yellow2);
-      display: flex;
-      align-items: center;
-      justify-content: space-evenly;
-      box-shadow: 0px 2px 8px black; }
-      .stem2 .contact-box .word-cont .title {
-        font-size: 48px; }
-      .stem2 .contact-box .word-cont .info {
-        font-size: 25px; }
+  .robot-sect {
+    height: 750px; }
+    .robot-sect .robotcontent {
+      flex-direction: column;
+      height: 640px; }
+      .robot-sect .robotcontent .robotleft {
+        width: 450px; }
+  .sproject-sect {
+    width: 100%;
+    height: 600px; }
+    .sproject-sect .sprojectcontent {
+      width: 450px;
+      padding: 15px;
+      height: 450px; }
   .video.stem {
     display: flex;
     flex-direction: column;
@@ -2381,26 +2405,6 @@ footer {
       height: 320px; } }
 
 @media screen and (max-width: 780px) {
-  .stem2 {
-    height: 70vh;
-    width: 100vw;
-    box-shadow: 0px 0px 15px black;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly; }
-    .stem2 .contact-box {
-      width: 100%;
-      height: 50%;
-      background-color: var(--yellow2);
-      display: flex;
-      align-items: center;
-      justify-content: space-evenly;
-      box-shadow: 0px 2px 8px black; }
-      .stem2 .contact-box .word-cont .title {
-        font-size: 48px; }
-      .stem2 .contact-box .word-cont .info {
-        font-size: 25px; }
   .video.stem {
     display: flex;
     flex-direction: column;
@@ -2416,26 +2420,36 @@ footer {
       height: 300px; } }
 
 @media screen and (max-width: 560px) {
-  .stem2 {
-    height: 54vh;
-    width: 100vw;
-    box-shadow: 0px 0px 15px black;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly; }
-    .stem2 .contact-box {
-      width: 100%;
-      height: 50%;
-      background-color: var(--yellow2);
-      display: flex;
-      align-items: center;
-      justify-content: space-evenly;
-      box-shadow: 0px 2px 8px black; }
-      .stem2 .contact-box .word-cont .title {
-        font-size: 48px; }
-      .stem2 .contact-box .word-cont .info {
-        font-size: 25px; }
+  .robot-sect {
+    height: 600px; }
+    .robot-sect .robotcontent {
+      width: 300px;
+      height: 500px; }
+      .robot-sect .robotcontent .robotleft {
+        width: 100%;
+        padding: 0; }
+        .robot-sect .robotcontent .robotleft h1 {
+          font-size: 35px; }
+        .robot-sect .robotcontent .robotleft p {
+          font-size: 14px; }
+      .robot-sect .robotcontent .robotright {
+        width: 100%;
+        height: 100%; }
+        .robot-sect .robotcontent .robotright .robotimg {
+          width: 300px;
+          height: 180px; }
+  .sproject-sect {
+    width: 100%;
+    height: 550px; }
+    .sproject-sect .sprojectcontent {
+      width: 300px;
+      height: 450px; }
+      .sproject-sect .sprojectcontent h1 {
+        font-size: 35px; }
+      .sproject-sect .sprojectcontent p {
+        font-size: 14px; }
+      .sproject-sect .sprojectcontent h2 {
+        font-size: 20px; }
   .video.stem {
     display: flex;
     flex-direction: column;
