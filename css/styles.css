@@ -1848,154 +1848,198 @@ footer {
       width: 325px;
       height: 200px; } }
 
-.more-ep {
-  height: 45vh;
-  width: 100vw;
-  background-color: var(--purple);
-  box-shadow: 0px 0px 15px black;
+.upperbox {
+  background-image: linear-gradient(to right, rgba(31, 2, 117, 0.9), rgba(195, 0, 255, 0.7)), url(../../css/img/bingo.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 600px;
   display: flex;
   align-items: center;
   justify-content: space-evenly; }
-  .more-ep a {
-    text-decoration: none; }
-  .more-ep .sect-words2 {
-    width: 40%;
-    height: 100%;
+  .upperbox .infoholder {
+    width: 80%;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    position: relative;
-    margin-left: 150px;
-    font-family: Mundo-Reg; }
-  .more-ep .v-more {
-    width: 550px;
-    height: 100px;
-    border: 2px solid white;
-    color: white;
-    border-radius: 20px;
-    font-size: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    font-family: Mundo-Reg; }
-  .more-ep .sect-img {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly; }
-    .more-ep .sect-img .png-img2 {
-      width: 185px;
-      height: 245px; }
+    justify-content: space-between; }
+    .upperbox .infoholder .tv5logo {
+      background-image: url(../../css/img/tv5-logo.png);
+      width: 200px;
+      height: 275px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+    .upperbox .infoholder .wordcontent {
+      height: 300px;
+      max-width: 800px;
+      text-align: right; }
+      .upperbox .infoholder .wordcontent h6 {
+        color: white;
+        font-size: 20px;
+        font-family: Mundo-Reg;
+        padding: 0;
+        margin-bottom: -20px; }
+      .upperbox .infoholder .wordcontent h1 {
+        font-size: 90px;
+        font-family: Mundo-Reg;
+        color: white; }
+      .upperbox .infoholder .wordcontent h2 {
+        font-size: 70px;
+        font-family: Mundo-Reg;
+        color: white; }
+      .upperbox .infoholder .wordcontent p {
+        font-size: 24px;
+        font-family: Mundo-Reg;
+        color: white; }
 
-.video.show {
-  height: 85vh;
-  width: 100vw;
-  display: grid;
-  grid-template-columns: repeat(1, auto);
+.dayinformationpurple {
+  width: 100%;
+  min-height: 420px;
+  padding: 5px;
+  background-color: var(--purple2);
+  display: flex;
   align-items: center;
-  justify-content: space-evenly;
-  box-shadow: 0px 0px 15px black;
-  background-color: white; }
-  .video.show .video-title.show {
-    color: var(--purple);
-    font-size: 63px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    font-family: Mundo-Reg;
-    padding-bottom: 20px; }
-  .video.show .mediaplayer.show {
-    width: 825px;
-    height: 400px;
-    background-color: var(--purple); }
+  justify-content: space-evenly; }
+  .dayinformationpurple .infoholder {
+    width: 80%; }
+    .dayinformationpurple .infoholder h1 {
+      font-size: 70px;
+      font-family: Mundo-Reg;
+      color: white; }
+    .dayinformationpurple .infoholder p {
+      font-size: 35px;
+      font-family: Mundo-Reg;
+      color: white; }
+
+.dayinformationwhite {
+  width: 100%;
+  min-height: 420px;
+  padding: 5px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly; }
+  .dayinformationwhite .infoholder {
+    width: 80%;
+    text-align: right; }
+    .dayinformationwhite .infoholder h1 {
+      font-size: 70px;
+      font-family: Mundo-Reg;
+      color: var(--purple2); }
+    .dayinformationwhite .infoholder p {
+      font-size: 35px;
+      font-family: Mundo-Reg;
+      color: var(--purple2); }
+
+@media screen and (max-width: 1200px) {
+  .upperbox .infoholder .wordcontent {
+    height: 420px;
+    max-width: 450px; } }
 
 @media screen and (max-width: 1000px) {
-  .more-ep {
-    height: 75vh;
-    width: 100vw;
-    flex-direction: column-reverse; }
-    .more-ep .sect-words2 {
-      margin-left: 0px; }
-    .more-ep .sect-img {
-      padding-top: 35px; }
-  .video.show {
-    display: flex;
-    flex-direction: column;
-    height: 75vh; }
-    .video.show .video-title.show {
-      color: var(--purple);
-      font-size: 55px;
-      font-family: Mundo-Reg;
-      text-align: center;
-      padding-bottom: 45px; }
-    .video.show .mediaplayer.show {
-      width: 625px;
-      height: 320px;
-      background-color: var(--purple); } }
+  .upperbox {
+    width: 100%;
+    height: 800px; }
+    .upperbox .infoholder {
+      width: 700px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between; }
+      .upperbox .infoholder .tv5logo {
+        width: 220px;
+        height: 300px; }
+      .upperbox .infoholder .wordcontent {
+        height: 500px;
+        width: 400px;
+        text-align: right; } }
 
 @media screen and (max-width: 780px) {
-  .more-ep {
-    height: 75vh;
-    width: 100vw;
-    flex-direction: column-reverse; }
-    .more-ep .sect-words2 {
-      margin-left: 0px; }
-    .more-ep .v-more {
-      width: 450px;
-      font-size: 45px; }
-    .more-ep .sect-img {
-      padding-top: 55px; }
-      .more-ep .sect-img .png-img2 {
-        width: 145px;
-        height: 205px; }
-  .video.show {
-    display: flex;
+  .upperbox .infoholder {
     flex-direction: column;
-    height: 85vh; }
-    .video.show .video-title.show {
-      color: var(--purple);
-      font-size: 55px;
-      width: 425px;
-      font-family: Mundo-Reg;
-      text-align: center;
-      padding-bottom: 45px; }
-    .video.show .mediaplayer.show {
-      width: 525px;
-      height: 300px;
-      background-color: var(--purple); } }
-
-@media screen and (max-width: 450px) {
-  .more-ep {
-    height: 75vh;
-    width: 100vw;
-    flex-direction: column-reverse; }
-    .more-ep .sect-words2 {
-      margin-left: 0px; }
-    .more-ep .v-more {
-      width: 300px;
-      font-size: 40px;
+    height: 600px;
+    width: 90%; }
+    .upperbox .infoholder .tv5logo {
+      width: 100px;
+      height: 140px;
+      margin-bottom: 20px; }
+    .upperbox .infoholder .wordcontent {
+      height: 450px;
+      min-width: 100%;
       text-align: center; }
-    .more-ep .sect-img {
-      padding-top: 55px; }
-      .more-ep .sect-img .png-img2 {
-        width: 125px;
-        height: 165px; }
-  .video.show {
-    display: flex;
-    flex-direction: column;
-    height: 75vh; }
-    .video.show .video-title.show {
-      color: var(--purple);
-      font-size: 40px;
-      width: 325px;
-      font-family: Mundo-Reg;
-      text-align: center;
-      padding-bottom: 35px; }
-    .video.show .mediaplayer.show {
-      width: 325px;
-      height: 200px;
-      background-color: var(--purple); } }
+      .upperbox .infoholder .wordcontent h6 {
+        margin-bottom: 0; }
+  .dayinformationpurple {
+    width: 100%;
+    min-height: 320px; }
+    .dayinformationpurple .infoholder {
+      width: 90%; }
+      .dayinformationpurple .infoholder h1 {
+        font-size: 50px; }
+      .dayinformationpurple .infoholder p {
+        font-size: 24px; }
+  .dayinformationwhite {
+    width: 100%;
+    min-height: 320px; }
+    .dayinformationwhite .infoholder {
+      width: 90%;
+      text-align: right; }
+      .dayinformationwhite .infoholder h1 {
+        font-size: 50px; }
+      .dayinformationwhite .infoholder p {
+        font-size: 24px; } }
+
+@media screen and (max-width: 500px) {
+  .upperbox {
+    height: 600px; }
+    .upperbox .infoholder {
+      flex-direction: column;
+      height: 500px;
+      width: 90%; }
+      .upperbox .infoholder .tv5logo {
+        width: 100px;
+        height: 140px;
+        margin-bottom: 20px; }
+      .upperbox .infoholder .wordcontent {
+        height: 350px;
+        width: 350px;
+        text-align: center; }
+        .upperbox .infoholder .wordcontent h6 {
+          color: white;
+          font-size: 14px;
+          font-family: Mundo-Reg;
+          padding: 0; }
+        .upperbox .infoholder .wordcontent h1 {
+          font-size: 70px;
+          font-family: Mundo-Reg;
+          color: white; }
+        .upperbox .infoholder .wordcontent h2 {
+          font-size: 50px;
+          font-family: Mundo-Reg;
+          color: white; }
+        .upperbox .infoholder .wordcontent p {
+          font-size: 18px;
+          font-family: Mundo-Reg;
+          color: white; }
+  .dayinformationpurple {
+    width: 100%;
+    min-height: 250px; }
+    .dayinformationpurple .infoholder {
+      width: 90%; }
+      .dayinformationpurple .infoholder h1 {
+        font-size: 40px; }
+      .dayinformationpurple .infoholder p {
+        font-size: 18px; }
+  .dayinformationwhite {
+    width: 100%;
+    min-height: 250px; }
+    .dayinformationwhite .infoholder {
+      width: 90%;
+      text-align: right; }
+      .dayinformationwhite .infoholder h1 {
+        font-size: 40px; }
+      .dayinformationwhite .infoholder p {
+        font-size: 18px; } }
 
 .crafts2 {
   height: 40vh;
