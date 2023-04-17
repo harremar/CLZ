@@ -48,25 +48,24 @@
 //         cursor: pointer;
 //     }
 // }
-
-.robot-sect {
+.print-sect {
     width: 100%;
-    height: 660px;
+    height: 600px;
     background-color: white;
     box-shadow: 0px 2px 15px black;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     
-    .robotcontent{
+    .printcontent{
         width: 80%;
-        height: 400px;
+        height: 300px;
         // background-color: red;
         display: flex;
         align-items: center;
         justify-content: space-between;
         
-        .robotleft{
+        .printleft{
             // background-color: blue;
             padding: 15px;
             width: 600px;
@@ -80,26 +79,78 @@
                 font-family: Arial, Helvetica, sans-serif;
             }
         }
+        .printright{
+            // background-color: yellow;
+            width: 420px;
+            height: 100%;
+
+            .printimg{
+                width: 300px;
+                height: 280px;
+                background-image: url(../../css/img/printer.png);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                margin: 0 auto;
+            }
+        }
+    }
+}
+.robot-sect {
+    width: 100%;
+    height: 650px;
+    background-color: var(--yellow2);
+    box-shadow: 0px 2px 15px black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    .robotcontent{
+        width: 80%;
+        height: 450px;
+        // background-color: red;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+        .robotleft{
+            // background-color: blue;
+            padding: 15px;
+            width: 600px;
+            height: 100%;
+            h1{
+                color:white;
+                font-size: 50px;
+                font-family: Mundo-Reg;
+            }
+            p{
+                color:white;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+        }
         .robotright{
             // background-color: yellow;
             width: 420px;
             height: 100%;
 
             .robotimg{
-                width: 420px;
-                height: 300px;
-                background-color: black;
+                width: 128px;
+                height: 350px;
+                background-image: url(../../css/img/roro.png);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
                 margin: 0 auto;
             }
             .robotbutton{
                 width: 300px;
                 height: 80px;
-                background-color: var(--yellow2);
+                background-color: white;
                 margin: 10px auto;
                 display: flex;
                 align-items: center;
                 justify-content: space-evenly;
-                color: white;
+                color: var(--yellow2);
                 font-size: 24px;
                 font-family: Mundo-Reg;
                 padding: 20px;
@@ -112,7 +163,7 @@
 }
 .sproject-sect {
     width: 100%;
-    height: 700px;
+    height: 400px;
     background-color: var(--yellow2);
     box-shadow: 0px 2px 15px black;
     display: flex;
@@ -121,8 +172,7 @@
     
     .sprojectcontent{
         width: 80%;
-        height: 450px;
-        // background-color: red;
+        min-height: 150px;
         
         h1{
             color:white;
@@ -202,25 +252,40 @@
     //         }
     //     }
     // }
+    .print-sect {     
+        height: 700px;   
+        .printcontent{
+            flex-direction: column;
+            // background-color: magenta;
+            height: 500px;
+            .printleft{
+                width: 450px;
+            }
+        }
+    }
     .robot-sect {     
-        height: 750px;   
+        height: 900px;   
         .robotcontent{
             flex-direction: column;
             // background-color: magenta;
-            height: 640px;
+            height: 700px;
             .robotleft{
                 width: 450px;
+                // background-color: firebrick;
+                h1{
+                    font-size: 45px;
+                }
             }
         }
     }
     .sproject-sect {
         width: 100%;
-        height: 600px;
+        min-height: 400px;
         
         .sprojectcontent{
             width: 450px;
             padding: 15px;
-            height: 450px;
+            min-height: 300px;
         }
     }
     .video.stem {
@@ -324,17 +389,46 @@
     //         }
     //     }
     // }
-    .robot-sect {
+    .print-sect {
         height: 600px;
+        .printcontent{
+            // background-color: red;
+            width: 300px;
+            height: 420px;
+            .printleft{
+                width: 100%;
+                padding: 15px 5px 5px 5px;
+                // background-color: rebeccapurple;
+                h1{
+                    font-size: 35px;
+                }
+                p{
+                    font-size: 14px;
+                }
+            }
+            .printright{
+                // background-color: yellow;
+                width: 100%;
+                height: 100%;
+    
+                .printimg{
+                    width: 235px;
+                    height: 220px;
+                }
+            }
+        }
+    }
+    .robot-sect {
+        height: 800px;
         .robotcontent{
             // background-color: red;
             width: 300px;
-            height: 500px;
+            height: 600px;
             .robotleft{
                 width: 100%;
                 padding: 0;
                 h1{
-                    font-size: 35px;
+                    font-size: 30px;
                 }
                 p{
                     font-size: 14px;
@@ -346,18 +440,18 @@
                 height: 100%;
     
                 .robotimg{
-                    width: 300px;
-                    height: 180px;
+                    width: 90px;
+                    height: 250px;
                 }
             }
         }
     }
     .sproject-sect {
         width: 100%;
-        height: 550px;        
+        min-height: 400px;        
         .sprojectcontent{
             width: 300px;
-            height: 450px;
+            min-height: 250px;
             // background-color: red;
             
             h1{
