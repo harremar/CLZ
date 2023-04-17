@@ -44,13 +44,13 @@ function changeday() {
   ];
 
   const bg = [
-    "linear-gradient(to right,rgba(31, 2, 117, 0.9),rgba(195, 0, 255, 0.7)), url(../../css/img/trees.jpg)",
-    "linear-gradient(to right,rgba(31, 2, 117, 0.9),rgba(195, 0, 255, 0.7)), url(../../css/img/bingo.jpg)",
-    "linear-gradient(to right,rgba(31, 2, 117, 0.9),rgba(195, 0, 255, 0.7)), url(../../css/img/tech.jpg)",
-    "linear-gradient(to right,rgba(31, 2, 117, 0.9),rgba(195, 0, 255, 0.7)), url(../../css/img/games.jpg)",
-    "linear-gradient(to right,rgba(31, 2, 117, 0.9),rgba(195, 0, 255, 0.7)), url(../../css/img/crafts.jpg)",
-    "linear-gradient(to right,rgba(31, 2, 117, 0.9),rgba(195, 0, 255, 0.7)), url(../../css/img/easter.jpg)",
-    "linear-gradient(to right,rgba(31, 2, 117, 0.9),rgba(195, 0, 255, 0.7)), url(../../css/img/pool.jpg)",
+    "linear-gradient(to right,rgba(31, 2, 117, 0.9),rgba(195, 0, 255, 0.7)), url(../css/img/trees.jpg)",
+    "linear-gradient(to right,rgba(31, 2, 117, 0.9),rgba(195, 0, 255, 0.7)), url(../css/img/bingo.jpg)",
+    "linear-gradient(to right,rgba(31, 2, 117, 0.9),rgba(195, 0, 255, 0.7)), url(../css/img/tech.jpg)",
+    "linear-gradient(to right,rgba(31, 2, 117, 0.9),rgba(195, 0, 255, 0.7)), url(../css/img/games.jpg)",
+    "linear-gradient(to right,rgba(31, 2, 117, 0.9),rgba(195, 0, 255, 0.7)), url(../css/img/crafts.jpg)",
+    "linear-gradient(to right,rgba(31, 2, 117, 0.9),rgba(195, 0, 255, 0.7)), url(../css/img/easter.jpg)",
+    "linear-gradient(to right,rgba(31, 2, 117, 0.9),rgba(195, 0, 255, 0.7)), url(../css/img/pool.jpg)",
   ];
 
   const eventType = document.getElementById("eventType");
