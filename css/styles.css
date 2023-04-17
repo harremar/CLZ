@@ -2286,17 +2286,53 @@ footer {
       font-size: 50px;
       text-align: center; } }
 
+.print-sect {
+  width: 100%;
+  height: 600px;
+  background-color: white;
+  box-shadow: 0px 2px 15px black;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly; }
+  .print-sect .printcontent {
+    width: 80%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    .print-sect .printcontent .printleft {
+      padding: 15px;
+      width: 600px;
+      height: 100%; }
+      .print-sect .printcontent .printleft h1 {
+        color: var(--yellow2);
+        font-size: 50px;
+        font-family: Mundo-Reg; }
+      .print-sect .printcontent .printleft p {
+        font-family: Arial, Helvetica, sans-serif; }
+    .print-sect .printcontent .printright {
+      width: 420px;
+      height: 100%; }
+      .print-sect .printcontent .printright .printimg {
+        width: 300px;
+        height: 280px;
+        background-image: url(../../css/img/printer.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0 auto; }
+
 .robot-sect {
   width: 100%;
-  height: 660px;
-  background-color: white;
+  height: 650px;
+  background-color: var(--yellow2);
   box-shadow: 0px 2px 15px black;
   display: flex;
   align-items: center;
   justify-content: space-evenly; }
   .robot-sect .robotcontent {
     width: 80%;
-    height: 400px;
+    height: 450px;
     display: flex;
     align-items: center;
     justify-content: space-between; }
@@ -2305,28 +2341,32 @@ footer {
       width: 600px;
       height: 100%; }
       .robot-sect .robotcontent .robotleft h1 {
-        color: var(--yellow2);
+        color: white;
         font-size: 50px;
         font-family: Mundo-Reg; }
       .robot-sect .robotcontent .robotleft p {
+        color: white;
         font-family: Arial, Helvetica, sans-serif; }
     .robot-sect .robotcontent .robotright {
       width: 420px;
       height: 100%; }
       .robot-sect .robotcontent .robotright .robotimg {
-        width: 420px;
-        height: 300px;
-        background-color: black;
+        width: 128px;
+        height: 350px;
+        background-image: url(../../css/img/roro.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
         margin: 0 auto; }
       .robot-sect .robotcontent .robotright .robotbutton {
         width: 300px;
         height: 80px;
-        background-color: var(--yellow2);
+        background-color: white;
         margin: 10px auto;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
-        color: white;
+        color: var(--yellow2);
         font-size: 24px;
         font-family: Mundo-Reg;
         padding: 20px;
@@ -2334,7 +2374,7 @@ footer {
 
 .sproject-sect {
   width: 100%;
-  height: 700px;
+  height: 400px;
   background-color: var(--yellow2);
   box-shadow: 0px 2px 15px black;
   display: flex;
@@ -2342,7 +2382,7 @@ footer {
   justify-content: space-evenly; }
   .sproject-sect .sprojectcontent {
     width: 80%;
-    height: 450px; }
+    min-height: 150px; }
     .sproject-sect .sprojectcontent h1 {
       color: white;
       font-size: 50px;
@@ -2377,20 +2417,29 @@ footer {
     background-color: var(--yellow2); }
 
 @media screen and (max-width: 1000px) {
+  .print-sect {
+    height: 700px; }
+    .print-sect .printcontent {
+      flex-direction: column;
+      height: 500px; }
+      .print-sect .printcontent .printleft {
+        width: 450px; }
   .robot-sect {
-    height: 750px; }
+    height: 900px; }
     .robot-sect .robotcontent {
       flex-direction: column;
-      height: 640px; }
+      height: 700px; }
       .robot-sect .robotcontent .robotleft {
         width: 450px; }
+        .robot-sect .robotcontent .robotleft h1 {
+          font-size: 45px; }
   .sproject-sect {
     width: 100%;
-    height: 600px; }
+    min-height: 400px; }
     .sproject-sect .sprojectcontent {
       width: 450px;
       padding: 15px;
-      height: 450px; }
+      min-height: 300px; }
   .video.stem {
     display: flex;
     flex-direction: column;
@@ -2420,30 +2469,48 @@ footer {
       height: 300px; } }
 
 @media screen and (max-width: 560px) {
-  .robot-sect {
+  .print-sect {
     height: 600px; }
+    .print-sect .printcontent {
+      width: 300px;
+      height: 420px; }
+      .print-sect .printcontent .printleft {
+        width: 100%;
+        padding: 15px 5px 5px 5px; }
+        .print-sect .printcontent .printleft h1 {
+          font-size: 35px; }
+        .print-sect .printcontent .printleft p {
+          font-size: 14px; }
+      .print-sect .printcontent .printright {
+        width: 100%;
+        height: 100%; }
+        .print-sect .printcontent .printright .printimg {
+          width: 235px;
+          height: 220px; }
+  .robot-sect {
+    height: 800px; }
     .robot-sect .robotcontent {
       width: 300px;
-      height: 500px; }
+      height: 600px; }
       .robot-sect .robotcontent .robotleft {
         width: 100%;
         padding: 0; }
         .robot-sect .robotcontent .robotleft h1 {
-          font-size: 35px; }
+          font-size: 30px; }
         .robot-sect .robotcontent .robotleft p {
           font-size: 14px; }
       .robot-sect .robotcontent .robotright {
         width: 100%;
         height: 100%; }
         .robot-sect .robotcontent .robotright .robotimg {
-          width: 300px;
-          height: 180px; }
+          width: 90px;
+          height: 250px; }
   .sproject-sect {
     width: 100%;
-    height: 550px; }
+    min-height: 400px; }
     .sproject-sect .sprojectcontent {
       width: 300px;
-      height: 450px; }
+      min-height: 250px; }
       .sproject-sect .sprojectcontent h1 {
         font-size: 35px; }
       .sproject-sect .sprojectcontent p {
