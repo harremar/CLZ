@@ -39,7 +39,7 @@ p {
 
 @font-face {
   font-family: Mundo-Reg;
-  src: url(./css/fonts/MundoSerif-Regular.otf); }
+  src: url(/css/fonts/MundoSerif-Regular.otf); }
 
 #app {
   width: 100vw; }
@@ -2316,7 +2316,7 @@ footer {
       .print-sect .printcontent .printright .printimg {
         width: 300px;
         height: 280px;
-        background-image: url(../../css/img/printer.png);
+        background-image: url(./css/img/printer.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -2353,7 +2353,7 @@ footer {
       .robot-sect .robotcontent .robotright .robotimg {
         width: 128px;
         height: 350px;
-        background-image: url(../../css/img/roro.png);
+        background-image: url(./css/img/roro.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
