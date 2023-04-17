@@ -1849,7 +1849,7 @@ footer {
       height: 200px; } }
 
 .upperbox {
-  background-image: linear-gradient(to right, rgba(31, 2, 117, 0.9), rgba(195, 0, 255, 0.7)), url(../css/img/bingo.jpg);
+  background-image: linear-gradient(to right, rgba(31, 2, 117, 0.9), rgba(195, 0, 255, 0.7)), url(./css/img/bingo.jpg);
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
