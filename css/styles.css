@@ -1328,7 +1328,7 @@ footer {
     .tour1 .right-t-1 .pict {
       width: 450px;
       height: 300px;
-      background-image: url(../../css/img/prince.jfif);
+      background-image: url(../css/img/prince.jfif);
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover; }
@@ -1402,7 +1402,7 @@ footer {
     .tour2 .right-t-2 .pict {
       width: 450px;
       height: 300px;
-      background-image: url(../../css/img/indy.jpg);
+      background-image: url(../css/img/indy.jpg);
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover; }
