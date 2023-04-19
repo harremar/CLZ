@@ -1265,7 +1265,7 @@ footer {
         margin-left: 15px; } }
 
 .tour1 {
-  height: 80vh;
+  height: 90vh;
   width: 100vw;
   display: flex;
   align-items: center;
@@ -1273,14 +1273,14 @@ footer {
   box-shadow: 0px 0px 15px black; }
   .tour1 .left-t-1 {
     width: 50%;
-    height: 100%;
+    height: 70vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly; }
     .tour1 .left-t-1 .side-title {
       font-family: Mundo-reg;
-      font-size: 50px;
+      font-size: 60px;
       color: var(--blue);
       width: 350px;
       height: 60px; }
@@ -1327,15 +1327,18 @@ footer {
     justify-content: space-evenly; }
     .tour1 .right-t-1 .pict {
       width: 450px;
-      height: 230px;
-      background-color: var(--blue); }
+      height: 300px;
+      background-image: url(../../css/img/prince.jfif);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover; }
     .tour1 .right-t-1 .contact-nurse {
       width: 450px;
       height: 140px;
       background-color: var(--blue); }
 
 .tour2 {
-  height: 70vh;
+  height: 90vh;
   width: 100vw;
   display: flex;
   align-items: center;
@@ -1344,14 +1347,14 @@ footer {
   background-color: var(--blue); }
   .tour2 .left-t-2 {
     width: 50%;
-    height: 100%;
+    height: 70vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly; }
     .tour2 .left-t-2 .side-title {
       font-family: Mundo-reg;
-      font-size: 50px;
+      font-size: 70px;
       color: var(--white);
       width: 350px;
       height: 60px; }
@@ -1398,8 +1401,11 @@ footer {
     justify-content: space-evenly; }
     .tour2 .right-t-2 .pict {
       width: 450px;
-      height: 230px;
-      background-color: var(--white); }
+      height: 300px;
+      background-image: url(../../css/img/indy.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover; }
 
 .video {
   height: 85vh;
@@ -1492,7 +1498,7 @@ footer {
         height: 140px;
         background-color: var(--blue); }
   .tour2 {
-    height: 70vh;
+    height: 80vh;
     width: 100vw;
     display: flex; }
     .tour2 .left-t-2 {
@@ -1505,7 +1511,7 @@ footer {
       .tour2 .left-t-2 .side-title {
         font-family: Mundo-reg;
         font-size: 50px;
-        color: var(--white);
+        color: white;
         width: 300px;
         height: 60px; }
       .tour2 .left-t-2 .info-boxes {
@@ -1518,7 +1524,7 @@ footer {
         .tour2 .left-t-2 .info-boxes .info-title {
           font-size: 28px;
           font-family: Mundo-reg;
-          color: var(--white);
+          color: white;
           width: 250px;
           height: 30px;
           padding-bottom: 45px;
@@ -1526,21 +1532,21 @@ footer {
         .tour2 .left-t-2 .info-boxes .hrs-txt {
           font-size: 24px;
           font-family: Mundo-reg;
-          color: var(--white);
+          color: white;
           width: 250px;
           height: 30px;
           font-weight: 300; }
         .tour2 .left-t-2 .info-boxes .who-txt {
           font-size: 22px;
           font-family: Mundo-reg;
-          color: var(--white);
+          color: white;
           width: 325px;
           height: 30px; }
         .tour2 .left-t-2 .info-boxes .extra-txt {
           width: 365px;
           font-size: 20px;
           font-family: Mundo-reg;
-          color: var(--white);
+          color: white;
           font-style: italic; }
     .tour2 .right-t-2 {
       width: 50%;
@@ -1550,9 +1556,13 @@ footer {
       align-items: center;
       justify-content: space-evenly; }
       .tour2 .right-t-2 .pict {
+        width: 330px;
+        height: 200px;
+        background-color: var(--blue); }
+      .tour2 .right-t-2 .contact-nurse {
         width: 375px;
-        height: 230px;
-        background-color: var(--white); }
+        height: 140px;
+        background-color: var(--blue); }
   .video {
     display: flex;
     flex-direction: column;
@@ -1568,11 +1578,13 @@ footer {
 
 @media screen and (max-width: 780px) {
   .tour1 {
-    height: 80vh;
+    height: 100vh;
     width: 100vw;
-    display: flex; }
+    display: flex;
+    flex-direction: column;
+    padding: 50px 20px; }
     .tour1 .left-t-1 {
-      width: 50%;
+      width: 400px;
       height: 100%;
       display: flex;
       flex-direction: column;
@@ -1582,35 +1594,35 @@ footer {
         font-family: Mundo-reg;
         font-size: 47px;
         color: var(--blue);
-        width: 250px;
+        width: 400px;
         height: 60px; }
       .tour1 .left-t-1 .info-boxes {
         display: flex;
         flex-direction: column;
         align-items: start;
         justify-content: space-evenly;
-        width: 250px;
+        width: 400px;
         height: 120px; }
         .tour1 .left-t-1 .info-boxes .info-title {
           font-size: 25px;
           font-family: Mundo-reg;
           color: var(--blue);
-          width: 200px;
           height: 30px;
+          width: 100%;
           padding-bottom: 45px;
           font-weight: bold; }
         .tour1 .left-t-1 .info-boxes .hrs-txt {
           font-size: 21px;
           font-family: Mundo-reg;
           color: var(--blue);
-          width: 200px;
+          width: 100%;
           height: 30px;
           font-weight: 300; }
         .tour1 .left-t-1 .info-boxes .who-txt {
           font-size: 19px;
           font-family: Mundo-reg;
           color: var(--blue);
-          width: 275px;
+          width: 100%;
           height: 30px; }
         .tour1 .left-t-1 .info-boxes .extra-txt {
           width: 315px;
@@ -1626,69 +1638,81 @@ footer {
       align-items: center;
       justify-content: space-evenly; }
       .tour1 .right-t-1 .pict {
-        width: 325px;
-        height: 230px;
+        width: 385px;
+        height: 250px;
         background-color: var(--blue); }
       .tour1 .right-t-1 .contact-nurse {
         width: 325px;
         height: 140px;
         background-color: var(--blue); }
   .tour2 {
-    height: 70vh;
+    height: 100vh;
     width: 100vw;
-    display: flex; }
-    .tour2 .left-t-2 {
-      width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 20px; }
+    .tour2 .left-t-1 {
+      width: 400px;
       height: 100%;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: space-evenly; }
-      .tour2 .left-t-2 .side-title {
+      .tour2 .left-t-1 .side-title {
         font-family: Mundo-reg;
         font-size: 47px;
-        color: var(--white);
-        width: 250px;
+        color: var(--blue);
+        width: 400px;
         height: 60px; }
-      .tour2 .left-t-2 .info-boxes {
+      .tour2 .left-t-1 .info-boxes {
         display: flex;
         flex-direction: column;
         align-items: start;
         justify-content: space-evenly;
-        width: 250px;
+        width: 400px;
         height: 120px; }
-        .tour2 .left-t-2 .info-boxes .info-title {
+        .tour2 .left-t-1 .info-boxes .info-title {
           font-size: 25px;
           font-family: Mundo-reg;
-          color: var(--white);
-          width: 200px;
+          color: var(--blue);
           height: 30px;
+          width: 100%;
           padding-bottom: 45px;
           font-weight: bold; }
-        .tour2 .left-t-2 .info-boxes .hrs-txt {
+        .tour2 .left-t-1 .info-boxes .hrs-txt {
           font-size: 21px;
           font-family: Mundo-reg;
-          color: var(--white);
-          width: 200px;
+          color: var(--blue);
+          width: 100%;
           height: 30px;
           font-weight: 300; }
-        .tour2 .left-t-2 .info-boxes .who-txt {
+        .tour2 .left-t-1 .info-boxes .who-txt {
           font-size: 19px;
           font-family: Mundo-reg;
-          color: var(--white);
-          width: 275px;
+          color: var(--blue);
+          width: 100%;
           height: 30px; }
-    .tour2 .right-t-2 {
+        .tour2 .left-t-1 .info-boxes .extra-txt {
+          width: 315px;
+          font-size: 17px;
+          font-family: Mundo-reg;
+          color: var(--blue);
+          font-style: italic; }
+    .tour2 .right-t-1 {
       width: 50%;
       height: 100%;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: space-evenly; }
-      .tour2 .right-t-2 .pict {
+      .tour2 .right-t-1 .pict {
+        width: 385px;
+        height: 250px;
+        background-color: var(--blue); }
+      .tour2 .right-t-1 .contact-nurse {
         width: 325px;
-        height: 230px;
-        background-color: var(--white); }
+        height: 140px;
+        background-color: var(--blue); }
   .video {
     display: flex;
     flex-direction: column;
@@ -1703,7 +1727,7 @@ footer {
       width: 525px;
       height: 300px; } }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 550px) {
   .tour1 {
     height: 100vh;
     width: 100vw;
@@ -1712,6 +1736,7 @@ footer {
     .tour1 .left-t-1 {
       width: 100%;
       height: 50%;
+      margin-top: 30px;
       display: flex;
       flex-direction: column;
       align-items: center;
