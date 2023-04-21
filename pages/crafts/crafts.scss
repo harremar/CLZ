@@ -1,85 +1,86 @@
-// craft option section
-.crafts2 {
-    height: 40vh;
-    width: 100vw;
-    display: grid;
-    grid-template-columns: repeat(1,auto);
-    align-items: center;
-    box-shadow: 0px 0px 15px black; 
-    // position: absolute;
-    .crafts-title {
-        color: var(--green);
-        font-size: 60px;
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        font-family: Mundo-Reg;
-        position: relative;
-        margin-top: -10px;
-    }
-    .crafts-subtitle {
-        color: var(--green);
-        font-size: 45px;
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        font-family: Mundo-Reg;
-        position: relative;
-        margin-top: -100px;
-    }
-}
-// 3 craft options section
-.crafts3 {
-    height: 40vh;
-    width: 100vw;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly; 
-    box-shadow: 0px 0px 15px black;
+// // craft option section
+// .crafts2 {
+//     height: 40vh;
+//     width: 100vw;
+//     display: grid;
+//     grid-template-columns: repeat(1,auto);
+//     align-items: center;
+//     box-shadow: 0px 0px 15px black; 
+//     // position: absolute;
+//     .crafts-title {
+//         color: var(--green);
+//         font-size: 60px;
+//         display: flex;
+//         align-items: center;
+//         justify-content: space-evenly;
+//         font-family: Mundo-Reg;
+//         position: relative;
+//         margin-top: -10px;
+//     }
+//     .crafts-subtitle {
+//         color: var(--green);
+//         font-size: 45px;
+//         display: flex;
+//         align-items: center;
+//         justify-content: space-evenly;
+//         font-family: Mundo-Reg;
+//         position: relative;
+//         margin-top: -100px;
+//     }
+// }
+// // 3 craft options section
+// .crafts3 {
+//     height: 40vh;
+//     width: 100vw;
+//     display: flex;
+//     align-items: center;
+//     justify-content: space-evenly; 
+//     box-shadow: 0px 0px 15px black;
     
-    .craft{
-        width: 33.3%;
-        height: 100%;
-        display: grid;
-        grid-template-columns: repeat(1,auto);
-        align-items: center;
-        justify-content: space-evenly;
-        background-color: var(--green);
-        box-shadow: 0px 2px 8px black; 
+//     .craft{
+//         width: 33.3%;
+//         height: 100%;
+//         display: grid;
+//         grid-template-columns: repeat(1,auto);
+//         align-items: center;
+//         justify-content: space-evenly;
+//         background-color: var(--green);
+//         box-shadow: 0px 2px 8px black; 
         
-        .craft-cont {
-            height: 120px;
-            width: 300px;
-            display: grid;
-            grid-template-columns: repeat(1,auto);
-            align-items: center;
-            justify-content: space-evenly;
+//         .craft-cont {
+//             height: 120px;
+//             width: 300px;
+//             display: grid;
+//             grid-template-columns: repeat(1,auto);
+//             align-items: center;
+//             justify-content: space-evenly;
             
-            .craft-title{
-            font-family: Mundo-Reg;
-            font-size: 50px;
-            color: white;
-            display: flex;
-            align-items: center;
-            justify-content: space-evenly;
+//             .craft-title{
+//             font-family: Mundo-Reg;
+//             font-size: 50px;
+//             color: white;
+//             display: flex;
+//             align-items: center;
+//             justify-content: space-evenly;
             
-        }
-        .craft-info {
-            font-family: Mundo-Reg;
-            font-size: 20px;
-            color: white;
-            display: flex;
-            align-items: center;
-            justify-content: space-evenly;
+//         }
+//         .craft-info {
+//             font-family: Mundo-Reg;
+//             font-size: 20px;
+//             color: white;
+//             display: flex;
+//             align-items: center;
+//             justify-content: space-evenly;
             
-        }
-        }
+//         }
+//         }
         
-    }
-}
-// crafts subsection
+//     }
+// }
+// // crafts subsection
 .crafts-subsect{
     height: 32vh;
+    text-align: center;
     width: 100vw;
     display: flex;
     align-items: center;
@@ -93,7 +94,7 @@
         font-family: Mundo-Reg;
     }
 }
-// picutres of kids crafts
+// // picutres of kids crafts
 .crafts4{
     height: 100vh;
     width: 100vw;
@@ -151,46 +152,203 @@
     }
 }
 
+.upperbox3{
+    background-image: linear-gradient(to right,rgba(8, 59, 35, 0.8),rgba(88, 158, 14, 0.5)), url(../../css/img/kidcraft.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 550px;
+    display: flex;
+    align-items: right; 
+    justify-content: space-evenly;
+ 
+    .infoholder{
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        // background-color: red;
+        .wordcontent{
+            height: 200px;
+            max-width: 800px;
+            // background-color: red;
+            text-align: left;
+            h6{
+                color: white;
+                font-size: 20px;
+                font-family: Mundo-Reg;
+                padding: 0;
+                margin-bottom: -20px;
+            }
+            h1{
+                font-size: 90px;
+                font-family: Mundo-Reg;
+                color: white;
+            }
+            h2{
+                font-size: 30px;
+                font-family: Mundo-Reg;
+                color: white;
+            }
+            p{
+                font-size: 24px;
+                font-family: Mundo-Reg;
+                color: white;
+            }
+        }
+    }
+}
+
+.whitecraft-sect {
+    width: 100%;
+    height: 600px;
+    background-color: white;
+    box-shadow: 0px 2px 15px black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    .content{
+        width: 80%;
+        height: 300px;
+        // background-color: red;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+        .left{
+            // background-color: blue;
+            padding: 15px;
+            width: 600px;
+            height: 100%;
+            text-align: right;
+            h1{
+                color:var(--green);
+                font-size: 50px;
+                font-family: Mundo-Reg;
+            }
+            p{
+                font-family: Arial, Helvetica, sans-serif;
+            }
+        }
+        .right{
+            // background-color: yellow;
+            width: 420px;
+            height: 100%;
+
+            .crayonimg{
+                width: 235px;
+                height: 300px;
+                background-image: url(../../css/img/crayons.png);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                margin: 0 auto;
+            }
+            .slimeimg{
+                width: 271px;
+                height: 320px;
+                background-image: url(../../css/img/slime.png);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                margin: 0 auto;
+            }
+        }
+    }
+}
+
+.greencraft-sect {
+    width: 100%;
+    height: 600px;
+    background-color: var(--green);
+    box-shadow: 0px 2px 15px black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    .content{
+        width: 80%;
+        height: 300px;
+        // background-color: red;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+        .left{
+            // background-color: blue;
+            padding: 15px;
+            width: 600px;
+            height: 100%;
+            h1{
+                color:white;
+                font-size: 50px;
+                font-family: Mundo-Reg;
+            }
+            p{
+                color: white;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+        }
+        .right{
+            // background-color: yellow;
+            width: 420px;
+            height: 100%;
+
+            .paintimg{
+                width: 380px;
+                height: 250px;
+                background-image: url(../../css/img/paint.png);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                margin: 0 auto;
+            }
+        }
+    }
+}
+
 @media screen and (max-width: 1200px) {
     
       
   }
   @media screen and (max-width: 1000px){
-    .crafts2 {
-        height: 28vh;
+    // .crafts2 {
+    //     height: 28vh;
         
-        .crafts-title {
-            font-size: 50px;
-            margin-top: -10px;
-        }
-        .crafts-subtitle {
-            font-size: 30px;
-            margin-top: -70px;
-        }
-    }
-    .crafts3 {
+    //     .crafts-title {
+    //         font-size: 50px;
+    //         margin-top: -10px;
+    //     }
+    //     .crafts-subtitle {
+    //         font-size: 30px;
+    //         margin-top: -70px;
+    //     }
+    // }
+    // .crafts3 {
         
         
-        .craft{
+    //     .craft{
             
             
-            .craft-cont {
-                height: 120px;
-                width: 260px;
-                display: grid;
-                grid-template-columns: repeat(1,auto);
+    //         .craft-cont {
+    //             height: 120px;
+    //             width: 260px;
+    //             display: grid;
+    //             grid-template-columns: repeat(1,auto);
                 
                 
-                .craft-title{
-                font-size: 45px;
-            }
-            .craft-info {
-                font-size: 20px;
-            }
-            }
+    //             .craft-title{
+    //             font-size: 45px;
+    //         }
+    //         .craft-info {
+    //             font-size: 20px;
+    //         }
+    //         }
             
-        }
-    }
+    //     }
+    // }
     .crafts4{
         height: 100vh;
         width: 100vw;
@@ -246,50 +404,85 @@
             }
         }
     }
+
+    .whitecraft-sect {     
+        height: 700px;   
+        .content{
+            flex-direction: column;
+            // background-color: magenta;
+            height: 500px;
+            .left{
+                width: 450px;
+            }
+        }
+    }
+
+    .greencraft-sect {     
+        height: 700px;   
+        .content{
+            flex-direction: column;
+            // background-color: magenta;
+            height: 500px;
+            .left{
+                width: 450px;
+            }
+        }
+    }
+
+    .upperbox3{
+        width: 100%;    
+        .infoholder{
+            .wordcontent{
+                h1{
+                    font-size: 75px;
+                }
+            }
+        }
+    }
    }
   
   @media screen and (max-width: 780px) {
-    .crafts2 {
-        height: 28vh;
+    // .crafts2 {
+    //     height: 28vh;
         
-        .crafts-title {
-            font-size: 40px;
-            margin-top: -10px;
-        }
-        .crafts-subtitle {
-            font-size: 25px;
-            margin-top: -70px;
-        }
-    }
-    .crafts3 {
-        height: 70vh;
-        width: 100vw;
+    //     .crafts-title {
+    //         font-size: 40px;
+    //         margin-top: -10px;
+    //     }
+    //     .crafts-subtitle {
+    //         font-size: 25px;
+    //         margin-top: -70px;
+    //     }
+    // }
+    // .crafts3 {
+    //     height: 70vh;
+    //     width: 100vw;
         
-        flex-direction: column;
+    //     flex-direction: column;
        
         
-        .craft{
-            width: 100%;
-            height: 33.3%;
+    //     .craft{
+    //         width: 100%;
+    //         height: 33.3%;
             
             
-            .craft-cont {
-                height: 120px;
-                width: 260px;
-                display: grid;
-                grid-template-columns: repeat(1,auto);
+    //         .craft-cont {
+    //             height: 120px;
+    //             width: 260px;
+    //             display: grid;
+    //             grid-template-columns: repeat(1,auto);
                 
                 
-                .craft-title{
-                font-size: 45px;
-            }
-            .craft-info {
-                font-size: 20px;
-            }
-            }
+    //             .craft-title{
+    //             font-size: 45px;
+    //         }
+    //         .craft-info {
+    //             font-size: 20px;
+    //         }
+    //         }
             
-        }
-    }
+    //     }
+    // }
     .crafts-subsect{
         height: 32vh;
         width: 100vw;
@@ -299,50 +492,140 @@
             font-size: 50px;
         }
     }
+    .upperbox3{    
+        .infoholder{
+            // flex-direction: column;
+            // background-color: red;
+            // height: 600px;
+            // width: 90%;
+            .wordcontent{
+                height: 300px;
+                // min-width: 100%;
+                // background-color: blue;
+                text-align: center;
+
+                h1{
+                    font-size: 60px;
+                }
+                h6{
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+  }
+
+  @media screen and (max-width: 560px){
+    .whitecraft-sect {
+        height: 600px;
+        .content{
+            // background-color: red;
+            width: 300px;
+            height: 420px;
+            .left{
+                width: 100%;
+                padding: 15px 5px 5px 5px;
+                text-align: center;
+                h1{
+                    font-size: 35px;
+                }
+                p{
+                    font-size: 14px;
+                }
+            }
+            .right{
+                // background-color: yellow;
+                width: 100%;
+                height: 100%;
+    
+                .crayonimg{
+                    width: 170px;
+                    height: 220px;
+                    margin-bottom: 20px;
+                }
+
+                .slimeimg{
+                    width: 170px;
+                    height: 202px;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+    .greencraft-sect {
+        height: 600px;
+        .content{
+            // background-color: red;
+            width: 300px;
+            height: 420px;
+            .left{
+                width: 100%;
+                padding: 15px 5px 5px 5px;
+                text-align: center;
+                // background-color: rebeccapurple;
+                h1{
+                    font-size: 35px;
+                }
+                p{
+                    font-size: 14px;
+                }
+            }
+            .right{
+                // background-color: yellow;
+                width: 100%;
+                height: 100%;
+    
+                .paintimg{
+                    width: 250px;
+                    height: 170px;
+                }
+            }
+        }
+    }
   }
   
   @media screen and (max-width: 450px) {
-    .crafts2 {
-        height: 24vh;
+    // .crafts2 {
+    //     height: 24vh;
         
-        .crafts-title {
-            font-size: 35px;
-            margin-top: -10px;
-        }
-        .crafts-subtitle {
-            font-size: 20px;
-            margin-top: -70px;
-        }
-    }
-    .crafts3 {
-        height: 60vh;
-        width: 100vw;
+    //     .crafts-title {
+    //         font-size: 35px;
+    //         margin-top: -10px;
+    //     }
+    //     .crafts-subtitle {
+    //         font-size: 20px;
+    //         margin-top: -70px;
+    //     }
+    // }
+    // .crafts3 {
+    //     height: 60vh;
+    //     width: 100vw;
         
-        flex-direction: column;
+    //     flex-direction: column;
        
         
-        .craft{
-            width: 100%;
-            height: 33.3%;
+    //     .craft{
+    //         width: 100%;
+    //         height: 33.3%;
             
             
-            .craft-cont {
-                height: 120px;
-                width: 260px;
-                display: grid;
-                grid-template-columns: repeat(1,auto);
+    //         .craft-cont {
+    //             height: 120px;
+    //             width: 260px;
+    //             display: grid;
+    //             grid-template-columns: repeat(1,auto);
                 
                 
-                .craft-title{
-                font-size: 35px;
-            }
-            .craft-info {
-                font-size: 20px;
-            }
-            }
+    //             .craft-title{
+    //             font-size: 35px;
+    //         }
+    //         .craft-info {
+    //             font-size: 20px;
+    //         }
+    //         }
             
-        }
-    }
+    //     }
+    // }
     .crafts-subsect{
         height: 40vh;
         width: 100vw;
@@ -352,6 +635,39 @@
             width: 50%;
             font-size: 50px;
             text-align: center;
+        }
+    }
+    .upperbox3{ 
+        height: 550px;   
+        .infoholder{
+            // flex-direction: column;
+            // // background-color: red;
+            // height: 500px;
+            // width: 90%;
+            
+            .wordcontent{
+                height: 230px;
+                width: 350px;
+                // background-color: blue;
+                margin: 0 auto;
+                text-align: center;
+                h1{
+                    font-size: 50px;
+                    font-family: Mundo-Reg;
+                    color: white;
+                }
+                h6{
+                    font-size: 16px;
+                }
+                p{
+                    font-size: 14px;
+                    font-family: Mundo-Reg;
+                    color: white;
+                }
+                h2{
+                    font-size: 20px;
+                }
+            }
         }
     }
   }
